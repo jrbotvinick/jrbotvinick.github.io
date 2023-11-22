@@ -12,4 +12,4 @@ I am a Ph.D. student at the Center for Applied Mathematics at Cornell University
 
 Research Interests
 ======
-My research interests are in dynamical systems, inverse problems, machine learning, numerical analysis, optimal transport, and ergodic theory. 
+My research interests are in dynamical systems, ergodic theory, optimal transport, inverse problems, numerical analysis, and machine learning.
