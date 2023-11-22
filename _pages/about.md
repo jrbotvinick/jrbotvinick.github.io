@@ -24,15 +24,28 @@ Research Projects
 
 *Collaborators: Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)*
 
-Deep learning algorithms for generative modeling of time-dependent data may face difficulties related to optimal
-hyperparameter selection and can be computationally expensive. In this work, we instead propose using a
-generative model based on numerical linear algebra and projection pursuit optimal transport, which requires
-only a few hyperparameter choices. We demonstrate the effectiveness of our model on synthetic data of stochastic
-dynamical systems and real-life examples of fish schooling and embryoid growth. These experiments show that
-our proposed approach is highly competitive with a state-of-the-art deep learning algorithm that learns to sample
-from time-dependent densities in terms of efficiency, accuracy, and interpretability.
+Abstract: Motivated by the computational difficulties incurred by popular deep learning algorithms for the
+generative modeling of temporal densities, we propose a cheap alternative which requires minimal
+hyperparameter tuning and scales favorably to high dimensional problems. In particular, we use
+a projection-based optimal transport solver [Meng et al., 2019] to join successive samples and
+subsequently use transport splines [Chewi et al., 2020] to interpolate the evolving density. When
+the sampling frequency is sufficiently high, the optimal maps are close to the identity and are thus
+computationally efficient to compute. Moreover, the training process is highly parallelizable as all
+optimal maps are independent and can thus be learned simultaneously. Finally, the approach is based
+solely on numerical linear algebra rather than minimizing a nonconvex objective function, allowing
+us to easily analyze and control the algorithm. We present several numerical experiments on both
+synthetic and real-world datasets to demonstrate the efficiency of our method. In particular, these
+experiments show that the proposed approach is highly competitive compared with state-of-the-art
+normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ![Figure2](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/9bcb0f06-10c7-47eb-a808-617f66fdb858)
 
+**Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization**
+
+*Collaborators: Robert S. Martin (U.S. Army Research Office) and Yunan Yang (Cornell University)*
+
+Abstract: We extend the methodology in [Yang et al., 2023] to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics. Our approach also yields a forward model with better stability than direct trajectory simulation in certain situations. We present numerical results for the Van der Pol oscillator and the Lorenz-63 system, together with real-world applications to Hall-effect thruster dynamics and temperature prediction, to demonstrate the effectiveness of the proposed approach.
+
+![Figure1 (5)](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/3307bc3f-0ae2-4402-9783-eff4e8ec3eb7)
 
 
