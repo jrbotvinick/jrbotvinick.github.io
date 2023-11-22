@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jonah Botvinick-Greenhouse Personal Website"
+title                    : "Jonah Botvinick-Greenhouse -- Personal Website"
 title_separator          : "-"
 name                     : &name "Jonah Botvinick-Greenhouse"
 description              : &description "personal description"
