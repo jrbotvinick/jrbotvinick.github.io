@@ -21,6 +21,7 @@ Research Projects
 ====
 
 **Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit**
+
 *Collaborators: Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)*
 
 ![vor_mesh](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/d416ea61-b9b2-46a5-91cc-bfe96e42e1e5)
