@@ -17,7 +17,9 @@ My research interests are in dynamical systems, ergodic theory, optimal transpor
 Research Projects
 ====
 
+**Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit**
 
-https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/e6f20704-4c0c-4b1f-a9b5-558b850fb150
+https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/3c641d01-3b7b-48b3-ad42-ec18f2d0326d
+
 
 
