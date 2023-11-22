@@ -38,7 +38,7 @@ synthetic and real-world datasets to demonstrate the efficiency of our method. I
 experiments show that the proposed approach is highly competitive compared with state-of-the-art
 normalizing flows conditioned on time across a wide range of dimensionalities.
 
-![Figure2](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/9bcb0f06-10c7-47eb-a808-617f66fdb858)
+![OTNF](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/f7a5700f-16e7-4957-9aa3-daaea13f377e)
 
 **Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
 
