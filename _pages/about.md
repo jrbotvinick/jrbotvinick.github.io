@@ -13,3 +13,11 @@ I am a Ph.D. student at the Center for Applied Mathematics at Cornell University
 Research Interests
 ====
 My research interests are in dynamical systems, ergodic theory, optimal transport, numerical analysis, inverse problems, and machine learning. 
+
+Research Projects
+====
+
+
+https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/e6f20704-4c0c-4b1f-a9b5-558b850fb150
+
+
