@@ -20,11 +20,11 @@ My research interests are in dynamical systems, ergodic theory, optimal transpor
 Research Projects
 ====
 
-**Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit**
+**Title:** Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
 
-*Collaborators: Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)*
+**Collaborators:** Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)
 
-Abstract: Motivated by the computational difficulties incurred by popular deep learning algorithms for the
+**Abstract:** Motivated by the computational difficulties incurred by popular deep learning algorithms for the
 generative modeling of temporal densities, we propose a cheap alternative which requires minimal
 hyperparameter tuning and scales favorably to high dimensional problems. In particular, we use
 a projection-based optimal transport solver [Meng et al., 2019] to join successive samples and
