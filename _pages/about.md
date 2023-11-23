@@ -20,7 +20,7 @@ My research interests are in dynamical systems, ergodic theory, optimal transpor
 Research Projects
 ====
 
-**Title:** Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
+**Title:** [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://pubs.aip.org/aip/cha/article-abstract/33/10/103108/2915710/Generative-modeling-of-time-dependent-densities?redirectedFrom=fulltext)
 
 **Collaborators:** Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)
 
@@ -42,7 +42,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ----
 
-**Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
+**Title:** [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://pubs.aip.org/aip/cha/article-abstract/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE?redirectedFrom=fulltext)
 
 **Collaborators:** Robert S. Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University)
 
@@ -52,7 +52,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ----
 
-**Title:** An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems
+**Title:** [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://epubs.siam.org/doi/10.1137/22M152092X)
 
 **Collaborators:** Aaron Kirtland (Brown University), Marianne DeBritto (University of Michigan), Megan Osborne (Rensselaer Polytechnic Institute), Casey Johnson (University of California, Los Angelos), Robert S. Martin (DEVCOM Army Research Laboratory), Samuel J. Araki (Jacobs Technology Inc., AFRL), Daniel Q. Eckhardt (In-Space Propulsion Branch, AFRL)*
 
@@ -62,7 +62,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ----
 
-**Title:** Juggling Dynamics
+**Title:** [Juggling Dynamics](https://pubs.aip.org/physicstoday/article/73/2/62/914452/Juggling-dynamicsWith-complex-throwing-patterns-of)
 
 **Collaborator:** Troy Shinbrot (Rutgers University) 
 
