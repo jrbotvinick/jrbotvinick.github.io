@@ -40,7 +40,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ![OTNF](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/f7a5700f-16e7-4957-9aa3-daaea13f377e) 
 
------
+----
 
 **Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
 
@@ -50,7 +50,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ![Figure1 (5)](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/3307bc3f-0ae2-4402-9783-eff4e8ec3eb7)
 
-----
+---
 
 **Title:** An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems
 
@@ -60,7 +60,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ![afrl_fig](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/a6f045f6-c3be-4ea8-8216-de6e4964eb92)
 
-----
+---
 
 **Title:** Juggling Dynamics
 
@@ -79,4 +79,4 @@ thus how difficult—a particular juggling pattern is.
 
 ![juggling_picture](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/ea33a26f-3d5f-471b-95ed-494688a9eeaf)
 
-----
+---
