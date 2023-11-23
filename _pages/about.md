@@ -66,7 +66,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 **Collaborator:** Troy Shinbrot (Rutgers University) 
 
-**Abstract:** How do jugglers with reaction times no better than
+**Excerpt:** How do jugglers with reaction times no better than
 200 ms catch balls every 120 ms? In part, multitasking
 may allow multiple balls to be processed simultaneously,
 though how that is done with 11 balls—the Guinness world
