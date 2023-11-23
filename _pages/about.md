@@ -19,13 +19,7 @@ My research interests are in dynamical systems, ergodic theory, optimal transpor
 
 Research Projects
 ====
-<table border="0">
- <tr>
-    <td><b style="font-size:30px">Title</b></td>
-    <td><b style="font-size:30px">Title 2</b></td>
- </tr>
- <tr>
-    <td> **Title:** Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
+**Title:** Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
 
 **Collaborators:** Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)
 
@@ -41,13 +35,9 @@ solely on numerical linear algebra rather than minimizing a nonconvex objective 
 us to easily analyze and control the algorithm. We present several numerical experiments on both
 synthetic and real-world datasets to demonstrate the efficiency of our method. In particular, these
 experiments show that the proposed approach is highly competitive compared with state-of-the-art
-normalizing flows conditioned on time across a wide range of dimensionalities. </td>
-    <td> ![OTNF](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/f7a5700f-16e7-4957-9aa3-daaea13f377e) </td>
- </tr>
-</table>
+normalizing flows conditioned on time across a wide range of dimensionalities. 
 
-
-
+![OTNF](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/f7a5700f-16e7-4957-9aa3-daaea13f377e) 
 
 **Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
 
