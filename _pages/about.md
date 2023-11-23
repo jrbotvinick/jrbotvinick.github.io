@@ -74,8 +74,8 @@ record—is far from clear. And in part, balls are not thrown
 to random locations, so each ball need not be tracked and
 caught independently. Indeed, up to five balls can be juggled
 while the juggler is blindfolded. Jugglers rely on making accurate throws and predictions of where the balls will travel.
-The accuracy required is a measure of how unstable—and
-thus how difficult—a particular juggling pattern is.
+The accuracy required is a measure of how unstable and
+thus how difficult a particular juggling pattern is.
 
 ![juggling_picture](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/ea33a26f-3d5f-471b-95ed-494688a9eeaf)
 
