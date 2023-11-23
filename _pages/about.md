@@ -19,7 +19,7 @@ My research interests are in dynamical systems, ergodic theory, optimal transpor
 
 Research Projects
 ====
-
+---
 **Title:** Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
 
 **Collaborators:** Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)
@@ -40,6 +40,9 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ![OTNF](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/f7a5700f-16e7-4957-9aa3-daaea13f377e) 
 
+---
+---
+
 **Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
 
 **Collaborators:** Robert S. Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University)
@@ -48,6 +51,9 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ![Figure1 (5)](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/3307bc3f-0ae2-4402-9783-eff4e8ec3eb7)
 
+---
+---
+
 **Title:** An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems
 
 **Collaborators:** Aaron Kirtland (Brown University), Marianne DeBritto (University of Michigan), Megan Osborne (Rensselaer Polytechnic Institute), Casey Johnson (University of California, Los Angelos), Robert S. Martin (DEVCOM Army Research Laboratory), Samuel J. Araki (Jacobs Technology Inc., AFRL), Daniel Q. Eckhardt (In-Space Propulsion Branch, AFRL)*
@@ -55,6 +61,9 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 **Abstract:** To address noise inherent in electronic data acquisition systems and real-world sources, Araki et al. [Phys. D, 417 (2021), 132819] demonstrated a grid-based nonlinear technique to remove noise from a chaotic signal, leveraging a clean high-fidelity signal from the same dynamical system and ensemble averaging in multidimensional phase space. This method achieved denoising of a time series data with 100% added noise but suffered in regions of low data density. To improve this grid-based method, here an unstructured mesh based on triangulations and Voronoi diagrams is used to accomplish the same task. The unstructured mesh more uniformly distributes data samples over mesh cells to improve the accuracy of the reconstructed signal. By empirically balancing bias and variance errors in selecting the number of unstructured cells as a function of the number of available samples, the method achieves asymptotic statistical convergence with known test data and reduces synthetic noise on experimental signals from Hall effect thrusters with greater success than the original grid-based strategy.
 
 ![afrl_fig](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/a6f045f6-c3be-4ea8-8216-de6e4964eb92)
+
+---
+---
 
 **Title:** Juggling Dynamics
 
@@ -72,3 +81,5 @@ The accuracy required is a measure of how unstable—and
 thus how difficult—a particular juggling pattern is.
 
 ![juggling_picture](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/ea33a26f-3d5f-471b-95ed-494688a9eeaf)
+
+---
