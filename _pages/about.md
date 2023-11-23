@@ -42,7 +42,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ---
 
-**Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
+> **Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
 
 **Collaborators:** Robert S. Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University)
 
