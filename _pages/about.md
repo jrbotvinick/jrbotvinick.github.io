@@ -40,7 +40,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ![OTNF](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/f7a5700f-16e7-4957-9aa3-daaea13f377e) 
 
-----
+---
 
 **Title:** Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
 
