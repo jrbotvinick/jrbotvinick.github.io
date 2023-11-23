@@ -26,7 +26,7 @@ Research Projects
     <td><b style="font-size:30px">Title 2</b></td>
  </tr>
  <tr>
-    <td>Lorem **Title:** Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
+    <td> **Title:** Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
 
 **Collaborators:** Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)
 
