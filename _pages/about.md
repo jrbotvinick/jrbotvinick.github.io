@@ -11,7 +11,9 @@ redirect_from:
 (Website under construction)
 
 
-I am a third-year Ph.D. student at the Center for Applied Mathematics at Cornell University advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). My research is supported by an [NDSEG Fellowship](https://ndseg.sysplus.com/) and broadly focuses on inverse problems for dynamical systems, such as parameter estimation, state reconstruction, and the interpolation of stochastic processes. Before arriving at Cornell, I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021, where I was advised by [Professor Ryan J. Alvarado](https://www.amherst.edu/people/facstaff/rjalvarado). [Here is my CV.](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13452905/BotvinickGreenhouseCV_updated.pdf)
+I am a third-year Ph.D. student at the Center for Applied Mathematics at Cornell University advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). My research is supported by an [NDSEG Fellowship](https://ndseg.sysplus.com/) and broadly focuses on inverse problems for dynamical systems, such as parameter estimation, state reconstruction, and the interpolation of stochastic processes. Before arriving at Cornell, I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021, where I was advised by [Professor Ryan J. Alvarado](https://www.amherst.edu/people/facstaff/rjalvarado). Please feel free to reach out to me at jrb482@cornell.edu.
+
+[Here is my CV.](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13452905/BotvinickGreenhouseCV_updated.pdf)
 
 
 Research Interests
