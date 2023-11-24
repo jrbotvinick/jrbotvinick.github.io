@@ -19,10 +19,10 @@ Amherst College
 ====
 
 * Math Fellow (TA) for Math/Physics 102 - Geometry and Relativity (February 2021 - May 2021)
- * Math Fellow (TA) for Math 255 - Geometry (August 2020 - December 2020)
+* Math Fellow (TA) for Math 255 - Geometry (August 2020 - December 2020)
 * Math Fellow (TA) for Math 220 - Mathematical Reasoning (January 2020 - May 2020)
-  * Calculus Peer Tutor for Math 106 - Calculus with Elementary Functions (January 2020 - May 2020)
-  * Math Fellow (TA) for Math 105 - Calculus with Algebra (September 2019 - December 2019)
-  * Discussion TA for Physics 117 - Electricity and Magnetism (January 2019 - May 2019)
- * Homework grader for Math 211 - Multivariable Calculus (September 2018 - May 2019)
-   * Lab TA for Physics 116 - Introductory Mechanics (September 2018 - December 2018)
+* Calculus Peer Tutor for Math 106 - Calculus with Elementary Functions (January 2020 - May 2020)
+* Math Fellow (TA) for Math 105 - Calculus with Algebra (September 2019 - December 2019)
+* Discussion TA for Physics 117 - Electricity and Magnetism (January 2019 - May 2019)
+* Homework grader for Math 211 - Multivariable Calculus (September 2018 - May 2019)
+* Lab TA for Physics 116 - Introductory Mechanics (September 2018 - December 2018)
