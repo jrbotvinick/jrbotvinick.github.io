@@ -15,10 +15,10 @@ main:
   
         
   - title: "Awards"
-    url: /year-archive/
+    url: /awards/
     
   - title: "Slides"
     url: /cv/
     
-  - title: "Personal Interests"
+  - title: "Interests"
     url: /markdown/
