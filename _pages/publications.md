@@ -14,3 +14,5 @@ using PDE-constrained optimization”](https://pubs.aip.org/aip/cha/article-abst
 S Martin, Samuel J Araki, and Daniel Q Eckhardt. [“An unstructured mesh approach to nonlinear noise reduction for coupled systems”](https://epubs.siam.org/doi/10.1137/22M152092X). *SIAM Journal on Applied Dynamical Systems* 22.4 (2023), pp. 2927–2944. 
 
 * **Jonah Botvinick-Greenhouse** and Troy Shinbrot. [“Juggling dynamics”](https://pubs.aip.org/physicstoday/article/73/2/62/914452/Juggling-dynamicsWith-complex-throwing-patterns-of). *Physics Today* 73.2 (2020), pp. 62–63.
+
+[You can also find my papers here on arXiv.](https://arxiv.org/search/?searchtype=author&query=Botvinick-Greenhouse%2C+J)
