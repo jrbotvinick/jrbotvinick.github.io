@@ -7,6 +7,10 @@ redirect_from:
   - /resume
 ---
 
+**Posters** 
+
+* [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468414/Dynamic_PPMM_Poster_Full.pdf)
+* [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468417/RIPS_AFRL_poster.pdf)
 
 **Slides**
 
@@ -16,8 +20,4 @@ redirect_from:
 * [Juggling Dynamics](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468412/juggling_webinar.pdf)
 
 
-**Posters** 
-
-* [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468414/Dynamic_PPMM_Poster_Full.pdf)
-* [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468417/RIPS_AFRL_poster.pdf)
 
