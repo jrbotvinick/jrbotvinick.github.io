@@ -48,6 +48,22 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ----
 
+**Title:** [An Introduction to the Theory of the Ergodic Partition (Undergraduate Honors Thesis)](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13467001/Botvinick_Greenhouse_Thesis_Final.3.pdf)
+
+**Advisor:** Ryan J. Alvarado (Amherst College)
+
+**Abstract:** Evolving systems can rarely be studied through direct observation of their underlying
+state. More commonly, one is restricted to analyzing partial measurements of the system,
+known as observables. It is therefore important to determine the extent to which such
+observables recover useful information about the system in question. Towards this, we draw
+from techniques in ergodic theory, functional analysis, and probability theory to rigorously
+develop tools for identifying invariant regions in dynamical systems through the analysis of
+observables. We conclude by studying a computational approach to this problem, informed
+by the theory developed throughout the body of the thesis.
+
+![MSP](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/a943a12e-fc4f-4547-aabb-92bf77365578)
+
+----
 
 **Title:** [Juggling Dynamics](https://pubs.aip.org/physicstoday/article/73/2/62/914452/Juggling-dynamicsWith-complex-throwing-patterns-of)
 
@@ -65,22 +81,5 @@ The accuracy required is a measure of how unstable and
 thus how difficult a particular juggling pattern is.
 
 ![juggling_picture](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/ea33a26f-3d5f-471b-95ed-494688a9eeaf)
-
-----
-
-**Title:** [An Introduction to the Theory of the Ergodic Partition (Undergraduate Honors Thesis)](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13467001/Botvinick_Greenhouse_Thesis_Final.3.pdf)
-
-**Advisor:** Ryan J. Alvarado (Amherst College)
-
-**Abstract:** Evolving systems can rarely be studied through direct observation of their underlying
-state. More commonly, one is restricted to analyzing partial measurements of the system,
-known as observables. It is therefore important to determine the extent to which such
-observables recover useful information about the system in question. Towards this, we draw
-from techniques in ergodic theory, functional analysis, and probability theory to rigorously
-develop tools for identifying invariant regions in dynamical systems through the analysis of
-observables. We conclude by studying a computational approach to this problem, informed
-by the theory developed throughout the body of the thesis.
-
-![MSP](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/a943a12e-fc4f-4547-aabb-92bf77365578)
 
 ----
