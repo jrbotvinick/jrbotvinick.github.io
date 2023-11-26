@@ -5,6 +5,27 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+
+**Title:** [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://pubs.aip.org/aip/cha/article-abstract/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE?redirectedFrom=fulltext)
+
+**Collaborators:** Robert S. Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University)
+
+**Abstract:** We extend the methodology in [[Yang et al., 2023]](https://epubs.siam.org/doi/10.1137/21M1421337) to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics. Our approach also yields a forward model with better stability than direct trajectory simulation in certain situations. We present numerical results for the Van der Pol oscillator and the Lorenz-63 system, together with real-world applications to Hall-effect thruster dynamics and temperature prediction, to demonstrate the effectiveness of the proposed approach.
+
+![Figure1 (5)](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/3307bc3f-0ae2-4402-9783-eff4e8ec3eb7)
+
+----
+
+**Title:** [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://epubs.siam.org/doi/10.1137/22M152092X)
+
+**Collaborators:** Aaron Kirtland (Brown University), Marianne DeBritto (University of Michigan), Megan Osborne (Rensselaer Polytechnic Institute), Casey Johnson (University of California, Los Angelos), Robert S. Martin (DEVCOM Army Research Laboratory), Samuel J. Araki (Jacobs Technology Inc., AFRL), Daniel Q. Eckhardt (In-Space Propulsion Branch, AFRL)
+
+**Abstract:** To address noise inherent in electronic data acquisition systems and real-world sources, Araki et al. [Phys. D, 417 (2021), 132819] demonstrated a grid-based nonlinear technique to remove noise from a chaotic signal, leveraging a clean high-fidelity signal from the same dynamical system and ensemble averaging in multidimensional phase space. This method achieved denoising of a time series data with 100% added noise but suffered in regions of low data density. To improve this grid-based method, here an unstructured mesh based on triangulations and Voronoi diagrams is used to accomplish the same task. The unstructured mesh more uniformly distributes data samples over mesh cells to improve the accuracy of the reconstructed signal. By empirically balancing bias and variance errors in selecting the number of unstructured cells as a function of the number of available samples, the method achieves asymptotic statistical convergence with known test data and reduces synthetic noise on experimental signals from Hall effect thrusters with greater success than the original grid-based strategy.
+
+![afrl_fig](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/a6f045f6-c3be-4ea8-8216-de6e4964eb92)
+
+----
+
 **Title:** [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://pubs.aip.org/aip/cha/article-abstract/33/10/103108/2915710/Generative-modeling-of-time-dependent-densities?redirectedFrom=fulltext)
 
 **Collaborators:** Yunan Yang (Cornell University) and Romit Maulik (Pennsylvania State University & Argonne National Laboratory)
@@ -27,25 +48,6 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ----
 
-**Title:** [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://pubs.aip.org/aip/cha/article-abstract/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE?redirectedFrom=fulltext)
-
-**Collaborators:** Robert S. Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University)
-
-**Abstract:** We extend the methodology in [[Yang et al., 2023]](https://epubs.siam.org/doi/10.1137/21M1421337) to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics. Our approach also yields a forward model with better stability than direct trajectory simulation in certain situations. We present numerical results for the Van der Pol oscillator and the Lorenz-63 system, together with real-world applications to Hall-effect thruster dynamics and temperature prediction, to demonstrate the effectiveness of the proposed approach.
-
-![Figure1 (5)](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/3307bc3f-0ae2-4402-9783-eff4e8ec3eb7)
-
-----
-
-**Title:** [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://epubs.siam.org/doi/10.1137/22M152092X)
-
-**Collaborators:** Aaron Kirtland (Brown University), Marianne DeBritto (University of Michigan), Megan Osborne (Rensselaer Polytechnic Institute), Casey Johnson (University of California, Los Angelos), Robert S. Martin (DEVCOM Army Research Laboratory), Samuel J. Araki (Jacobs Technology Inc., AFRL), Daniel Q. Eckhardt (In-Space Propulsion Branch, AFRL)
-
-**Abstract:** To address noise inherent in electronic data acquisition systems and real-world sources, Araki et al. [Phys. D, 417 (2021), 132819] demonstrated a grid-based nonlinear technique to remove noise from a chaotic signal, leveraging a clean high-fidelity signal from the same dynamical system and ensemble averaging in multidimensional phase space. This method achieved denoising of a time series data with 100% added noise but suffered in regions of low data density. To improve this grid-based method, here an unstructured mesh based on triangulations and Voronoi diagrams is used to accomplish the same task. The unstructured mesh more uniformly distributes data samples over mesh cells to improve the accuracy of the reconstructed signal. By empirically balancing bias and variance errors in selecting the number of unstructured cells as a function of the number of available samples, the method achieves asymptotic statistical convergence with known test data and reduces synthetic noise on experimental signals from Hall effect thrusters with greater success than the original grid-based strategy.
-
-![afrl_fig](https://github.com/jrbotvinick/jrbotvinick.github.io/assets/100333155/a6f045f6-c3be-4ea8-8216-de6e4964eb92)
-
-----
 
 **Title:** [Juggling Dynamics](https://pubs.aip.org/physicstoday/article/73/2/62/914452/Juggling-dynamicsWith-complex-throwing-patterns-of)
 
