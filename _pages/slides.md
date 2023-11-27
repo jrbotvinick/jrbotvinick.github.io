@@ -9,15 +9,15 @@ redirect_from:
 
 **Posters** 
 
-* [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468414/Dynamic_PPMM_Poster_Full.pdf)
-* [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468417/RIPS_AFRL_poster.pdf)
+* [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://drive.google.com/file/d/1xKdCHkfw3-bFP6yWh0Tn-9wYhPgAq0MY/view?usp=drive_link)
+* [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://drive.google.com/file/d/1nlZANAGqGd7CW3_fnLzql7IT8ni7NBOS/view?usp=drive_link)
 
 **Slides**
 
-* [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468383/Jonah.Botvinick-Greenhouse.NNP.Slides.pdf)
-* [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468387/SIAM_DS_2023.2.pdf)
-* [An Introduction to the Theory of the Ergodic Partition](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468391/Thesis_Talk.pdf)
-* [Juggling Dynamics](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13468412/juggling_webinar.pdf)
+* [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://drive.google.com/file/d/1qL0BxYHzryiqRmjWqIVgl3qNDCm9PfIG/view?usp=drive_link)
+* [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://drive.google.com/file/d/1VtOXa5V3ZBN1_QuQG-nyPpKdMGK_R2Xp/view?usp=drive_link)
+* [An Introduction to the Theory of the Ergodic Partition](https://drive.google.com/file/d/1sVccYOBTZZkG_1U8C1XrL_ilEAJL2CS_/view?usp=drive_link)
+* [Juggling Dynamics](https://drive.google.com/file/d/1u2uT1qvV7ShG88iN5qCJugPCCy2sctPl/view?usp=drive_link)
 
 
 
