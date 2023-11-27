@@ -48,7 +48,7 @@ normalizing flows conditioned on time across a wide range of dimensionalities.
 
 ----
 
-**Title:** [An Introduction to the Theory of the Ergodic Partition (Undergraduate Honors Thesis)](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13467001/Botvinick_Greenhouse_Thesis_Final.3.pdf)
+**Title:** [An Introduction to the Theory of the Ergodic Partition (Undergraduate Honors Thesis)](https://drive.google.com/file/d/1xlYZ3xDFNHVAsjyuq--A6h3ydFW5D2AS/view?usp=drive_link)
 
 **Advisor:** Ryan J. Alvarado (Amherst College)
 
