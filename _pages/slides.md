@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Slides and Posters"
-permalink: /cv/
+permalink: /slides/
 author_profile: true
 redirect_from:
   - /resume
