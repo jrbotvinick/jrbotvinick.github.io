@@ -13,5 +13,4 @@ redirect_from:
 
 I am a third-year Ph.D. student at the [Center for Applied Mathematics](https://www.cam.cornell.edu/cam) at Cornell University advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). My research is supported by an [NDSEG Fellowship](https://ndseg.sysplus.com/) and focuses on computational inverse problems for dynamical systems, such as parameter estimation and attractor reconstruction. Tools from dynamical systems theory, ergodic theory, optimal transport, numerical analysis, and machine learning are especially relevant in my work.  Before arriving at Cornell, I previously earned B.A.s in [Mathematics](https://www.amherst.edu/academiclife/departments/mathematics-statistics) and [Physics](https://www.amherst.edu/academiclife/departments/physics) at Amherst College in 2021, where I was advised by [Professor Ryan J. Alvarado](https://www.amherst.edu/people/facstaff/rjalvarado). Please feel free to reach out to me at ```jrb482@cornell.edu```.
 
-[Here is my CV.](https://github.com/jrbotvinick/jrbotvinick.github.io/files/13453717/JBotvinickGreenhouseCV.pdf)
-
+ [<a href="JBotvinickGreenhouseCV.pdf">Here is my CV</a>]</li>
