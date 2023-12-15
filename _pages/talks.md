@@ -5,7 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-* Cornell University Scientific Computing and Numerical Analysis (SCAN) seminar. “Learning dynamics on invariant measures using PDE-constrained optimization.” (upcoming December 2023)
+* Cornell University Scientific Computing and Numerical Analysis (SCAN) seminar. “Learning dynamics on invariant measures using PDE-constrained optimization.” (December 2023)
 
 * SIAM-NNP, contributed talk. “Learning dynamics on invariant measures using PDE-constrained optimization.” (October 2023)
 
