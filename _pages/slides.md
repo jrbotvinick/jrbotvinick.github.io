@@ -20,6 +20,7 @@ redirect_from:
 * [Juggling Dynamics](https://drive.google.com/file/d/1u2uT1qvV7ShG88iN5qCJugPCCy2sctPl/view?usp=drive_link)
 * [PageRank Tutorial](https://drive.google.com/file/d/1FemOBJ7ttHk_hjdi7RKXSjiw8poLMbyp/view?usp=drive_link)
 * [On a Nonlinear Random Walk on Graphs](https://drive.google.com/file/d/1Ln6Kxnq1l2MTfFk8lLH83wMpzkR84Wx9/view?usp=drive_link)
+* [Solving Linear PDEs with Fourier Transforms](https://drive.google.com/file/d/1CuELABTEA0-l_N9LYwbrdj2uT8ehl9ZN/view?usp=sharing)
 
 
 
