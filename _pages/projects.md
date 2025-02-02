@@ -5,6 +5,13 @@ permalink: /projects/
 author_profile: true
 ---
 
+**Title:** [Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification](https://arxiv.org/abs/2412.00589#:~:text=Invariant%20Measures%20in%20Time%2DDelay%20Coordinates%20for%20Unique%20Dynamical%20System%20Identification,-Jonah%20Botvinick%2DGreenhouse&text=Invariant%20measures%20are%20widely%20used,initial%20conditions%2C%20and%20irregular%20sampling.)
+
+**Collaborators:** Robert Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University) 
+
+**Abstract:** Invariant measures are widely used to compare chaotic dynamical systems, as they offer robustness to noisy data, uncertain initial conditions, and irregular sampling. However, large classes of systems with distinct transient dynamics can still exhibit the same asymptotic statistical behavior, which poses challenges when invariant measures alone are used to perform system identification. Motivated by Takens' seminal embedding theory, we propose studying invariant measures in time-delay coordinates, which exhibit enhanced sensitivity to the underlying dynamics. Our first result demonstrates that a single invariant measure in time-delay coordinates can be used to perform system identification up to a topological conjugacy. This result already surpasses the capabilities of invariant measures in the original state coordinate. Continuing to explore the power of delay-coordinates, we eliminate all ambiguity from the conjugacy relation by showing that unique system identification can be achieved using additional invariant measures in time-delay coordinates constructed from different observables. Our findings improve the effectiveness of invariant measures in system identification and broaden the scope of measure-theoretic approaches to modeling dynamical systems.
+----
+
 **Title:** [Measure-Theoretic Time-Delay Embedding](https://arxiv.org/abs/2409.08768)
 
 **Collaborators:** Maria Oprea (Cornell University), Romit Maulik (Pennsylvania State University), and Yunan Yang (Cornell University)
@@ -26,7 +33,7 @@ forecasting and ERA5 wind field reconstruction.
 <img width="1342" alt="Screenshot 2025-02-02 at 11 55 47 AM" src="https://github.com/user-attachments/assets/4275ecb4-a167-46cc-8233-6f2ef605c30c" />
 
 
-____
+----
 
 **Title:** [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://pubs.aip.org/aip/cha/article-abstract/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE?redirectedFrom=fulltext)
 
