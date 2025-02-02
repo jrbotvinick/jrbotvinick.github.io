@@ -10,6 +10,9 @@ author_profile: true
 **Collaborators:** Robert Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University) 
 
 **Abstract:** Invariant measures are widely used to compare chaotic dynamical systems, as they offer robustness to noisy data, uncertain initial conditions, and irregular sampling. However, large classes of systems with distinct transient dynamics can still exhibit the same asymptotic statistical behavior, which poses challenges when invariant measures alone are used to perform system identification. Motivated by Takens' seminal embedding theory, we propose studying invariant measures in time-delay coordinates, which exhibit enhanced sensitivity to the underlying dynamics. Our first result demonstrates that a single invariant measure in time-delay coordinates can be used to perform system identification up to a topological conjugacy. This result already surpasses the capabilities of invariant measures in the original state coordinate. Continuing to explore the power of delay-coordinates, we eliminate all ambiguity from the conjugacy relation by showing that unique system identification can be achieved using additional invariant measures in time-delay coordinates constructed from different observables. Our findings improve the effectiveness of invariant measures in system identification and broaden the scope of measure-theoretic approaches to modeling dynamical systems.
+
+<img width="926" alt="Screenshot 2025-02-02 at 11 59 41 AM" src="https://github.com/user-attachments/assets/bda751e0-657b-4be1-8917-5686f5f0881b" />
+
 ----
 
 **Title:** [Measure-Theoretic Time-Delay Embedding](https://arxiv.org/abs/2409.08768)
