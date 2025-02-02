@@ -9,11 +9,14 @@ redirect_from:
 
 **Posters** 
 
+* [Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification](https://drive.google.com/file/d/1wgTDn8rgxkBqmClbhsU4cjk2EBzdDhQ-/view?usp=sharing)
+* [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://drive.google.com/file/d/1_-PElks_ErhbL5z0Q8894lkShSOcXeHz/view?usp=sharing)
 * [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://drive.google.com/file/d/1xKdCHkfw3-bFP6yWh0Tn-9wYhPgAq0MY/view?usp=drive_link)
 * [An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems](https://drive.google.com/file/d/1nlZANAGqGd7CW3_fnLzql7IT8ni7NBOS/view?usp=drive_link)
 
 **Slides**
 
+* [Measure-Theoretic Time-Delay Embedding](https://drive.google.com/file/d/1xizw4QbswqbIEf4BxTv5_RJg7V7u9T9M/view?usp=sharing)
 * [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://drive.google.com/file/d/1qL0BxYHzryiqRmjWqIVgl3qNDCm9PfIG/view?usp=drive_link)
 * [Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit](https://drive.google.com/file/d/1VtOXa5V3ZBN1_QuQG-nyPpKdMGK_R2Xp/view?usp=drive_link)
 * [An Introduction to the Theory of the Ergodic Partition](https://drive.google.com/file/d/1sVccYOBTZZkG_1U8C1XrL_ilEAJL2CS_/view?usp=drive_link)
