@@ -5,6 +5,28 @@ permalink: /projects/
 author_profile: true
 ---
 
+**Title:** [Measure-Theoretic Time-Delay Embedding](https://arxiv.org/abs/2409.08768)
+
+**Collaborators:** Maria Oprea (Cornell University), Romit Maulik (Pennsylvania State University), and Yunan Yang (Cornell University)
+
+**Abstract:** The celebrated Takens’ embedding theorem provides a theoretical foundation for reconstruct-
+ing the full state of a dynamical system from partial observations. However, the classical the-
+orem assumes that the underlying system is deterministic and that observations are noise-free,
+limiting its applicability in real-world scenarios. Motivated by these limitations, we rigorously
+establish a measure-theoretic generalization that adopts an Eulerian description of the dynamics
+and recasts the embedding as a pushforward map between probability spaces. Our mathemat-
+ical results leverage recent advances in optimal transportation theory. Building on our novel
+measure-theoretic time-delay embedding theory, we have developed a new computational frame-
+work that forecasts the full state of a dynamical system from time-lagged partial observations,
+engineered with better robustness to handle sparse and noisy data. We showcase the efficacy
+and versatility of our approach through several numerical examples, ranging from the classic
+Lorenz-63 system to large-scale, real-world applications such as NOAA sea surface temperature
+forecasting and ERA5 wind field reconstruction.
+
+<img width="1342" alt="Screenshot 2025-02-02 at 11 55 47 AM" src="https://github.com/user-attachments/assets/4275ecb4-a167-46cc-8233-6f2ef605c30c" />
+
+
+____
 
 **Title:** [Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization](https://pubs.aip.org/aip/cha/article-abstract/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE?redirectedFrom=fulltext)
 
