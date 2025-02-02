@@ -5,6 +5,28 @@ permalink: /talks/
 author_profile: true
 ---
 
+SIAM Conference on the Mathematics of Data Science, minisymposium
+on fast and scalable Bayesian inference.“Measure-Theoretic
+Time-Delay Embedding.” (October 2024)
+
+* SIAM Conference on the Mathematics of Data Science, poster presentation. 
+“Invariant measures in time-delay coordinates for unique dynamical system
+identificaiton.” (October 2024)
+
+* Cornell University Young Researchers Workshop, poster presentation.
+“Generative Modeling of Time-Dependent Densities via Optimal
+Transport and Projection Pursuit.” (October 2024)
+
+* NDSEG Fellows Conference, poster presentation. “Learning dynamics
+on invariant measures using PDE-constrained optimization.” (July 2024)
+
+* Cornell University Admission to Candidacy Exam.
+“Measure Theoretic Modeling of Dynamical Systems.” (May 2024)
+
+* IPAM, International Conference on Multiscale Modeling and Simulation 
+based on Physics and Data, poster presentation. “Learning dynamics
+on invariant measures using PDE-constrained optimization.” (April 2024)
+
 * Cornell University Scientific Computing and Numerical Analysis (SCAN) seminar. “Learning dynamics on invariant measures using PDE-constrained optimization.” (December 2023)
 
 * SIAM-NNP, contributed talk. “Learning dynamics on invariant measures using PDE-constrained optimization.” (October 2023)
