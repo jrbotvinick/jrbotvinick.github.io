@@ -5,8 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
-SIAM Conference on the Mathematics of Data Science, minisymposium
-on fast and scalable Bayesian inference.“Measure-Theoretic
+* SIAM Conference on the Mathematics of Data Science, minisymposium
+on fast and scalable Bayesian inference. “Measure-Theoretic
 Time-Delay Embedding.” (October 2024)
 
 * SIAM Conference on the Mathematics of Data Science, poster presentation. 
