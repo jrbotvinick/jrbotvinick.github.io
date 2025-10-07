@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 **Cornell University**
-* Math Explorers Club - Juggling dynamics (upcoming January 2024)
+* Math Explorers Club - Juggling dynamics (January 2024)
 * REU mentor - An unstructured mesh approach to learning dynamics on invariant measures (June 2023 - August 2023)
 * Directed Reading Program mentor  - Diffusion limited aggregation (January 2023 - May 2023)
 * Directed Reading Program mentor  - Topics in ergodic theory (September 2022 - December 2023)
