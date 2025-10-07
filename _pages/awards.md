@@ -7,7 +7,7 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
-* [The National Defense Science and Engineering Graduate (NDSEG) Fellowship.](https://ndseg.sysplus.com/)   (September 2022 - present)
+* [The National Defense Science and Engineering Graduate (NDSEG) Fellowship.](https://ndseg.sysplus.com/)   (September 2022 - August 2025)
 * SIAM Student Travel Award (August 2024)
 * Honorable mention for poster presentation in mathematics, NDSEG Fellows Conference. (July 2024)
 * Third place poster prize, conference on Frontiers in Applied and Computational Mathematics (FACM) at NJIT. (May 2023) 
