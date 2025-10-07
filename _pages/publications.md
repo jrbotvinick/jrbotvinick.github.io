@@ -5,13 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+
 **Preprints**
 
 * **Jonah Botvinick-Greenhouse**, Maria Oprea, Romit Maulik, and Yunan Yang (2024). ["Measure-Theoretic Time-Delay Embedding"](https://arxiv.org/abs/2409.08768). arXiv preprint arXiv:2409.08768.
 
 * Jonah Botvinick-Greenhouse (2025). ["Invariant Measures for Data-Driven Dynamical System Identification: Analysis and Application"](https://arxiv.org/abs/2502.05204). arXiv preprint arXiv:2502.05204.
 
-**Publications**
+
+
+**Journal Articles**
 
 * **Jonah Botvinick-Greenhouse**, Robert Martin, and Yunan Yang. [Invariant measures in time-delay coordinates for unique dynamical system identification](https://arxiv.org/html/2412.00589v2). Physical Review Letters (accepted), Sep 2025.
 
