@@ -5,38 +5,26 @@ permalink: /talks/
 author_profile: true
 ---
 * SIAM UQ, minisymposium on measure flows for inverse problems
-and machine learning. “Invariant Measures for Data-Driven Dynam-
-ical System Identification.” (upcoming March 2026)
+and machine learning. “Invariant Measures for Data-Driven Dynamical System Identification.” (upcoming March 2026)
 
-* Yale University, Lu Group. “Measure Transport for Modeling Dy-
-namical Systems: Data-Driven System Identification and State Recon-
-struction.” (December 2025)
+* Yale University, Lu Group. “Measure Transport for Modeling Dynamical Systems: Data-Driven System Identification and State Reconstruction.” (December 2025)
 
-* Yale University, Krishnaswamy Lab. “Measure Transport for Model-
-ing Dynamical Systems: System Identification and State Reconstruc-
-tion.” (December 2025)
+* Yale University, Krishnaswamy Lab. “Measure Transport for Modeling Dynamical Systems: System Identification and State Reconstruction.” (December 2025)
 
-* SIAM NNP, minisymposium on modeling and computation of trans-
-port problems. “Invariant Measures for Data-Driven Dynamical Sys-
-tem Identification.” (November 2025)
-
+* SIAM NNP, minisymposium on modeling and computation of transport problems. “Invariant Measures for Data-Driven Dynamical System Identification.” (November 2025)
+  
 * Interdisciplinary Scientific Computing Laboratory Seminar (remote).
 “Measure Transport Techniques for Modeling Dynamical Systems:
 Data-Driven System Identification and State Reconstruction.” (September 2025)
 
-* UCSD Mathematics of Information, Data, and Signals Seminar. “Mea-
-sure Transport Techniques for Modeling Dynamical Systems: Data-
-Driven System Identification and Attractor Reconstruction.” (May 2025)
+* UCSD Mathematics of Information, Data, and Signals Seminar. “Measure Transport Techniques for Modeling Dynamical Systems: Data-Driven System Identification and Attractor Reconstruction.” (May 2025)
 
-* SIAM Conference on Applications of Dynamical Systems, minisympo-
-sium on learning with dynamical systems and their observable statis-
-tics. “Invariant Measures for Data-Driven Dynamical System Identi-
-fication.” (May 2025)
+* SIAM Conference on Applications of Dynamical Systems, minisymposium on learning with dynamical systems and their observable statis-
+tics. “Invariant Measures for Data-Driven Dynamical System Identification.” (May 2025)
 
 * Oberwolfach workshop on Computational Multiscale Methods. “Invariant Measures for Data-Driven Dynamical System Identification.” (April 2025)
 
-* SIAM Conference on Computational Science and Engineering, minisymposium on stable prediction of dynamical systems. “Invariant measures in time-delay coordinates for unique dynamical system iden-
-tification.” (April 2025)
+* SIAM Conference on Computational Science and Engineering, minisymposium on stable prediction of dynamical systems. “Invariant measures in time-delay coordinates for unique dynamical system identification.” (April 2025)
 
 * SIAM Conference on the Mathematics of Data Science, minisymposium
 on fast and scalable Bayesian inference. “Measure-Theoretic
