@@ -33,11 +33,9 @@ sium on learning with dynamical systems and their observable statis-
 tics. “Invariant Measures for Data-Driven Dynamical System Identi-
 fication.” (May 2025)
 
-* Oberwolfach workshop on Computational Multiscale Methods. “In-
-variant Measures for Data-Driven Dynamical System Identification.” (April 2025)
+* Oberwolfach workshop on Computational Multiscale Methods. “Invariant Measures for Data-Driven Dynamical System Identification.” (April 2025)
 
-* SIAM Conference on Computational Science and Engineering, min-
-isymposium on stable prediction of dynamical systems. “Invariant measures in time-delay coordinates for unique dynamical system iden-
+* SIAM Conference on Computational Science and Engineering, minisymposium on stable prediction of dynamical systems. “Invariant measures in time-delay coordinates for unique dynamical system iden-
 tification.” (April 2025)
 
 * SIAM Conference on the Mathematics of Data Science, minisymposium
