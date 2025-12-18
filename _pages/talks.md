@@ -4,6 +4,21 @@ title: "Talks and Posters"
 permalink: /talks/
 author_profile: true
 ---
+* SIAM UQ, minisymposium on measure flows for inverse problems
+and machine learning. “Invariant Measures for Data-Driven Dynam-
+ical System Identification.” (upcoming March 2026)
+
+* Yale University, Lu Group. “Measure Transport for Modeling Dy-
+namical Systems: Data-Driven System Identification and State Recon-
+struction.” (December 2025)
+
+* Yale University, Krishnaswamy Lab. “Measure Transport for Model-
+ing Dynamical Systems: System Identification and State Reconstruc-
+tion.” (December 2025)
+
+* SIAM NNP, minisymposium on modeling and computation of trans-
+port problems. “Invariant Measures for Data-Driven Dynamical Sys-
+tem Identification.” (November 2025)
 
 * Interdisciplinary Scientific Computing Laboratory Seminar (remote).
 “Measure Transport Techniques for Modeling Dynamical Systems:
