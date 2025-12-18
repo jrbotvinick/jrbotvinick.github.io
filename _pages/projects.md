@@ -1,10 +1,18 @@
----
+<img width="863" height="248" alt="Screenshot 2025-12-18 at 12 32 50 PM" src="https://github.com/user-attachments/assets/07b925c4-312a-4c6d-bf44-cdbbbcd251d2" />---
 layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
+**Title:** [AB-PINNs: Adaptive-Basis Physics-Informed Neural Networks for Residual-Driven Domain Decomposition](https://arxiv.org/abs/2510.08924)
 
+**Collaborators:**  Wael H. Ali (MERL), Mouhacine Benosman (Amazon Robotics), and Saviz Mowlavi (MERL) 
+
+**Abstract:** We introduce adaptive-basis physics-informed neural networks (AB-PINNs), a novel approach to domain decomposition for training PINNs in which existing subdomains dynamically adapt to the intrinsic features of the unknown solution. Drawing inspiration from classical mesh refinement techniques, we also modify the domain decomposition on-the-fly throughout training by introducing new subdomains in regions of high residual loss, thereby providing additional expressive power where the solution of the differential equation is challenging to represent. Our flexible approach to domain decomposition is well-suited for multiscale problems, as different subdomains can learn to capture different scales of the underlying solution. Moreover, the ability to introduce new subdomains during training helps prevent convergence to unwanted local minima and can reduce the need for extensive hyperparameter tuning compared to static domain decomposition approaches. Throughout, we present comprehensive numerical results which demonstrate the effectiveness of AB-PINNs at solving a variety of complex multiscale partial differential equations.
+
+<img width="1210" height="356" alt="AB-PINN" src="https://github.com/user-attachments/assets/dc83f458-781d-4ffa-88a6-7e2117914589" />
+
+--- 
 **Title:** [Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification](https://arxiv.org/abs/2412.00589#:~:text=Invariant%20Measures%20in%20Time%2DDelay%20Coordinates%20for%20Unique%20Dynamical%20System%20Identification,-Jonah%20Botvinick%2DGreenhouse&text=Invariant%20measures%20are%20widely%20used,initial%20conditions%2C%20and%20irregular%20sampling.)
 
 **Collaborators:** Robert Martin (DEVCOM Army Research Laboratory) and Yunan Yang (Cornell University) 
