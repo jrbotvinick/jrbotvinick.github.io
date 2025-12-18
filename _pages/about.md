@@ -12,4 +12,5 @@ I am a fifth-year Ph.D. student at the [Center for Applied Mathematics](https://
 
 [Here is my CV.](https://drive.google.com/file/d/1M4ihbclEcrWHBlV61iXfN2vHMB3SWN9h/view?usp=share_link) For more information, please navigate to any of the following pages: [Projects](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), [Slides](https://jrbotvinick.github.io/slides/), and [Interests](https://jrbotvinick.github.io/interests/). 
 
+Last updated: Dec. 18, 2025
 
