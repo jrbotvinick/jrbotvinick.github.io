@@ -1,4 +1,3 @@
-<img width="863" height="248" alt="Screenshot 2025-12-18 at 12 32 50 PM" src="https://github.com/user-attachments/assets/07b925c4-312a-4c6d-bf44-cdbbbcd251d2" />---
 layout: archive
 title: "Projects"
 permalink: /projects/
