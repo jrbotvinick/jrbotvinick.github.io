@@ -5,4 +5,4 @@ permalink: /projects/
 author_profile: true
 ---
 
-**Title** Dynamical Systems: s
+Under construction
