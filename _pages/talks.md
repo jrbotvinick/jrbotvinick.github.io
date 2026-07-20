@@ -41,9 +41,6 @@ Transport and Projection Pursuit.” (October 2024)
 * NDSEG Fellows Conference, poster presentation. “Learning dynamics
 on invariant measures using PDE-constrained optimization.” (July 2024)
 
-* Cornell University Admission to Candidacy Exam.
-“Measure Theoretic Modeling of Dynamical Systems.” (May 2024)
-
 * IPAM, International Conference on Multiscale Modeling and Simulation 
 based on Physics and Data, poster presentation. “Learning dynamics
 on invariant measures using PDE-constrained optimization.” (April 2024)
