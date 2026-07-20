@@ -37,6 +37,3 @@ author_profile: true
 **Science Communication**
 
 * **Jonah Botvinick-Greenhouse** and Troy Shinbrot. “Juggling dynamics”. *Physics Today* 73.2 (2020), pp. 62–63. DOI: [10.1063/PT.3.4417](https://doi.org/10.1063/PT.3.4417).
-
-
-[You can also find my papers on arXiv.](https://arxiv.org/search/?searchtype=author&query=Botvinick-Greenhouse%2C+J)
