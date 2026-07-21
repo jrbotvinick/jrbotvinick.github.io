@@ -149,6 +149,29 @@ Jonah Botvinick-Greenhouse and Yunan Yang
   </tr>
 </table>
 
+<h3>Generative modeling of time-dependent densities via optimal transport and projection pursuit</h3>
+
+Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/37398c1c-09b7-45f0-88af-fa94e8ea88f5">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+     Motivated by the computational difficulties incurred by popular deep learning algorithms for the generative modeling of temporal densities, we propose a cheap alternative that requires minimal hyperparameter tuning and scales favorably to high-dimensional problems. In particular, we use a projection-based optimal transport solver [Meng et al., Advances in Neural Information Processing Systems (Curran Associates, 2019), Vol. 32] to join successive samples and, subsequently, use transport splines (Chewi et al., 2020) to interpolate the evolving density.
+      <br><br>
+      <a href="https://arxiv.org/abs/2304.09663">[arXiv]</a>
+      <a href="https://pubs.aip.org/aip/cha/article/33/10/103108/2915710/Generative-modeling-of-time-dependent-densities">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Dynamic-PPMM">[code]</a> 
+      <!-- <a href="SLIDES-LINK">[slides]</a> -->
+    </td>
+  </tr>
+</table>
+
+
 <h2>Scientific Machine Learning</h2>
 
 <h3>Operator Learning Surrogate Modeling of Hydraulically Fractured Geothermal Injection-Production Systems: A Cornell Case Study</h3>
