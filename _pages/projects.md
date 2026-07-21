@@ -95,9 +95,9 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
       We extend the methodology in [Yang et al., 2023] to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics.
       <br><br>
-      <a href="https://arxiv.org/abs/2412.00589v2">[arXiv]</a>
-      <a href="https://journals.aps.org/prl/abstract/10.1103/ppys-lx68">[journal]</a>
-      <a href="https://github.com/jrbotvinick/Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification">[code]</a> 
+      <a href="https://arxiv.org/abs/2301.05193">[arXiv]</a>
+      <a href="https://pubs.aip.org/aip/cha/article/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Learning-Dynamics-on-Invariant-Measures">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
     </td>
   </tr>
