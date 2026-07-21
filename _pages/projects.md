@@ -19,22 +19,13 @@ permalink: /projects/
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      Trajectory-based learning of dynamical systems is often fragile in the presence of noise,
-chaos, or sparse observations, as small pointwise errors can rapidly amplify. We intro-
-duce a transition-statistics approach to system identification that learns dynamics by
+      We introduce a transition-statistics approach to system identification that learns dynamics by
 matching the induced motion of probability mass across a data-adaptive mesh. Given
 trajectory data, we build an unstructured partition of state space and approximate the
 Perron–Frobenius operator with a regularized Ulam transition matrix. We replace hard
 cell indicators with continuous, piecewise-smooth partition-of-unity weights, yielding a
 Markov matrix supporting gradient-based optimization with respect to the parameters of
-a learned vector field. This enables two related training objectives: matching invariant
-measures through the stationary eigenvectors of the transition matrices, and matching the
-full transition matrices to capture transport between regions of state space. Numerical
-experiments on Lorenz-63, Lorenz-96, and a reduced-order NOAA sea surface temper-
-ature forecasting problem show that transition-statistics matching gives more reliable
-long-time dynamics than pointwise trajectory matching, particularly under measurement
-noise and sparse sampling. The approach provides a robust operator-theoretic alternative
-to trajectory-level losses for learning chaotic and partially observed dynamical systems.
+a learned vector field. 
       <br><br>
       <a href="https://arxiv.org/abs/2607.00391">[arXiv]</a>
       <!-- <a href="JOURNAL-LINK">[journal]</a> -->
