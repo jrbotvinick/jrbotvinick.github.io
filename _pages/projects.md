@@ -19,7 +19,7 @@ Under construction
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      We learn nonlinear dynamical systems from data by matching finite-time transfer operators on a data-adaptive mesh. Combining transition information with invariant-measure matching identifies substantially more informative dynamics from snapshot data.
+      We learn nonlinear dynamical systems from data by matching finite-time transfer operators on a data-adaptive mesh. Combining transition information with invariant-measure matching identifies substantially more informative dynamics from snapshot data. s
       <br><br>
       <a href="https://arxiv.org/abs/2607.00391">[arXiv]</a>
       <!-- <a href="JOURNAL-LINK">[journal]</a> -->
