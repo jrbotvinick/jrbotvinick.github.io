@@ -103,6 +103,29 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
   </tr>
 </table>
 
+<h3>An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems</h3>
+
+Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Casey Johnson, Robert S. Martin, Samuel J. Araki, Daniel Q. Eckhardt
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/c61a70ed-a9b1-4dba-802c-91ed26f00919">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+      To address noise inherent in electronic data acquisition systems and real world sources, Araki et al. [Physica D: Nonlinear Phenomena, 417 (2021) 132819] demonstrated a grid based nonlinear technique to remove noise from a chaotic signal, leveraging a clean high-fidelity signal from the same dynamical system and ensemble averaging in multidimensional phase space. This method achieved denoising of a time-series data with 100% added noise but suffered in regions of low data density. To improve this grid-based method, here an unstructured mesh based on triangulations and Voronoi diagrams is used to accomplish the same task.
+      <br><br>
+      <a href="https://arxiv.org/abs/2209.05944">[arXiv]</a>
+      <a href="https://epubs.siam.org/doi/10.1137/22M152092X">[journal]</a>
+      <a href="https://github.com/atkirtland/denoising-clean">[code]</a> 
+      <!-- <a href="SLIDES-LINK">[slides]</a> -->
+    </td>
+  </tr>
+</table>
+
+
 <h2>Measure Transport</h2>
 
 <!-- Add paper entries here using the same table structure. -->
