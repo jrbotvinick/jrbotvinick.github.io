@@ -202,7 +202,7 @@ Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
-        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/27ee111f-ad00-4350-b504-d811c31411d4">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/923e6bb6-918f-4563-90c0-2eb559e070f7">
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
@@ -214,7 +214,6 @@ Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi
     </td>
   </tr>
 </table>
-
 <!-- Add paper entries here using the same table structure. -->
 
 </div>
