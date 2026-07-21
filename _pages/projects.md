@@ -128,8 +128,27 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
 
 <h2>Measure Transport</h2>
 
-<!-- Add paper entries here using the same table structure. -->
+<h3>On the Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data</h3>
 
+Jonah Botvinick-Greenhouse and Yunan Yang
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/c61a70ed-a9b1-4dba-802c-91ed26f00919">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+      We establish guarantees for the unique recovery of vector fields and transport maps from finite measure-valued data, yielding new insights into generative models, data-driven dynamical systems, and PDE inverse problems. In particular, we provide general conditions under which a diffeomorphism can be uniquely identified from its pushforward action on finitely many densities, i.e., when the data ${(ρ_j,f\#ρ_j)}_{j=1}^m$ uniquely determines $f$. As a corollary, we introduce a new metric which compares diffeomorphisms by measuring the discrepancy between finitely many pushforward densities in the space of probability measures.
+      <br><br>
+      <a href="https://arxiv.org/abs/2209.05944">[arXiv]</a>
+      <a href="https://epubs.siam.org/doi/10.1137/22M152092X">[journal]</a>
+      <a href="https://github.com/atkirtland/denoising-clean">[code]</a> 
+      <!-- <a href="SLIDES-LINK">[slides]</a> -->
+    </td>
+  </tr>
+</table>
 <h2>Scientific Machine Learning</h2>
 
 <!-- Add paper entries here using the same table structure. -->
