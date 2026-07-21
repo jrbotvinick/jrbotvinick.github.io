@@ -38,8 +38,8 @@ a learned vector field.
   </tr>
 </table>
 
-<h3 style="margin-bottom: 0.15em;">Measure-Theoretic Time-Delay Embedding</h3>
-<p style="margin-top: 0;">
+<h3 style="margin-bottom: 0.35em;">Measure-Theoretic Time-Delay Embedding</h3>
+<p style="margin: 0 0 0.75em; color: #555;">
   Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang.
   <em>Journal of Statistical Physics</em>.
 </p>
