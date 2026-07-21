@@ -2,6 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
+author_profile: true
 ---
 <div style="max-width: 1100px; margin: 0 auto; padding: 0 32px; box-sizing: border-box;">
 
