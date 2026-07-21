@@ -148,7 +148,28 @@ Jonah Botvinick-Greenhouse and Yunan Yang
     </td>
   </tr>
 </table>
+
 <h2>Scientific Machine Learning</h2>
+
+<h3>Operator Learning Surrogate Modeling of Hydraulically Fractured Geothermal Injection-Production Systems: A Cornell Case Study</h3>
+
+Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/27ee111f-ad00-4350-b504-d811c31411d4">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+      Through its Climate Action Plan, Cornell University has committed to achieving carbon neutrality by 2035 and has supported the Earth Source Heat (ESH) project to demonstrate the viability of direct-use deep geothermal energy for district heating on its main campus in Ithaca, NY. To enable rapid inference and optimization of fracture-dominated doublet designs under CUBO site constraints, an operator learning surrogate model is trained on 5,500 finite-element (FE) simulations and evaluated on 498 unseen cases.
+      <br><br>
+      <a href="https://onepetro.org/ARMAUSRMS/proceedings/ARMA26/ARMA26/D022S043R004/801293">[conference]</a>
+      <!-- <a href="SLIDES-LINK">[slides]</a> -->
+    </td>
+  </tr>
+</table>
 
 <!-- Add paper entries here using the same table structure. -->
 
