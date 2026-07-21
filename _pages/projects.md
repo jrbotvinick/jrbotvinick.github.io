@@ -4,6 +4,21 @@ title: Research
 permalink: /projects/
 author_profile: true
 ---
+
+<style>
+  .publication-divider {
+    border: 0;
+    border-top: 1px solid #e8e8e8;
+    margin: 1.25em 0;
+  }
+
+  .section-divider {
+    border: 0;
+    border-top: 3px solid #1f4e79;
+    margin: 2.75em 0 2em;
+  }
+</style>
+
 <div style="max-width: 1100px; margin: 0 auto; padding: 0 32px; box-sizing: border-box;">
 
 <p>Under construction</p>
@@ -38,6 +53,8 @@ a learned vector field.
   </tr>
 </table>
 
+<hr class="publication-divider">
+
 <h3 style="margin-bottom: 0.35em;">Measure-Theoretic Time-Delay Embedding</h3>
 <p style="margin: 0 0 0.75em; color: #555;">
   Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang.
@@ -62,6 +79,8 @@ a learned vector field.
   </tr>
 </table>
 
+<hr class="publication-divider">
+
 <h3>Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification</h3>
 
 Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
@@ -83,6 +102,8 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
     </td>
   </tr>
 </table>
+
+<hr class="publication-divider">
 
 <h3>Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization</h3>
 
@@ -106,6 +127,8 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
   </tr>
 </table>
 
+<hr class="publication-divider">
+
 <h3>An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems</h3>
 
 Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Casey Johnson, Robert S. Martin, Samuel J. Araki, Daniel Q. Eckhardt
@@ -128,6 +151,7 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
   </tr>
 </table>
 
+<hr class="publication-divider">
 
 <h2>Measure Transport</h2>
 
