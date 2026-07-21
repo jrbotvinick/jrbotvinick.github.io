@@ -37,6 +37,29 @@ a learned vector field.
   </tr>
 </table>
 
+<h3>Measure-Theoretic Time-Delay Embedding</h3>
+
+Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="Data-adaptive learning of dynamical systems" src="https://github.com/user-attachments/assets/80677a74-573e-455c-aa91-ebffb7cbaf63">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+      The celebrated Takens' embedding theorem provides a theoretical foundation for reconstructing the full state of a dynamical system from partial observations. However, the classical theorem assumes that the underlying system is deterministic and that observations are noise-free, limiting its applicability in real-world scenarios. Motivated by these limitations, we formulate a measure-theoretic generalization that adopts an Eulerian description of the dynamics and recasts the embedding as a pushforward map between spaces of probability measures. 
+      <br><br>
+      <a href="https://arxiv.org/abs/2409.08768">[arXiv]</a>
+      <a href="https://link.springer.com/article/10.1007/s10955-025-03555-1">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Measure-Theoretic-Time-Delay-Embedding">[code]</a> 
+      <!-- <a href="SLIDES-LINK">[slides]</a> -->
+    </td>
+  </tr>
+</table>
+
+
 <h2>Measure Transport</h2>
 
 <!-- Add paper entries here using the same table structure. -->
