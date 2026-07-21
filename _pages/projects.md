@@ -45,7 +45,7 @@ Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
-        <img width="431" alt="Data-adaptive learning of dynamical systems" src="https://github.com/user-attachments/assets/80677a74-573e-455c-aa91-ebffb7cbaf63">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/193168e4-0f04-4691-998d-5f3248d79ee3">
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
