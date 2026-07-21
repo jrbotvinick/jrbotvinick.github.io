@@ -11,6 +11,8 @@ permalink: /projects/
 
 <h3>Data-Adaptive Learning of Dynamical Systems by Matching Transfer Operators and Invariant Measures</h3>
 
+Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang
+
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
