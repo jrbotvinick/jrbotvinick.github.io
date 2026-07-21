@@ -38,9 +38,11 @@ a learned vector field.
   </tr>
 </table>
 
-<h3>Measure-Theoretic Time-Delay Embedding</h3>
-
-Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang
+<h3 style="margin-bottom: 0.15em;">Measure-Theoretic Time-Delay Embedding</h3>
+<p style="margin-top: 0;">
+  Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang.
+  <em>Journal of Statistical Physics</em>.
+</p>
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
