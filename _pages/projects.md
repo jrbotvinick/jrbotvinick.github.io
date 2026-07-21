@@ -81,6 +81,28 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
   </tr>
 </table>
 
+<h3>Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization</h3>
+
+Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/86eb0490-e677-4bee-ab78-37fa9d6329bb">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+      We extend the methodology in [Yang et al., 2023] to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics.
+      <br><br>
+      <a href="https://arxiv.org/abs/2412.00589v2">[arXiv]</a>
+      <a href="https://journals.aps.org/prl/abstract/10.1103/ppys-lx68">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification">[code]</a> 
+      <!-- <a href="SLIDES-LINK">[slides]</a> -->
+    </td>
+  </tr>
+</table>
+
 <h2>Measure Transport</h2>
 
 <!-- Add paper entries here using the same table structure. -->
