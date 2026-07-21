@@ -59,6 +59,27 @@ Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang
   </tr>
 </table>
 
+<h3>Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification</h3>
+
+Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/d2d92d64-6a8a-4103-8cc8-0871a5c707f1">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+      Invariant measures are widely used to compare chaotic dynamical systems, as they offer robustness to noisy data, uncertain initial conditions, and irregular sampling. However, large classes of systems with distinct transient dynamics can still exhibit the same asymptotic statistical behavior, which poses challenges when invariant measures alone are used to perform system identification. Motivated by Takens’ seminal embedding theory, we propose studying invariant measures in time-delay coordinates, which exhibit enhanced sensitivity to the underlying dynamics.
+      <br><br>
+      <a href="https://arxiv.org/abs/2412.00589v2">[arXiv]</a>
+      <a href="https://journals.aps.org/prl/abstract/10.1103/ppys-lx68">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification">[code]</a> 
+      <!-- <a href="SLIDES-LINK">[slides]</a> -->
+    </td>
+  </tr>
+</table>
 
 <h2>Measure Transport</h2>
 
