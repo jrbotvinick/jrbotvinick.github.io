@@ -194,6 +194,27 @@ Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson
   </tr>
 </table>
 
+<h3>AB-PINNs: Adaptive-Basis Physics-Informed Neural Networks for Residual-Driven Domain Decomposition</h3>
+
+Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+  <tr>
+    <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
+      <a href="https://arxiv.org/abs/2607.00391">
+        <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/27ee111f-ad00-4350-b504-d811c31411d4">
+      </a>
+    </td>
+    <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
+     We introduce adaptive-basis physics-informed neural networks (AB-PINNs), a novel approach to domain decomposition for training PINNs in which existing subdomains dynamically adapt to the intrinsic features of the unknown solution. Drawing inspiration from classical mesh refinement techniques, we also modify the domain decomposition on-the-fly throughout training by introducing new subdomains in regions of high residual loss, thereby providing additional expressive power where the solution of the differential equation is challenging to represent.
+      <br><br>
+      <a href="https://arxiv.org/abs/2510.08924">[arXiv]</a>
+      <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae8638">[journal]</a>
+      <a href="https://github.com/merlresearch/ab-pinns">[code]</a> 
+    </td>
+  </tr>
+</table>
+
 <!-- Add paper entries here using the same table structure. -->
 
 </div>
