@@ -21,6 +21,8 @@ This page provides an overview of my research in the areas of data-driven dynami
 
 <h2 id="data-driven-dynamical-systems" style="font-size: 2em; border-bottom: 4px solid #1f4e79; padding-bottom: 0.35em; margin: 1.5em 0 1em;">Data-Driven Dynamical Systems</h2>
 
+The primary goal of data-driven dynamical systems involves reconstructing crucial properties of complex physical processes from observed measurement data. Depending on the application, this may involve identifying the dynamical laws governing a system’s evolution, reconstructing its full state from partial observations, or estimating quantities such as invariant measures and Lyapunov exponents from data. These tasks are especially challenging when dynamics are chaotic and high-dimensional, and when data is subject to measurement noise, sparse sampling, and uncertainty. Common strategies that seek pointwise agreement between model simulations and the  observed data are fragile in these situations. Rather than working directly with trajectories, my recent work uses global statistical quantities and tools from measure transport to develop robust strategies for learning, predicting, and reconstructing dynamical systems. 
+
 <h3>Data-Adaptive Learning of Dynamical Systems by Matching Transfer Operators and Invariant Measures</h3>
 
 Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang. <em>Preprint</em>.
