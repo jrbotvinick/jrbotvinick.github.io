@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-<div style="max-width: 1100px; margin: 0 auto; padding: 0 32px; box-sizing: border-box;">
+<div style="width: 100%; margin: 0; padding: 0; box-sizing: border-box;">
 
 <p>Under construction</p>
 
@@ -14,20 +14,20 @@ This page provides an overview of my research in the areas of data-driven dynami
 
 <nav aria-label="Research sections" style="display: flex; flex-wrap: wrap; gap: 10px; margin: 1em 0 2.25em;">
   <a href="#data-driven-dynamical-systems"
-     style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
+     style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
      onmouseover="this.style.borderColor='#1f4e79'"
      onmouseout="this.style.borderColor='transparent'"
      onfocus="this.style.borderColor='#1f4e79'"
      onblur="this.style.borderColor='transparent'">Data-Driven Dynamical Systems</a>
   <a href="#measure-transport"
-     style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
+     style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
      onmouseover="this.style.borderColor='#1f4e79'"
      onmouseout="this.style.borderColor='transparent'"
      onfocus="this.style.borderColor='#1f4e79'"
      onblur="this.style.borderColor='transparent'">Measure Transport</a>
 
   <a href="#scientific-machine-learning"
-     style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
+     style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
      onmouseover="this.style.borderColor='#1f4e79'"
      onmouseout="this.style.borderColor='transparent'"
      onfocus="this.style.borderColor='#1f4e79'"
@@ -42,7 +42,7 @@ The primary goal of data-driven dynamical systems involves reconstructing essent
 
 Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang. <em>Preprint</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -59,10 +59,10 @@ Perron–Frobenius operator with a regularized Ulam transition matrix. Our const
 Markov matrix supporting gradient-based optimization with respect to the parameters of
 a learned vector field. 
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2607.00391">[arXiv]</a>
+      <br>
+      <a href="https://arxiv.org/abs/2607.00391" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
       <!-- <a href="JOURNAL-LINK">[journal]</a> -->
-      <a href="https://github.com/Yinonghyn/Parameter-Identification-with-Data-Driven-Cells">[code]</a> 
+      <a href="https://github.com/Yinonghyn/Parameter-Identification-with-Data-Driven-Cells" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -75,7 +75,7 @@ a learned vector field.
   Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang.
   <em>Journal of Statistical Physics</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -87,10 +87,10 @@ a learned vector field.
       <span style="font-size: 0.92em; line-height: 1.5;">
       The celebrated Takens' embedding theorem provides a theoretical foundation for reconstructing the full state of a dynamical system from partial observations. However, the classical theorem assumes that the underlying system is deterministic and that observations are noise-free, limiting its applicability in real-world scenarios. Motivated by these limitations, we formulate a measure-theoretic generalization that adopts an Eulerian description of the dynamics and recasts the embedding as a pushforward map between spaces of probability measures. 
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2409.08768">[arXiv]</a>
-      <a href="https://link.springer.com/article/10.1007/s10955-025-03555-1">[journal]</a>
-      <a href="https://github.com/jrbotvinick/Measure-Theoretic-Time-Delay-Embedding">[code]</a> 
+      <br>
+      <a href="https://arxiv.org/abs/2409.08768" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
+      <a href="https://link.springer.com/article/10.1007/s10955-025-03555-1" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Measure-Theoretic-Time-Delay-Embedding" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -103,7 +103,7 @@ a learned vector field.
 
 Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Physical Review Letters</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -115,10 +115,10 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Physical Review L
       <span style="font-size: 0.92em; line-height: 1.5;">
       Invariant measures are widely used to compare chaotic dynamical systems, as they offer robustness to noisy data, uncertain initial conditions, and irregular sampling. However, large classes of systems with distinct transient dynamics can still exhibit the same asymptotic statistical behavior, which poses challenges when invariant measures alone are used to perform system identification. Motivated by Takens’ seminal embedding theory, we propose studying invariant measures in time-delay coordinates, which exhibit enhanced sensitivity to the underlying dynamics.
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2412.00589v2">[arXiv]</a>
-      <a href="https://journals.aps.org/prl/abstract/10.1103/ppys-lx68">[journal]</a>
-      <a href="https://github.com/jrbotvinick/Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification">[code]</a> 
+      <br>
+      <a href="https://arxiv.org/abs/2412.00589v2" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
+      <a href="https://journals.aps.org/prl/abstract/10.1103/ppys-lx68" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -131,7 +131,7 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Physical Review L
 
 Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -143,10 +143,10 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Chaos: An Interdi
       <span style="font-size: 0.92em; line-height: 1.5;">
       We extend the methodology in [Yang et al., 2023] to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics.
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2301.05193">[arXiv]</a>
-      <a href="https://pubs.aip.org/aip/cha/article/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE">[journal]</a>
-      <a href="https://github.com/jrbotvinick/Learning-Dynamics-on-Invariant-Measures">[code]</a> 
+      <br>
+      <a href="https://arxiv.org/abs/2301.05193" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
+      <a href="https://pubs.aip.org/aip/cha/article/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Learning-Dynamics-on-Invariant-Measures" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -159,7 +159,7 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Chaos: An Interdi
 
 Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Casey Johnson, Robert S. Martin, Samuel J. Araki, Daniel Q. Eckhardt. <em>SIAM Journal on Applied Dynamical Systems</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -171,10 +171,10 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
       <span style="font-size: 0.92em; line-height: 1.5;">
       To address noise inherent in electronic data acquisition systems and real world sources, Araki et al. [Physica D: Nonlinear Phenomena, 417 (2021) 132819] demonstrated a grid based nonlinear technique to remove noise from a chaotic signal, leveraging a clean high-fidelity signal from the same dynamical system and ensemble averaging in multidimensional phase space. This method achieved denoising of a time-series data with 100% added noise but suffered in regions of low data density. To improve this grid-based method, here an unstructured mesh based on triangulations and Voronoi diagrams is used to accomplish the same task.
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2209.05944">[arXiv]</a>
-      <a href="https://epubs.siam.org/doi/10.1137/22M152092X">[journal]</a>
-      <a href="https://github.com/atkirtland/denoising-clean">[code]</a> 
+      <br>
+      <a href="https://arxiv.org/abs/2209.05944" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
+      <a href="https://epubs.siam.org/doi/10.1137/22M152092X" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[journal]</a>
+      <a href="https://github.com/atkirtland/denoising-clean" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -189,7 +189,7 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
 
 Jonah Botvinick-Greenhouse and Yunan Yang. <em>Preprint</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -201,9 +201,9 @@ Jonah Botvinick-Greenhouse and Yunan Yang. <em>Preprint</em>.
       <span style="font-size: 0.92em; line-height: 1.5;">
       We establish guarantees for the unique recovery of vector fields and transport maps from finite measure-valued data, yielding new insights into generative models, data-driven dynamical systems, and PDE inverse problems. In particular, we provide general conditions under which a diffeomorphism can be uniquely identified from its pushforward action on finitely many densities, i.e., when the data $\{(ρ_j,f\#ρ_j)\}_{j=1}^m$ uniquely determines $f$. As a corollary, we introduce a new metric which compares diffeomorphisms by measuring the discrepancy between finitely many pushforward densities in the space of probability measures.
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2604.07671">[arXiv]</a>
-      <a href="https://github.com/jrbotvinick/Transport-Map-and-Vector-Field-Recovery">[code]</a> 
+      <br>
+      <a href="https://arxiv.org/abs/2604.07671" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
+      <a href="https://github.com/jrbotvinick/Transport-Map-and-Vector-Field-Recovery" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -214,7 +214,7 @@ Jonah Botvinick-Greenhouse and Yunan Yang. <em>Preprint</em>.
 
 Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -226,10 +226,10 @@ Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik. <em>Chaos: An Interdis
       <span style="font-size: 0.92em; line-height: 1.5;">
      Motivated by the computational difficulties incurred by popular deep learning algorithms for the generative modeling of temporal densities, we propose a cheap alternative that requires minimal hyperparameter tuning and scales favorably to high-dimensional problems. In particular, we use a projection-based optimal transport solver [Meng et al., Advances in Neural Information Processing Systems (Curran Associates, 2019), Vol. 32] to join successive samples and, subsequently, use transport splines (Chewi et al., 2020) to interpolate the evolving density.
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2304.09663">[arXiv]</a>
-      <a href="https://pubs.aip.org/aip/cha/article/33/10/103108/2915710/Generative-modeling-of-time-dependent-densities">[journal]</a>
-      <a href="https://github.com/jrbotvinick/Dynamic-PPMM">[code]</a> 
+      <br>
+      <a href="https://arxiv.org/abs/2304.09663" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
+      <a href="https://pubs.aip.org/aip/cha/article/33/10/103108/2915710/Generative-modeling-of-time-dependent-densities" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[journal]</a>
+      <a href="https://github.com/jrbotvinick/Dynamic-PPMM" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -243,7 +243,7 @@ Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik. <em>Chaos: An Interdis
 
 Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson. <em>U.S. Rock Mechanics/Geomechanics Symposium</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -255,8 +255,8 @@ Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson. <em>U.S
       <span style="font-size: 0.92em; line-height: 1.5;">
       Through its Climate Action Plan, Cornell University has committed to achieving carbon neutrality by 2035 and has supported the Earth Source Heat (ESH) project to demonstrate the viability of direct-use deep geothermal energy for district heating on its main campus in Ithaca, NY. To enable rapid inference and optimization of fracture-dominated doublet designs under CUBO site constraints, an operator learning surrogate model is trained on 5,500 finite-element (FE) simulations and evaluated on 498 unseen cases.
       </span>
-      <br><br>
-      <a href="https://onepetro.org/ARMAUSRMS/proceedings/ARMA26/ARMA26/D022S043R004/801293">[conference]</a>
+      <br>
+      <a href="https://onepetro.org/ARMAUSRMS/proceedings/ARMA26/ARMA26/D022S043R004/801293" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[conference]</a>
       <!-- <a href="SLIDES-LINK">[slides]</a> -->
       </div>
     </td>
@@ -267,7 +267,7 @@ Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson. <em>U.S
 
 Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi. <em>Machine Learning: Science and Technology</em>.
 
-<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit; margin-top: 0.5em;">
   <tr>
     <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;">
       <a href="https://arxiv.org/abs/2607.00391">
@@ -279,10 +279,10 @@ Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi. <em>
       <span style="font-size: 0.92em; line-height: 1.5;">
      We introduce adaptive-basis physics-informed neural networks (AB-PINNs), a novel approach to domain decomposition for training PINNs in which existing subdomains dynamically adapt to the intrinsic features of the unknown solution. Drawing inspiration from classical mesh refinement techniques, we also modify the domain decomposition on-the-fly throughout training by introducing new subdomains in regions of high residual loss, thereby providing additional expressive power where the solution of the differential equation is challenging to represent.
       </span>
-      <br><br>
-      <a href="https://arxiv.org/abs/2510.08924">[arXiv]</a>
-      <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae8638">[journal]</a>
-      <a href="https://github.com/merlresearch/ab-pinns">[code]</a> 
+      <br>
+      <a href="https://arxiv.org/abs/2510.08924" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[arXiv]</a>
+      <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae8638" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[journal]</a>
+      <a href="https://github.com/merlresearch/ab-pinns" style="display: inline-block; background: #ffffff; border: 2px solid transparent; border-radius: 6px; padding: 3px 7px; margin: 0 4px 4px 0; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">[code]</a> 
       </div>
     </td>
   </tr>
