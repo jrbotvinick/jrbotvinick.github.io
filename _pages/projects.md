@@ -5,27 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-<style>
-  .publication-divider {
-    border: 0;
-    border-top: 1px solid #e8e8e8;
-    margin: 1.25em 0;
-  }
-
-  .section-divider {
-    border: 0;
-    border-top: 3px solid #1f4e79;
-    margin: 2.75em 0 2em;
-  }
-
-  /* Light-blue highlight around the abstract and its links. */
-  .publication-abstract {
-    background: #edf7fd;
-    border-radius: 10px;
-    padding: 18px 20px;
-  }
-</style>
-
 <div style="max-width: 1100px; margin: 0 auto; padding: 0 32px; box-sizing: border-box;">
 
 <p>Under construction</p>
@@ -44,7 +23,7 @@ Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang. <em>Preprint</em>.
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
       We introduce a transition-statistics approach to system identification that learns dynamics by
 matching the induced motion of probability mass across a data-adaptive mesh. Given
 trajectory data, we build an unstructured partition of state space and approximate the
@@ -62,7 +41,7 @@ a learned vector field.
   </tr>
 </table>
 
-<hr class="publication-divider">
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
 
 <h3 style="margin-bottom: 0.35em;">Measure-Theoretic Time-Delay Embedding</h3>
   Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang.
@@ -76,7 +55,7 @@ a learned vector field.
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
       The celebrated Takens' embedding theorem provides a theoretical foundation for reconstructing the full state of a dynamical system from partial observations. However, the classical theorem assumes that the underlying system is deterministic and that observations are noise-free, limiting its applicability in real-world scenarios. Motivated by these limitations, we formulate a measure-theoretic generalization that adopts an Eulerian description of the dynamics and recasts the embedding as a pushforward map between spaces of probability measures. 
       <br><br>
       <a href="https://arxiv.org/abs/2409.08768">[arXiv]</a>
@@ -88,7 +67,7 @@ a learned vector field.
   </tr>
 </table>
 
-<hr class="publication-divider">
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
 
 <h3>Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification</h3>
 
@@ -102,7 +81,7 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Physical Review L
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
       Invariant measures are widely used to compare chaotic dynamical systems, as they offer robustness to noisy data, uncertain initial conditions, and irregular sampling. However, large classes of systems with distinct transient dynamics can still exhibit the same asymptotic statistical behavior, which poses challenges when invariant measures alone are used to perform system identification. Motivated by Takens’ seminal embedding theory, we propose studying invariant measures in time-delay coordinates, which exhibit enhanced sensitivity to the underlying dynamics.
       <br><br>
       <a href="https://arxiv.org/abs/2412.00589v2">[arXiv]</a>
@@ -114,7 +93,7 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Physical Review L
   </tr>
 </table>
 
-<hr class="publication-divider">
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
 
 <h3>Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization</h3>
 
@@ -128,7 +107,7 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Chaos: An Interdi
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
       We extend the methodology in [Yang et al., 2023] to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics.
       <br><br>
       <a href="https://arxiv.org/abs/2301.05193">[arXiv]</a>
@@ -140,7 +119,7 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Chaos: An Interdi
   </tr>
 </table>
 
-<hr class="publication-divider">
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
 
 <h3>An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems</h3> 
 
@@ -154,7 +133,7 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
       To address noise inherent in electronic data acquisition systems and real world sources, Araki et al. [Physica D: Nonlinear Phenomena, 417 (2021) 132819] demonstrated a grid based nonlinear technique to remove noise from a chaotic signal, leveraging a clean high-fidelity signal from the same dynamical system and ensemble averaging in multidimensional phase space. This method achieved denoising of a time-series data with 100% added noise but suffered in regions of low data density. To improve this grid-based method, here an unstructured mesh based on triangulations and Voronoi diagrams is used to accomplish the same task.
       <br><br>
       <a href="https://arxiv.org/abs/2209.05944">[arXiv]</a>
@@ -166,7 +145,7 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
   </tr>
 </table>
 
-<hr class="publication-divider">
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
 
 <h2>Measure Transport</h2>
 
@@ -182,7 +161,7 @@ Jonah Botvinick-Greenhouse and Yunan Yang. <em>Preprint</em>.
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
       We establish guarantees for the unique recovery of vector fields and transport maps from finite measure-valued data, yielding new insights into generative models, data-driven dynamical systems, and PDE inverse problems. In particular, we provide general conditions under which a diffeomorphism can be uniquely identified from its pushforward action on finitely many densities, i.e., when the data $\{(ρ_j,f\#ρ_j)\}_{j=1}^m$ uniquely determines $f$. As a corollary, we introduce a new metric which compares diffeomorphisms by measuring the discrepancy between finitely many pushforward densities in the space of probability measures.
       <br><br>
       <a href="https://arxiv.org/abs/2604.07671">[arXiv]</a>
@@ -205,7 +184,7 @@ Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik. <em>Chaos: An Interdis
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
      Motivated by the computational difficulties incurred by popular deep learning algorithms for the generative modeling of temporal densities, we propose a cheap alternative that requires minimal hyperparameter tuning and scales favorably to high-dimensional problems. In particular, we use a projection-based optimal transport solver [Meng et al., Advances in Neural Information Processing Systems (Curran Associates, 2019), Vol. 32] to join successive samples and, subsequently, use transport splines (Chewi et al., 2020) to interpolate the evolving density.
       <br><br>
       <a href="https://arxiv.org/abs/2304.09663">[arXiv]</a>
@@ -232,7 +211,7 @@ Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson. <em>U.S
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
       Through its Climate Action Plan, Cornell University has committed to achieving carbon neutrality by 2035 and has supported the Earth Source Heat (ESH) project to demonstrate the viability of direct-use deep geothermal energy for district heating on its main campus in Ithaca, NY. To enable rapid inference and optimization of fracture-dominated doublet designs under CUBO site constraints, an operator learning surrogate model is trained on 5,500 finite-element (FE) simulations and evaluated on 498 unseen cases.
       <br><br>
       <a href="https://onepetro.org/ARMAUSRMS/proceedings/ARMA26/ARMA26/D022S043R004/801293">[conference]</a>
@@ -254,7 +233,7 @@ Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi. <em>
       </a>
     </td>
     <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;">
-      <div class="publication-abstract">
+      <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;">
      We introduce adaptive-basis physics-informed neural networks (AB-PINNs), a novel approach to domain decomposition for training PINNs in which existing subdomains dynamically adapt to the intrinsic features of the unknown solution. Drawing inspiration from classical mesh refinement techniques, we also modify the domain decomposition on-the-fly throughout training by introducing new subdomains in regions of high residual loss, thereby providing additional expressive power where the solution of the differential equation is challenging to represent.
       <br><br>
       <a href="https://arxiv.org/abs/2510.08924">[arXiv]</a>
