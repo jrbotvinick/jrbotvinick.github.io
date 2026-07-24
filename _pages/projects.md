@@ -19,7 +19,6 @@ This page provides an overview of my research in the areas of data-driven dynami
      onmouseout="this.style.borderColor='transparent'"
      onfocus="this.style.borderColor='#1f4e79'"
      onblur="this.style.borderColor='transparent'">Data-Driven Dynamical Systems</a>
-
   <a href="#measure-transport"
      style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
      onmouseover="this.style.borderColor='#1f4e79'"
