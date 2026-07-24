@@ -9,6 +9,10 @@ author_profile: true
 
 <p>Under construction</p>
 
+
+This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these areas, you can use the buttons below to explore projects organized by their primary focus.
+
+
 <nav aria-label="Research sections" style="display: flex; flex-wrap: wrap; gap: 10px; margin: 1em 0 2.25em;">
   <a href="#data-driven-dynamical-systems" style="display: inline-block; background: #edf7fd; border-radius: 8px; padding: 8px 12px; text-decoration: none;">Data-Driven Dynamical Systems</a>
   <a href="#measure-transport" style="display: inline-block; background: #edf7fd; border-radius: 8px; padding: 8px 12px; text-decoration: none;">Measure Transport</a>
