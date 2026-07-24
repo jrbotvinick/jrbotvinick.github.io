@@ -27,7 +27,7 @@ author_profile: true
 
 <h3>Data-Adaptive Learning of Dynamical Systems by Matching Transfer Operators and Invariant Measures</h3>
 
-Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang
+Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang. <em>Preprint</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -56,10 +56,8 @@ a learned vector field.
 <hr class="publication-divider">
 
 <h3 style="margin-bottom: 0.35em;">Measure-Theoretic Time-Delay Embedding</h3>
-<p style="margin: 0 0 0.75em; color: #555;">
   Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang.
   <em>Journal of Statistical Physics</em>.
-</p>
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -83,7 +81,7 @@ a learned vector field.
 
 <h3>Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification</h3>
 
-Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
+Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Physical Review Letters</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -107,7 +105,7 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
 
 <h3>Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization</h3>
 
-Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
+Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -129,9 +127,9 @@ Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang
 
 <hr class="publication-divider">
 
-<h3>An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems</h3>
+<h3>An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems</h3> 
 
-Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Casey Johnson, Robert S. Martin, Samuel J. Araki, Daniel Q. Eckhardt
+Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Casey Johnson, Robert S. Martin, Samuel J. Araki, Daniel Q. Eckhardt. <em>SIAM Journal on Applied Dynamical Systems</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -157,7 +155,7 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
 
 <h3>On the Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data</h3>
 
-Jonah Botvinick-Greenhouse and Yunan Yang
+Jonah Botvinick-Greenhouse and Yunan Yang. <em>Preprint</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -178,7 +176,7 @@ Jonah Botvinick-Greenhouse and Yunan Yang
 
 <h3>Generative modeling of time-dependent densities via optimal transport and projection pursuit</h3>
 
-Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik
+Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -203,7 +201,7 @@ Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik
 
 <h3>Operator Learning Surrogate Modeling of Hydraulically Fractured Geothermal Injection-Production Systems: A Cornell Case Study</h3>
 
-Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson
+Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson. <em>U.S. Rock Mechanics/Geomechanics Symposium</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
@@ -223,7 +221,7 @@ Yulong Liu,  Jonah Botvinick-Greenhouse,  Yunan Yang, and  Chloé Arson
 
 <h3>AB-PINNs: Adaptive-Basis Physics-Informed Neural Networks for Residual-Driven Domain Decomposition</h3>
 
-Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi
+Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi. <em>Machine Learning: Science and Technology</em>.
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;">
   <tr>
