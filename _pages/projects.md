@@ -27,8 +27,7 @@ Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang. <em>Preprint</em>.
       We introduce a transition-statistics approach to system identification that learns dynamics by
 matching the induced motion of probability mass across a data-adaptive mesh. Given
 trajectory data, we build an unstructured partition of state space and approximate the
-Perron–Frobenius operator with a regularized Ulam transition matrix. We replace hard
-cell indicators with continuous, piecewise-smooth partition-of-unity weights, yielding a
+Perron–Frobenius operator with a regularized Ulam transition matrix. Our construction yields a
 Markov matrix supporting gradient-based optimization with respect to the parameters of
 a learned vector field. 
       <br><br>
