@@ -12,11 +12,27 @@ author_profile: true
 
 This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these three fields, you can use the buttons below to explore projects organized by their primary focus.
 
-
 <nav aria-label="Research sections" style="display: flex; flex-wrap: wrap; gap: 10px; margin: 1em 0 2.25em;">
-  <a href="#data-driven-dynamical-systems" style="display: inline-block; background: #edf7fd; border-radius: 8px; padding: 8px 12px; text-decoration: none;">Data-Driven Dynamical Systems</a>
-  <a href="#measure-transport" style="display: inline-block; background: #edf7fd; border-radius: 8px; padding: 8px 12px; text-decoration: none;">Measure Transport</a>
-  <a href="#scientific-machine-learning" style="display: inline-block; background: #edf7fd; border-radius: 8px; padding: 8px 12px; text-decoration: none;">Scientific Machine Learning</a>
+  <a href="#data-driven-dynamical-systems"
+     style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
+     onmouseover="this.style.borderColor='#1f4e79'"
+     onmouseout="this.style.borderColor='transparent'"
+     onfocus="this.style.borderColor='#1f4e79'"
+     onblur="this.style.borderColor='transparent'">Data-Driven Dynamical Systems</a>
+
+  <a href="#measure-transport"
+     style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
+     onmouseover="this.style.borderColor='#1f4e79'"
+     onmouseout="this.style.borderColor='transparent'"
+     onfocus="this.style.borderColor='#1f4e79'"
+     onblur="this.style.borderColor='transparent'">Measure Transport</a>
+
+  <a href="#scientific-machine-learning"
+     style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;"
+     onmouseover="this.style.borderColor='#1f4e79'"
+     onmouseout="this.style.borderColor='transparent'"
+     onfocus="this.style.borderColor='#1f4e79'"
+     onblur="this.style.borderColor='transparent'">Scientific Machine Learning</a>
 </nav>
 
 <h2 id="data-driven-dynamical-systems" style="font-size: 2em; border-bottom: 4px solid #1f4e79; padding-bottom: 0.35em; margin: 1.5em 0 1em;">Data-Driven Dynamical Systems</h2>
