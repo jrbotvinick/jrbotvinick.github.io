@@ -219,7 +219,7 @@ author_profile: true
 
 <div class="kaltura-video">
   <iframe
-    src="https://www.kaltura.com/index.php/extwidget/preview/partner_id/2356971/uiconf_id/56368382/entry_id/1_yxda609u/embed/auto"
+    src="https://cdnapisec.kaltura.com/p/2356971/embedPlaykitJs/uiconf_id/56368382?iframeembed=true&amp;entry_id=1_yxda609u"
     title="ISCL Seminar Series research overview"
     allow="autoplay; fullscreen; encrypted-media"
     allowfullscreen>
@@ -231,7 +231,6 @@ author_profile: true
   <a href="https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_yxda609u"
      target="_blank"
      rel="noopener">
-    Watch on Penn State MediaSpace
   </a>.
 </p>
 
