@@ -109,7 +109,6 @@ author_profile: true
 
 <section class="talks-column" markdown="1">
 
-<h2>Talks and Presentations</h2>
 
 * SIAM UQ, minisymposium on measure flows for inverse problems and machine learning. “Invariant Measures for Data-Driven Dynamical System Identification.” (March 2026)
 
