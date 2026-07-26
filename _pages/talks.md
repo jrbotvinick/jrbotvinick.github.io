@@ -249,3 +249,103 @@ on invariant measures using PDE-constrained optimization.” (April 2024)
 
   </div>
 </section>
+
+<section class="poster-showcase" aria-labelledby="selected-slides-heading">
+  <h2 id="selected-slides-heading">Selected Slides</h2>
+
+  <div class="poster-grid">
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/MDS24_Slides_JBG.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of Measure-Theoretic Time-Delay Embedding slides"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/MDS24_Slides_JBG.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Measure-Theoretic Time-Delay Embedding slides">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/MDS24_Slides_JBG.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+      </a>
+    </article>
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/CSE25_Slides_Botvinick.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of Invariant Measures in Time-Delay Coordinates slides"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/CSE25_Slides_Botvinick.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Invariant Measures in Time-Delay Coordinates slides">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/CSE25_Slides_Botvinick.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+      </a>
+    </article>
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/Jonah.Botvinick-Greenhouse.NNP.Slides.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of Learning Dynamics on Invariant Measures slides"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/Jonah.Botvinick-Greenhouse.NNP.Slides.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Learning Dynamics on Invariant Measures slides">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/Jonah.Botvinick-Greenhouse.NNP.Slides.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+      </a>
+    </article>
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/SIAM_DS_2023.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of Generative Modeling of Time-Dependent Densities slides"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/SIAM_DS_2023.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Generative Modeling of Time-Dependent Densities slides">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/SIAM_DS_2023.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+      </a>
+    </article>
+
+  </div>
+</section>
