@@ -6,36 +6,120 @@ author_profile: true
 ---
 
 <div style="max-width: 1100px; margin: 0 auto; padding: 0 32px; box-sizing: border-box;">
-<style>
-  .publication-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 7px;
-    margin-top: 10px;
-  }
-
-  .publication-links a {
-    display: inline-block;
-    background: #edf7fd;
-    border: 2px solid transparent;
-    border-radius: 7px;
-    padding: 5px 9px;
-    box-sizing: border-box;
-    color: #1f4e79;
-    font-size: 0.88em;
-    line-height: 1.2;
-    text-decoration: none !important;
-    transition: border-color 0.15s ease;
-  }
-
-  .publication-links a:hover,
-  .publication-links a:focus {
-    border-color: #1f4e79;
-  }
-</style>
 <p>Under construction</p>
 
 This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these three fields, you can use the buttons below to explore projects organized by their primary focus.
+
+<nav aria-label="Research sections" style="display: flex; flex-wrap: wrap; gap: 10px; margin: 1em 0 2.25em;"> <a href="#data-driven-dynamical-systems" style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">Data-Driven Dynamical Systems</a> <a href="#measure-transport" style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">Measure Transport</a>
+
+<a href="#scientific-machine-learning" style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">Scientific Machine Learning</a>
+
+</nav>
+
+<h2 id="data-driven-dynamical-systems" style="font-size: 2em; border-bottom: 4px solid #1f4e79; padding-bottom: 0.35em; margin: 1.5em 0 1em;">Data-Driven Dynamical Systems</h2>
+
+The primary goal of data-driven dynamical systems involves reconstructing essential properties of complex physical processes from observed measurement data. Depending on the application, this may involve identifying the dynamical laws governing a system’s evolution, reconstructing its full state from partial observations, or estimating quantities such as invariant measures and Lyapunov exponents from data. These tasks are especially challenging when dynamics are chaotic and high-dimensional, and when data is subject to measurement noise, sparse sampling, and uncertainty. Common strategies that seek pointwise agreement between model simulations and the observed data are fragile in these situations. Rather than directly modeling trajectories, my recent work in this area uses global statistical quantities and tools from measure transport to develop robust strategies for learning, predicting, and reconstructing dynamical systems.
+
+<h3>Data-Adaptive Learning of Dynamical Systems by Matching Transfer Operators and Invariant Measures</h3>
+
+Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang. <em>Preprint</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="Data-adaptive learning of dynamical systems" src="https://github.com/user-attachments/assets/80028e0f-fbc1-4e70-a111-c56c9be018f2"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> We introduce a transition-statistics approach to system identification that learns dynamics by matching the induced motion of probability mass across a data-adaptive mesh. Given trajectory data, we build an unstructured partition of state space and approximate the Perron–Frobenius operator with a regularized Ulam transition matrix. Our construction yields a Markov matrix supporting gradient-based optimization with respect to the parameters of a learned vector field. </span> <br><br> <a href="https://arxiv.org/abs/2607.00391">[arXiv]</a> <!-- <a href="JOURNAL-LINK">[journal]</a> --> <a href="https://github.com/Yinonghyn/Parameter-Identification-with-Data-Driven-Cells">[code]</a> </div> </td> </tr> </table>
+
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
+
+<h3 style="margin-bottom: 0.35em;">Measure-Theoretic Time-Delay Embedding</h3> Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang. <em>Journal of Statistical Physics</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/1feb4f9d-177d-41f5-883c-480cd3cdb4bb"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> The celebrated Takens' embedding theorem provides a theoretical foundation for reconstructing the full state of a dynamical system from partial observations. However, the classical theorem assumes that the underlying system is deterministic and that observations are noise-free, limiting its applicability in real-world scenarios. Motivated by these limitations, we formulate a measure-theoretic generalization that adopts an Eulerian description of the dynamics and recasts the embedding as a pushforward map between spaces of probability measures. </span> <br><br> <a href="https://arxiv.org/abs/2409.08768">[arXiv]</a> <a href="https://link.springer.com/article/10.1007/s10955-025-03555-1">[journal]</a> <a href="https://github.com/jrbotvinick/Measure-Theoretic-Time-Delay-Embedding">[code]</a>  <a href="{{ '/files/MDS24_Slides_JBG.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [slides]
+</a>  <!-- <a href="SLIDES-LINK">[slides]</a> --> </div> </td> </tr> </table>
+
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
+
+<h3>Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification</h3>
+
+Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Physical Review Letters</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/d2d92d64-6a8a-4103-8cc8-0871a5c707f1"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> Invariant measures are widely used to compare chaotic dynamical systems, as they offer robustness to noisy data, uncertain initial conditions, and irregular sampling. However, large classes of systems with distinct transient dynamics can still exhibit the same asymptotic statistical behavior, which poses challenges when invariant measures alone are used to perform system identification. Motivated by Takens’ seminal embedding theory, we propose studying invariant measures in time-delay coordinates, which exhibit enhanced sensitivity to the underlying dynamics. </span> <br><br> <a href="https://arxiv.org/abs/2412.00589v2">[arXiv]</a> <a href="https://journals.aps.org/prl/abstract/10.1103/ppys-lx68">[journal]</a> <a href="https://github.com/jrbotvinick/Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification">[code]</a>  <a href="{{ '/files/CSE25_Slides_Botvinick.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [slides]
+</a> <a href="{{ '/files/MDS24_Poster_Delay_Coordinate_Measures.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [poster]
+</a><!-- <a href="SLIDES-LINK">[slides]</a> --> </div> </td> </tr> </table>
+
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
+
+<h3>Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization</h3>
+
+Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/86eb0490-e677-4bee-ab78-37fa9d6329bb"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> We extend the methodology in [Yang et al., 2023] to learn autonomous continuous-time dynamical systems from invariant measures. The highlight of our approach is to reformulate the inverse problem of learning ODEs or SDEs from data as a PDE-constrained optimization problem. This shift in perspective allows us to learn from slowly sampled inference trajectories and perform uncertainty quantification for the forecasted dynamics. </span> <br><br> <a href="https://arxiv.org/abs/2301.05193">[arXiv]</a> <a href="https://pubs.aip.org/aip/cha/article/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE">[journal]</a> <a href="https://github.com/jrbotvinick/Learning-Dynamics-on-Invariant-Measures">[code]</a> <a href="{{ '/files/Jonah.Botvinick-Greenhouse.NNP.Slides.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [slides]
+</a> <a href="{{ '/files/Jonah_Botvinick_Learning_Dynamics_on_Invariant_Measures_IPAM_Poster (1).pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [poster]
+</a> <!-- <a href="SLIDES-LINK">[slides]</a> --> </div> </td> </tr> </table>
+
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
+
+<h3>An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems</h3>
+
+Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Casey Johnson, Robert S. Martin, Samuel J. Araki, Daniel Q. Eckhardt. <em>SIAM Journal on Applied Dynamical Systems</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/12ec6958-f5e9-49c9-b903-ce61d95d9078"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> To address noise inherent in electronic data acquisition systems and real world sources, Araki et al. [Physica D: Nonlinear Phenomena, 417 (2021) 132819] demonstrated a grid based nonlinear technique to remove noise from a chaotic signal, leveraging a clean high-fidelity signal from the same dynamical system and ensemble averaging in multidimensional phase space. This method achieved denoising of a time-series data with 100% added noise but suffered in regions of low data density. To improve this grid-based method, here an unstructured mesh based on triangulations and Voronoi diagrams is used to accomplish the same task. </span> <br><br> <a href="https://arxiv.org/abs/2209.05944">[arXiv]</a> <a href="https://epubs.siam.org/doi/10.1137/22M152092X">[journal]</a> <a href="https://github.com/atkirtland/denoising-clean">[code]</a> <a href="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [poster]
+</a> <!-- <a href="SLIDES-LINK">[slides]</a> --> </div> </td> </tr> </table>
+
+<hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
+
+<h2 id="measure-transport" style="font-size: 2em; border-bottom: 4px solid #1f4e79; padding-bottom: 0.35em; margin: 2.5em 0 1em;">Measure Transport</h2>
+
+<h3>On the Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data</h3>
+
+Jonah Botvinick-Greenhouse and Yunan Yang. <em>Preprint</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/3359113a-28f3-4f4d-87f8-3c5bf481a391"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> We establish guarantees for the unique recovery of vector fields and transport maps from finite measure-valued data, yielding new insights into generative models, data-driven dynamical systems, and PDE inverse problems. In particular, we provide general conditions under which a diffeomorphism can be uniquely identified from its pushforward action on finitely many densities, i.e., when the data $\{(ρ_j,f\#ρ_j)\}_{j=1}^m$ uniquely determines $f$. As a corollary, we introduce a new metric which compares diffeomorphisms by measuring the discrepancy between finitely many pushforward densities in the space of probability measures. </span> <br><br> <a href="https://arxiv.org/abs/2604.07671">[arXiv]</a> <a href="https://github.com/jrbotvinick/Transport-Map-and-Vector-Field-Recovery">[code]</a> <!-- <a href="SLIDES-LINK">[slides]</a> --> </div> </td> </tr> </table>
+
+<h3>Generative modeling of time-dependent densities via optimal transport and projection pursuit</h3>
+
+Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik. <em>Chaos: An Interdisciplinary Journal of Nonlinear Science</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/4c718d3b-989a-4270-a851-d1f816b8f68d"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> Motivated by the computational difficulties incurred by popular deep learning algorithms for the generative modeling of temporal densities, we propose a cheap alternative that requires minimal hyperparameter tuning and scales favorably to high-dimensional problems. In particular, we use a projection-based optimal transport solver [Meng et al., Advances in Neural Information Processing Systems (Curran Associates, 2019), Vol. 32] to join successive samples and, subsequently, use transport splines (Chewi et al., 2020) to interpolate the evolving density. </span> <br><br> <a href="https://arxiv.org/abs/2304.09663">[arXiv]</a> <a href="https://pubs.aip.org/aip/cha/article/33/10/103108/2915710/Generative-modeling-of-time-dependent-densities">[journal]</a> <a href="https://github.com/jrbotvinick/Dynamic-PPMM">[code]</a>  <a href="{{ '/files/SIAM_DS_2023.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [slides]
+</a> <a href="{{ '/files/Dynamic_PPMM_Poster_Full.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  [poster]
+</a> <!-- <a href="SLIDES-LINK">[slides]</a> --> </div> </td> </tr> </table>
+
+<h2 id="scientific-machine-learning" style="font-size: 2em; border-bottom: 4px solid #1f4e79; padding-bottom: 0.35em; margin: 2.5em 0 1em;">Scientific Machine Learning</h2>
+
+<h3>Operator Learning Surrogate Modeling of Hydraulically Fractured Geothermal Injection-Production Systems: A Cornell Case Study</h3>
+
+Yulong Liu, Jonah Botvinick-Greenhouse, Yunan Yang, and Chloé Arson. <em>U.S. Rock Mechanics/Geomechanics Symposium</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/d06cdbfd-559b-48a2-98b9-5bb979a8d975"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> Through its Climate Action Plan, Cornell University has committed to achieving carbon neutrality by 2035 and has supported the Earth Source Heat (ESH) project to demonstrate the viability of direct-use deep geothermal energy for district heating on its main campus in Ithaca, NY. To enable rapid inference and optimization of fracture-dominated doublet designs under CUBO site constraints, an operator learning surrogate model is trained on 5,500 finite-element (FE) simulations and evaluated on 498 unseen cases. </span> <br><br> <a href="https://onepetro.org/ARMAUSRMS/proceedings/ARMA26/ARMA26/D022S043R004/801293">[conference]</a> <!-- <a href="SLIDES-LINK">[slides]</a> --> </div> </td> </tr> </table>
+
+<h3>AB-PINNs: Adaptive-Basis Physics-Informed Neural Networks for Residual-Driven Domain Decomposition</h3>
+
+Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi. <em>Machine Learning: Science and Technology</em>.
+
+<table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/92c677ba-a197-441e-adf1-8b528bf4c7c6"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> We introduce adaptive-basis physics-informed neural networks (AB-PINNs), a novel approach to domain decomposition for training PINNs in which existing subdomains dynamically adapt to the intrinsic features of the unknown solution. Drawing inspiration from classical mesh refinement techniques, we also modify the domain decomposition on-the-fly throughout training by introducing new subdomains in regions of high residual loss, thereby providing additional expressive power where the solution of the differential equation is challenging to represent. </span> <br><br> <a href="https://arxiv.org/abs/2510.08924">[arXiv]</a> <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae8638">[journal]</a> <a href="https://github.com/merlresearch/ab-pinns">[code]</a> </div> </td> </tr> </table> <!-- Add paper entries here using the same table structure. -->
+
+</div>
+
 
 <nav aria-label="Research sections" style="display: flex; flex-wrap: wrap; gap: 10px; margin: 1em 0 2.25em;"> <a href="#data-driven-dynamical-systems" style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">Data-Driven Dynamical Systems</a> <a href="#measure-transport" style="display: inline-block; background: #edf7fd; border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; text-decoration: none; box-sizing: border-box; transition: border-color 0.15s ease;" onmouseover="this.style.borderColor='#1f4e79'" onmouseout="this.style.borderColor='transparent'" onfocus="this.style.borderColor='#1f4e79'" onblur="this.style.borderColor='transparent'">Measure Transport</a>
 
