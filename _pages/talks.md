@@ -179,7 +179,6 @@ An overview of part of my PhD research is provided in
 
 <section class="poster-showcase" aria-labelledby="selected-posters-heading">
 
-<h2 id="selected-posters-heading">Selected Posters</h2>
 
 <div class="poster-grid">
 
