@@ -230,7 +230,7 @@ author_profile: true
   <a href="https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_yxda609u"
      target="_blank"
      rel="noopener">
-  </a>.
+  </a>
 </p>
 
 </section>
