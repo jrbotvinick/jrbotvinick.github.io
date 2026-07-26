@@ -19,8 +19,7 @@ Data-Driven System Identification and State Reconstruction.” (September 2025)
 
 * UCSD Mathematics of Information, Data, and Signals Seminar. “Measure Transport Techniques for Modeling Dynamical Systems: Data-Driven System Identification and Attractor Reconstruction.” (May 2025)
 
-* SIAM Conference on Applications of Dynamical Systems, minisymposium on learning with dynamical systems and their observable statis-
-tics. “Invariant Measures for Data-Driven Dynamical System Identification.” (May 2025)
+* SIAM Conference on Applications of Dynamical Systems, minisymposium on learning with dynamical systems and their observable statistics. “Invariant Measures for Data-Driven Dynamical System Identification.” (May 2025)
 
 * Oberwolfach workshop on Computational Multiscale Methods. “Invariant Measures for Data-Driven Dynamical System Identification.” (April 2025)
 
