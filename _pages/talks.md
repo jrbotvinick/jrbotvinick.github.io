@@ -173,7 +173,7 @@ author_profile: true
 <p class="research-video">
 <a href="https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_yxda609u"
    target="_blank"
-   rel="noopener">This video</a> discusses some of my Ph.D. research using measure transport for data-driven system identification. 
+   rel="noopener">This video</a> discusses some of my Ph.D. research on measure transport for data-driven dynamical systems. 
 </p>
 
 <section class="poster-showcase" aria-labelledby="selected-posters-heading">
