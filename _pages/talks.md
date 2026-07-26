@@ -171,10 +171,9 @@ author_profile: true
 <aside class="poster-column">
 
 <p class="research-video">
-An overview of part of my PhD research is provided in
 <a href="https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_yxda609u"
    target="_blank"
-   rel="noopener">this video</a>.
+   rel="noopener">This video</a> discusses some of my Ph.D. research using measure transport for data-driven system identification. 
 </p>
 
 <section class="poster-showcase" aria-labelledby="selected-posters-heading">
