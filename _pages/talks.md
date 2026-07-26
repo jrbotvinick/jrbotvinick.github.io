@@ -72,3 +72,184 @@ on invariant measures using PDE-constrained optimization.” (April 2024)
 * Southern California REU conference (virtual). “An unstructured mesh approach to nonlinear noise reduction.” (July 2020)
 
 * UMass Amherst REU conference. “On a nonlinear random walk on graphs.” (July 2019)
+
+<style>
+  .poster-showcase {
+    margin-top: 2.5em;
+  }
+
+  .poster-showcase h2 {
+    margin-bottom: 0.8em;
+  }
+
+  .poster-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .poster-card {
+    min-width: 0;
+  }
+
+  .poster-preview {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #f5f5f5;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(31, 78, 121, 0.08);
+    transition:
+      transform 0.18s ease,
+      box-shadow 0.18s ease,
+      border-color 0.18s ease;
+  }
+
+  .poster-preview iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    pointer-events: none;
+  }
+
+  .poster-preview > a {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+
+  .poster-preview:hover,
+  .poster-preview:focus-within {
+    transform: translateY(-3px);
+    border-color: #1f4e79;
+    box-shadow: 0 7px 18px rgba(31, 78, 121, 0.18);
+  }
+
+  .poster-title {
+    display: block;
+    margin-top: 9px;
+    color: #1f4e79;
+    font-size: 0.95em;
+    font-weight: 600;
+    line-height: 1.35;
+    text-decoration: none !important;
+  }
+
+  .poster-title:hover,
+  .poster-title:focus {
+    text-decoration: underline !important;
+  }
+
+  @media (max-width: 700px) {
+    .poster-grid {
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+  }
+</style>
+
+<section class="poster-showcase" aria-labelledby="selected-posters-heading">
+  <h2 id="selected-posters-heading">Selected Posters</h2>
+
+  <div class="poster-grid">
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/MDS24_Poster_Delay_Coordinate_Measures.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of invariant measures in time-delay coordinates poster"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/MDS24_Poster_Delay_Coordinate_Measures.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Invariant Measures in Time-Delay Coordinates poster">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/MDS24_Poster_Delay_Coordinate_Measures.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+        Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification
+      </a>
+    </article>
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/Jonah_Botvinick_Learning_Dynamics_on_Invariant_Measures_IPAM_Poster (1).pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of learning dynamics on invariant measures poster"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/Jonah_Botvinick_Learning_Dynamics_on_Invariant_Measures_IPAM_Poster (1).pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Learning Dynamics on Invariant Measures poster">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/Jonah_Botvinick_Learning_Dynamics_on_Invariant_Measures_IPAM_Poster (1).pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+        Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
+      </a>
+    </article>
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of unstructured mesh noise reduction poster"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Unstructured Mesh Approach to Nonlinear Noise Reduction poster">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+        An Unstructured Mesh Approach to Nonlinear Noise Reduction
+      </a>
+    </article>
+
+  <article class="poster-card">
+      <div class="poster-preview">
+        <iframe
+          src="{{ '/files/Dynamic_PPMM_Poster_Full.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+          title="Preview of generative modeling of time-dependent densities poster"
+          loading="lazy"
+          tabindex="-1">
+        </iframe>
+        <a
+          href="{{ '/files/Dynamic_PPMM_Poster_Full.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener"
+          aria-label="Open Generative Modeling of Time-Dependent Densities poster">
+        </a>
+      </div>
+      <a
+        class="poster-title"
+        href="{{ '/files/Dynamic_PPMM_Poster_Full.pdf' | relative_url }}"
+        target="_blank"
+        rel="noopener">
+        Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
+      </a>
+    </article>
+
+  </div>
+</section>
