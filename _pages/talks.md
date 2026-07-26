@@ -274,22 +274,6 @@ author_profile: true
   </div>
 </article>
 
-<article class="poster-card">
-  <div class="poster-preview">
-    <iframe
-      src="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
-      title="Preview of Unstructured Mesh Approach to Nonlinear Noise Reduction poster"
-      loading="lazy"
-      tabindex="-1">
-    </iframe>
-    <a
-      href="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}"
-      target="_blank"
-      rel="noopener"
-      aria-label="Open Unstructured Mesh Approach to Nonlinear Noise Reduction poster">
-    </a>
-  </div>
-</article>
 
 <article class="poster-card">
   <div class="poster-preview">
@@ -304,6 +288,23 @@ author_profile: true
       target="_blank"
       rel="noopener"
       aria-label="Open Generative Modeling of Time-Dependent Densities poster">
+    </a>
+  </div>
+</article>
+
+<article class="poster-card">
+  <div class="poster-preview">
+    <iframe
+      src="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}#page=1&amp;view=Fit&amp;toolbar=0&amp;navpanes=0"
+      title="Preview of Unstructured Mesh Approach to Nonlinear Noise Reduction poster"
+      loading="lazy"
+      tabindex="-1">
+    </iframe>
+    <a
+      href="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="Open Unstructured Mesh Approach to Nonlinear Noise Reduction poster">
     </a>
   </div>
 </article>
