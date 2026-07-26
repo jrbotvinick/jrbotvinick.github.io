@@ -6,6 +6,33 @@ author_profile: true
 ---
 
 <div style="max-width: 1100px; margin: 0 auto; padding: 0 32px; box-sizing: border-box;">
+<style>
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 10px;
+  }
+
+  .publication-links a {
+    display: inline-block;
+    background: #edf7fd;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    color: #1f4e79;
+    font-size: 0.88em;
+    line-height: 1.2;
+    text-decoration: none !important;
+    transition: border-color 0.15s ease;
+  }
+
+  .publication-links a:hover,
+  .publication-links a:focus {
+    border-color: #1f4e79;
+  }
+</style>
 <p>Under construction</p>
 
 This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these three fields, you can use the buttons below to explore projects organized by their primary focus.
@@ -118,5 +145,23 @@ Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi. <em>
 
 <table border="0" cellpadding="12" cellspacing="0" style="border: none; border-collapse: collapse; width: 100%; font-size: inherit;"> <tr> <td width="38%" valign="top" style="border: none; padding: 12px 20px 12px 0; font-size: inherit;"> <a href="https://arxiv.org/abs/2607.00391"> <img width="431" alt="MTDE" src="https://github.com/user-attachments/assets/92c677ba-a197-441e-adf1-8b528bf4c7c6"> </a> </td> <td width="62%" valign="top" style="border: none; padding: 12px 0 12px 20px; font-size: inherit; line-height: inherit;"> <div style="background: #edf7fd; border-radius: 10px; padding: 18px 20px;"> <span style="font-size: 0.92em; line-height: 1.5;"> We introduce adaptive-basis physics-informed neural networks (AB-PINNs), a novel approach to domain decomposition for training PINNs in which existing subdomains dynamically adapt to the intrinsic features of the unknown solution. Drawing inspiration from classical mesh refinement techniques, we also modify the domain decomposition on-the-fly throughout training by introducing new subdomains in regions of high residual loss, thereby providing additional expressive power where the solution of the differential equation is challenging to represent. </span> <br><br> <a href="https://arxiv.org/abs/2510.08924">[arXiv]</a> <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae8638">[journal]</a> <a href="https://github.com/merlresearch/ab-pinns">[code]</a> </div> </td> </tr> </table> <!-- Add paper entries here using the same table structure. -->
 
-</div>
+<script>
+  document.querySelectorAll('td[width="62%"] > div').forEach(function (abstractBox) {
+    var links = Array.from(abstractBox.children).filter(function (element) {
+      return element.tagName === 'A';
+    });
 
+    if (!links.length) return;
+
+    var buttonRow = document.createElement('div');
+    buttonRow.className = 'publication-links';
+
+    links.forEach(function (link) {
+      link.textContent = link.textContent.trim().replace(/^\[|\]$/g, '');
+      buttonRow.appendChild(link);
+    });
+
+    abstractBox.insertAdjacentElement('afterend', buttonRow);
+  });
+</script>
+</div>
