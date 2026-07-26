@@ -106,6 +106,10 @@ author_profile: true
 
 .video-feature {
   margin-bottom: 2em;
+  padding: 18px;
+  background: #edf7fd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(31, 78, 121, 0.08);
 }
 
 .video-feature h2 {
@@ -132,7 +136,7 @@ author_profile: true
 }
 
 .video-caption {
-  margin-top: 0.8em;
+  margin: 0.9em 0 0;
   line-height: 1.5;
 }
 
@@ -227,10 +231,6 @@ author_profile: true
 
 <p class="video-caption">
   This seminar provides an overview of part of my PhD research.
-  <a href="https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_yxda609u"
-     target="_blank"
-     rel="noopener">
-  </a>
 </p>
 
 </section>
