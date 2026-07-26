@@ -1,6 +1,5 @@
 
 ---
-
 layout: archive
 title: Research
 permalink: /projects/
