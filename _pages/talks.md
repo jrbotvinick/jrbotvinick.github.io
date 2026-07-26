@@ -230,7 +230,7 @@ author_profile: true
 </div>
 
 <p class="video-caption">
-  This seminar provides an overview of part of my PhD research.
+  This ISCL Seminar provides an overview of part of my PhD research.
 </p>
 
 </section>
