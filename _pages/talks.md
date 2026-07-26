@@ -215,7 +215,6 @@ author_profile: true
 
 <section class="video-feature" aria-labelledby="research-video-heading">
 
-<h2 id="research-video-heading">Research Overview</h2>
 
 <div class="kaltura-video">
   <iframe
