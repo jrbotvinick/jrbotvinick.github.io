@@ -103,6 +103,49 @@ author_profile: true
     gap: 40px;
   }
 }
+
+.video-feature {
+  margin-bottom: 2em;
+}
+
+.video-feature h2 {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+.kaltura-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #111;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(31, 78, 121, 0.16);
+}
+
+.kaltura-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-caption {
+  margin-top: 0.8em;
+  line-height: 1.5;
+}
+
+.video-caption a {
+  color: #1f4e79;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.video-caption a:hover,
+.video-caption a:focus {
+  text-decoration: underline !important;
+}
 </style>
 
 <div class="talks-layout">
@@ -170,11 +213,29 @@ author_profile: true
 
 <aside class="poster-column">
 
-<p class="research-video">
-<a href="https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_yxda609u"
-   target="_blank"
-   rel="noopener">This video</a> discusses some of my Ph.D. research on measure transport for data-driven dynamical systems. 
+<section class="video-feature" aria-labelledby="research-video-heading">
+
+<h2 id="research-video-heading">Research Overview</h2>
+
+<div class="kaltura-video">
+  <iframe
+    src="https://www.kaltura.com/index.php/extwidget/preview/partner_id/2356971/uiconf_id/56368382/entry_id/1_yxda609u/embed/auto"
+    title="ISCL Seminar Series research overview"
+    allow="autoplay; fullscreen; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p class="video-caption">
+  This seminar provides an overview of part of my PhD research.
+  <a href="https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_yxda609u"
+     target="_blank"
+     rel="noopener">
+    Watch on Penn State MediaSpace
+  </a>.
 </p>
+
+</section>
 
 <section class="poster-showcase" aria-labelledby="selected-posters-heading">
 
