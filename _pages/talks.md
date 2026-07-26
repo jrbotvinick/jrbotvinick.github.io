@@ -175,7 +175,6 @@ on invariant measures using PDE-constrained optimization.” (April 2024)
         href="{{ '/files/MDS24_Poster_Delay_Coordinate_Measures.pdf' | relative_url }}"
         target="_blank"
         rel="noopener">
-        Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification
       </a>
   </article>
 
@@ -199,7 +198,6 @@ on invariant measures using PDE-constrained optimization.” (April 2024)
         href="{{ '/files/Jonah_Botvinick_Learning_Dynamics_on_Invariant_Measures_IPAM_Poster (1).pdf' | relative_url }}"
         target="_blank"
         rel="noopener">
-        Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization
       </a>
   </article>
 
@@ -223,7 +221,6 @@ on invariant measures using PDE-constrained optimization.” (April 2024)
         href="{{ '/files/RIPS_AFRL_poster.pdf' | relative_url }}"
         target="_blank"
         rel="noopener">
-        An Unstructured Mesh Approach to Nonlinear Noise Reduction
       </a>
   </article>
 
@@ -247,7 +244,6 @@ on invariant measures using PDE-constrained optimization.” (April 2024)
         href="{{ '/files/Dynamic_PPMM_Poster_Full.pdf' | relative_url }}"
         target="_blank"
         rel="noopener">
-        Generative Modeling of Time-Dependent Densities via Optimal Transport and Projection Pursuit
       </a>
   </article>
 
