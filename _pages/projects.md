@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-<div style="max-width: 1100px; margin: 0 auto; padding: 0 32px; box-sizing: border-box;">
+<div style="max-width: 1100px; margin: 0 auto; padding: 0; box-sizing: border-box;">
 <p>Under construction</p>
 
 This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these three fields, you can use the buttons below to explore projects organized by their primary focus.
