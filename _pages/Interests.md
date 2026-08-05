@@ -1,8 +1,18 @@
+---
+layout: archive
+permalink: /Interests/
+title: "Interests"
+author_profile: true
+redirect_from:
+  - /md/
+  - /markdown.html
+---
+
 <p class="interests-intro">
   Outside of research, I enjoy juggling, playing the cello, and playing ultimate.
-  I have been juggling since I was ten years old and love traveling to festivals
-  and competitions around the world to train with and meet other jugglers. I hold
-  several world records and have won several international competitions.
+  I have been juggling since I was ten years old, and have traveled internationally
+  for festivals and competitions. I hold several world records and have won several
+  international competitions.
 </p>
 
 <div class="interests-grid">
@@ -14,8 +24,6 @@
     <div class="card-content">
       <span class="card-tag">Cornell Chronicle</span>
       <h2>Going for Paris Gold</h2>
-      <p>A math scholar helps advance juggling’s Olympic bid.</p>
-      <span class="card-link">Read article <span>→</span></span>
     </div>
   </a>
 
@@ -25,8 +33,7 @@
      style="background-image: url('https://i.ytimg.com/vi/zc1ub9FYRJk/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">Performance</span>
-      <h2>Watch on YouTube</h2>
+      <span class="card-tag">Video</span>
       <span class="play-button">▶</span>
     </div>
   </a>
@@ -38,8 +45,6 @@
     <div class="card-content">
       <span class="card-tag">Amherst Magazine</span>
       <h2>Up in the Air</h2>
-      <p>Where competitive juggling, music, and mathematics meet.</p>
-      <span class="card-link">Read article <span>→</span></span>
     </div>
   </a>
 
@@ -49,8 +54,7 @@
      style="background-image: url('https://i.ytimg.com/vi/-8yZ23_1drA/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">Performance</span>
-      <h2>Watch on YouTube</h2>
+      <span class="card-tag">Video</span>
       <span class="play-button">▶</span>
     </div>
   </a>
@@ -61,8 +65,7 @@
      style="background-image: url('https://i.ytimg.com/vi/aAzgaujC2zA/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">YouTube Short</span>
-      <h2>Watch the short</h2>
+      <span class="card-tag">Short</span>
       <span class="play-button">▶</span>
     </div>
   </a>
@@ -73,8 +76,7 @@
      style="background-image: url('https://i.ytimg.com/vi/wr7pLOrZ-c4/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">YouTube Short</span>
-      <h2>Watch the short</h2>
+      <span class="card-tag">Short</span>
       <span class="play-button">▶</span>
     </div>
   </a>
@@ -169,30 +171,13 @@
     line-height: 1.15;
   }
 
-  .card-content p {
-    margin: 8px 0 0;
-    color: rgba(255, 255, 255, 0.92);
-    line-height: 1.4;
-  }
-
-  .card-link {
-    margin-top: 16px;
-    font-size: 0.9em;
-    font-weight: 700;
-  }
-
-  .card-link span {
-    margin-left: 4px;
-    font-size: 1.2em;
-  }
-
   .play-button {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 44px;
     height: 44px;
-    margin-top: 16px;
+    margin-top: 7px;
     border-radius: 50%;
     background: #e6342a;
     color: white;
