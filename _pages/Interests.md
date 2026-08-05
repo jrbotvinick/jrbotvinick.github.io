@@ -11,7 +11,7 @@ redirect_from:
 <p class="interests-intro">
   Outside of research, I enjoy juggling, playing the cello, and playing ultimate.
   I have been juggling since I was ten years old, and have traveled internationally
-  for festivals and competitions. I hold several world records and have won several
+  for festivals and competitions. I also hold various world records and have won several
   international competitions.
 </p>
 
