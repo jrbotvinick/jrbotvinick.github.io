@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
 permalink: /CV/
 author_profile: true
 ---
@@ -16,7 +15,7 @@ author_profile: true
        href="{{ '/files/CV.pdf' | relative_url }}"
        target="_blank"
        rel="noopener">
-      Open full CV in a new tab
+      Open CV in a new tab
     </a>
   </p>
 </div>
