@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /Interests/
-title: "Interests"
+title: "Outside of Research"
 author_profile: true
 redirect_from:
   - /md/
