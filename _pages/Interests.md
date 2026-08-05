@@ -33,7 +33,7 @@ redirect_from:
      style="background-image: url('https://i.ytimg.com/vi/zc1ub9FYRJk/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">Video</span>
+      <span class="card-tag">Cornell Chronicle Video</span>
       <span class="play-button">▶</span>
     </div>
   </a>
@@ -54,7 +54,7 @@ redirect_from:
      style="background-image: url('https://i.ytimg.com/vi/-8yZ23_1drA/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">Video</span>
+      <span class="card-tag">Halos Juggling Video</span>
       <span class="play-button">▶</span>
     </div>
   </a>
@@ -65,7 +65,7 @@ redirect_from:
      style="background-image: url('https://i.ytimg.com/vi/aAzgaujC2zA/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">Short</span>
+      <span class="card-tag">Top 40 Ranking</span>
       <span class="play-button">▶</span>
     </div>
   </a>
@@ -76,7 +76,7 @@ redirect_from:
      style="background-image: url('https://i.ytimg.com/vi/wr7pLOrZ-c4/maxresdefault.jpg');">
     <div class="card-overlay"></div>
     <div class="card-content">
-      <span class="card-tag">Short</span>
+      <span class="card-tag">WJF 20 Competition Routine</span>
       <span class="play-button">▶</span>
     </div>
   </a>
