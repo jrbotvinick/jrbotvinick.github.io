@@ -13,4 +13,4 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
 
 My research interests lie at the intersection of dynamical systems, optimal transport, scientific machine learning, numerical analysis, and inverse problems. For more information, please navigate to any of the following pages: [Research](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/),  [Curriculum Vitae](https://jrbotvinick.github.io/CV/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), [Slides](https://jrbotvinick.github.io/slides/), and [Interests Outside Research](https://jrbotvinick.github.io/interests/).
 
-Please feel free to contact me at <code>jonah.botvinick-greenhouse@yale.edu</code>.
+If you are interested in my research or have any questions, please feel free to reach out to me at <code>jonah.botvinick-greenhouse@yale.edu</code>.
