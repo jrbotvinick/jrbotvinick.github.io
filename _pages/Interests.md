@@ -20,7 +20,7 @@ redirect_from:
   <a class="interest-card article-card cornell-card"
      href="https://news.cornell.edu/stories/2024/06/going-paris-gold-math-scholar-aids-jugglings-olympic-bid#:~:text=Jonah%20Botvinick%2DGreenhouse%2C%20a%20doctoral,2."
      target="_blank" rel="noopener"
-style="background-image: url('https://news.cornell.edu/sites/default/files/styles/full_size/public/2024-06/0625_juggling_004_0.jpg?itok=DQ5N-gqS');">    <div class="card-overlay"></div>
+     style="background-image: url('{{ '/files/paris_gold.png' | relative_url }}');">
     <div class="card-content">
       <span class="card-tag">Cornell Chronicle</span>
       <h2>Going for Paris Gold</h2>
@@ -41,7 +41,7 @@ style="background-image: url('https://news.cornell.edu/sites/default/files/style
   <a class="interest-card article-card amherst-card"
      href="https://www.amherst.edu/news/magazine/issues/2025-spring/up-in-the-air"
      target="_blank" rel="noopener"
-     style="background-image: url('{{ '/files/up-in-the-air.png' | relative_url }}');">
+     style="background-image: url('{{ '/files/siteswap.png' | relative_url }}');">
     <div class="card-overlay"></div>
     <div class="card-content">
       <span class="card-tag">Amherst Magazine</span>
