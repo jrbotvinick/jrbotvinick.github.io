@@ -42,7 +42,7 @@ redirect_from:
   <a class="interest-card article-card amherst-card"
      href="https://www.amherst.edu/news/magazine/issues/2025-spring/up-in-the-air"
      target="_blank" rel="noopener"
-     style="background-image: url('{{ '/images/up-in-the-air.png' | relative_url }}');">
+     style="background-image: url('{{ '/files/up-in-the-air.png' | relative_url }}');">
     <div class="card-overlay"></div>
     <div class="card-content">
       <span class="card-tag">Amherst Magazine</span>
