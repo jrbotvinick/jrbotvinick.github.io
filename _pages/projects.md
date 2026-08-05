@@ -6,7 +6,6 @@ author_profile: true
 ---
 
 <div style="max-width: 1100px; margin: 0 auto; padding: 0; box-sizing: border-box;">
-<p>Under construction</p>
 
 This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these three fields, you can use the buttons below to explore projects organized by their primary focus.
 
@@ -83,6 +82,7 @@ Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Cas
 <hr style="border: 0; border-top: 1px solid #e8e8e8; margin: 1.25em 0;">
 
 <h2 id="measure-transport" style="font-size: 2em; border-bottom: 4px solid #1f4e79; padding-bottom: 0.35em; margin: 2.5em 0 1em;">Measure Transport</h2>
+
 
 <h3>On the Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data</h3>
 
