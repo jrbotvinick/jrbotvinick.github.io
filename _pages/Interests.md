@@ -8,6 +8,7 @@ redirect_from:
   - /markdown.html
 ---
 
+
 <p class="interests-intro">
   Outside of research, I enjoy juggling, playing the cello, and playing ultimate.
   I have been juggling since I was ten years old, and have traveled internationally
@@ -92,6 +93,8 @@ redirect_from:
     line-height: 1.7;
   }
 
+  
+  
   .interests-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -131,6 +134,13 @@ redirect_from:
 
   .amherst-card {
     background: linear-gradient(135deg, #361b57 0%, #71529b 53%, #bf9d5c 100%);
+  }
+
+  .cornell-card,
+  .amherst-card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 
   .card-overlay {
