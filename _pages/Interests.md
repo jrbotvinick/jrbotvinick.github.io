@@ -8,7 +8,6 @@ redirect_from:
   - /markdown.html
 ---
 
-
 <p class="interests-intro">
   Outside of research, I enjoy juggling, playing the cello, and playing ultimate.
   I have been juggling since I was ten years old, and have traveled internationally
@@ -19,8 +18,10 @@ redirect_from:
 <div class="interests-grid">
 
   <a class="interest-card article-card cornell-card"
-   href="https://news.cornell.edu/stories/2024/06/going-paris-gold-math-scholar-aids-jugglings-olympic-bid#:~:text=Jonah%20Botvinick%2DGreenhouse%2C%20a%20doctoral,2."
-   target="_blank" rel="noopener">
+     href="https://news.cornell.edu/stories/2024/06/going-paris-gold-math-scholar-aids-jugglings-olympic-bid#:~:text=Jonah%20Botvinick%2DGreenhouse%2C%20a%20doctoral,2."
+     target="_blank" rel="noopener">
+    <div class="card-overlay"></div>
+    <div class="card-content">
       <span class="card-tag">Cornell Chronicle</span>
       <h2>Going for Paris Gold</h2>
     </div>
@@ -38,8 +39,8 @@ redirect_from:
   </a>
 
   <a class="interest-card article-card amherst-card"
-   href="https://www.amherst.edu/news/magazine/issues/2025-spring/up-in-the-air"
-   target="_blank" rel="noopener">
+     href="https://www.amherst.edu/news/magazine/issues/2025-spring/up-in-the-air"
+     target="_blank" rel="noopener">
     <div class="card-overlay"></div>
     <div class="card-content">
       <span class="card-tag">Amherst Magazine</span>
@@ -90,8 +91,6 @@ redirect_from:
     line-height: 1.7;
   }
 
-  
-  
   .interests-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -126,28 +125,39 @@ redirect_from:
   }
 
   .cornell-card {
-    background: linear-gradient(135deg, #671c22 0%, #b31b1b 48%, #e0a28d 100%);
+    background: linear-gradient(
+      135deg,
+      #671c22 0%,
+      #b31b1b 48%,
+      #e0a28d 100%
+    );
   }
 
   .amherst-card {
-    background: linear-gradient(135deg, #361b57 0%, #71529b 53%, #bf9d5c 100%);
-  }
-
-  .cornell-card,
-  .amherst-card {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background: linear-gradient(
+      135deg,
+      #361b57 0%,
+      #71529b 53%,
+      #bf9d5c 100%
+    );
   }
 
   .card-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(4, 15, 25, 0.08) 0%, rgba(4, 15, 25, 0.82) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(4, 15, 25, 0.08) 0%,
+      rgba(4, 15, 25, 0.82) 100%
+    );
   }
 
   .article-card .card-overlay {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.55) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.55) 100%
+    );
   }
 
   .card-content {
@@ -186,11 +196,11 @@ redirect_from:
     width: 44px;
     height: 44px;
     margin-top: 7px;
+    padding-left: 2px;
     border-radius: 50%;
     background: #e6342a;
     color: white;
     font-size: 1em;
-    padding-left: 2px;
   }
 
   @media (max-width: 900px) {
