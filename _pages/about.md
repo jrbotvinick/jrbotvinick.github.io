@@ -11,13 +11,38 @@ redirect_from:
 
 
 
-I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang).
+<style>
+.research-focus {
+  float: right;
+  width: 285px;
+  max-width: 40%;
+  margin: 0.15em 0 0.8em 1.35em;
+  padding: 0.65em 0.8em;
+  background: #edf7fd;
+  border: 2px solid #1f4e79;
+  border-radius: 7px;
+  color: #254b67;
+  font-size: 0.94em;
+  line-height: 1.45;
+}
 
+@media (max-width: 600px) {
+  .research-focus {
+    float: none;
+    width: auto;
+    max-width: none;
+    margin: 0 0 1em;
+  }
+}
+</style>
 
-<div style="margin: 0.65em 0 0.85em; padding: 0.45em 0.75em; background: #edf7fd; border: 2px solid #1f4e79; border-radius: 7px; color: #254b67; line-height: 1.35;">
+<div class="research-focus">
   My research explores connections between dynamical systems and measure transport to develop theoretical and computational frameworks for modeling complex physical and biological processes from limited and corrupt data.
 </div>
 
-My dissertation was titled *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications.* During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021.
+I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). My dissertation was titled *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications.* During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021.
+
+<div style="clear: both;"></div>
+
 
 For more information, please navigate to any of the following pages: [Research](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/), [CV](https://jrbotvinick.github.io/CV/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), and [Outside of Research](https://jrbotvinick.github.io/Interests/). If you are interested in my work or have any questions, please feel free to reach out to me at [jonah.botvinick-greenhouse@yale.edu](mailto:jonah.botvinick-greenhouse@yale.edu).
