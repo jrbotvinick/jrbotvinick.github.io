@@ -17,31 +17,36 @@ For more information, please navigate to any of the following pages: [Research](
 
 <style>
 .research-videos {
-  margin: 2.25em 0 0;
+  margin: 2.75em 0 0;
 }
 
 .research-videos h2 {
-  margin-bottom: 0.35em;
+  margin-bottom: 0.28em;
 }
 
-.research-videos > p {
-  margin-top: 0;
+.research-videos-intro {
+  margin: 0 0 1.35em;
   color: #555;
 }
 
 .research-video-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
-  margin-top: 1.25em;
+  gap: 24px;
 }
 
 .research-video-card {
   overflow: hidden;
-  background: #f7fbfe;
-  border: 1px solid #d9e8f2;
-  border-radius: 12px;
-  box-shadow: 0 3px 12px rgba(31, 78, 121, 0.08);
+  background: #fff;
+  border: 1px solid #d8e5ee;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(31, 78, 121, 0.09);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.research-video-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 9px 25px rgba(31, 78, 121, 0.16);
 }
 
 .research-video-frame {
@@ -54,34 +59,41 @@ For more information, please navigate to any of the following pages: [Research](
   width: 100%;
   height: 100%;
   object-fit: contain;
+  background: #101820;
 }
 
 .research-video-text {
-  padding: 15px 17px 17px;
+  padding: 15px 18px 17px;
+  border-top: 1px solid #e8f0f5;
 }
 
 .research-video-text h3 {
-  margin: 0 0 0.35em;
+  margin: 0 0 0.3em;
   color: #1f4e79;
-  font-size: 1.05em;
+  font-size: 1.04em;
 }
 
 .research-video-text p {
   margin: 0;
-  font-size: 0.94em;
+  color: #4b5560;
+  font-size: 0.93em;
   line-height: 1.5;
 }
 
 @media (max-width: 700px) {
   .research-video-grid {
     grid-template-columns: 1fr;
+    gap: 18px;
   }
 }
 </style>
 
 <section class="research-videos" aria-labelledby="research-videos-heading">
   <h2 id="research-videos-heading">Research Visualizations</h2>
-  <p>A selection of computational demonstrations from my work in scientific machine learning and dynamical systems.</p>
+  <p class="research-videos-intro">
+    Computational demonstrations from my work in scientific machine learning,
+    dynamical systems, and inverse problems.
+  </p>
 
   <div class="research-video-grid">
 
