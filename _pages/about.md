@@ -23,8 +23,8 @@ redirect_from:
   border-radius: 7px;
   color: #254b67;
   font-size: 1em;
-  font-weight: 100;
-  line-height: 1.2;
+  font-weight: 300;
+  line-height: 1.45;
 }
 
 @media (max-width: 600px) {
