@@ -68,7 +68,7 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
 <div style="clear: both;"></div>
 
 <div class="research-keywords">
-  <p>Here are some keywords that commonly arise in my research:</p>
+  <p>Here are some keywords that commonly arise in my work:</p>
 
   <div class="keyword-list" aria-label="Research keywords">
     <span>Data-driven dynamical systems</span>
