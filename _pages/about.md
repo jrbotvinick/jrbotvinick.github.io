@@ -8,7 +8,24 @@ redirect_from:
   - /about.html
 ---
 
+Webpage under construction. 
+
 <style>
+.research-focus {
+  float: right;
+  width: 285px;
+  max-width: 40%;
+  margin: 0.15em 0 0.8em 1.35em;
+  padding: 0.65em 0.8em;
+  background: #edf7fd;
+  border: 2px solid #1f4e79;
+  border-radius: 7px;
+  color: #254b67;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
 .research-keywords {
   margin: 1.35em 0 1.6em;
 }
@@ -33,9 +50,24 @@ redirect_from:
   font-size: 0.9em;
   line-height: 1.25;
 }
+
+@media (max-width: 600px) {
+  .research-focus {
+    float: none;
+    width: auto;
+    max-width: none;
+    margin: 0 0 1em;
+  }
+}
 </style>
 
+<div class="research-focus">
+  My research explores connections between dynamical systems and measure transport to develop theoretical and computational frameworks for modeling complex physical and biological processes from limited and corrupt data.
+</div>
+
 I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021.
+
+<div style="clear: both;"></div>
 
 <div class="research-keywords">
   <p>These are some keywords that commonly arise in my research:</p>
