@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 
-
 I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of dynamical systems, optimal transport, scientific machine learning, and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). 
 
 My dissertation, *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications,* focused on using global statistical features of dynamical systems to construct robust surrogate models from limited and corrupt data. During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) (Sep. 2022 - Aug. 2025) and completed research internships at Argonne National Laboratory and Mitsubishi Electric Research Laboratories. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021. 
