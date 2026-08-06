@@ -22,7 +22,8 @@ redirect_from:
   border: 2px solid #1f4e79;
   border-radius: 7px;
   color: #254b67;
-  font-size: 0.94em;
+  font-size: 1em;
+  font-weight: 500;
   line-height: 1.45;
 }
 
