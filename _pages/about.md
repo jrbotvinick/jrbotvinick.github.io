@@ -7,120 +7,88 @@ redirect_from:
   - /about.html
 ---
 
+I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang).
 
-I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of dynamical systems, optimal transport, scientific machine learning, and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). 
+<div style="margin: 1.5em 0; padding: 1em 1.2em; background: #edf7fd; border-left: 4px solid #1f4e79; border-radius: 7px; color: #253746; line-height: 1.55;">
+  My research explores connections between dynamical systems and measure transport to develop theoretical and computational frameworks for modeling complex physical and biological processes from limited and corrupt data.
+</div>
 
-My dissertation, *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications,* focused on using global statistical features of dynamical systems to construct robust surrogate models from limited and corrupt data. During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Argonne National Laboratory and Mitsubishi Electric Research Laboratories. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021. 
+My dissertation, *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications,* focused on using global statistical features of dynamical systems to construct robust surrogate models from limited and corrupt data. During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Argonne National Laboratory and Mitsubishi Electric Research Laboratories. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021.
 
-For more information, please navigate to any of the following pages: [Research](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/),  [CV](https://jrbotvinick.github.io/CV/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), and [Outside of Research](https://jrbotvinick.github.io/Interests/). If you are interested in my research or have any questions, please feel free to reach out to me at <code>jonah.botvinick-greenhouse@yale.edu</code>.
+For more information, please navigate to any of the following pages: [Research](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/), [CV](https://jrbotvinick.github.io/CV/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), and [Outside of Research](https://jrbotvinick.github.io/Interests/). If you are interested in my research or have any questions, please feel free to reach out to me at [jonah.botvinick-greenhouse@yale.edu](mailto:jonah.botvinick-greenhouse@yale.edu).
 
 <style>
-.research-videos {
-  margin-top: 2.5em;
+.video-gallery {
+  margin: 2.5em 0;
 }
 
-.research-videos h2 {
-  margin-bottom: 0.3em;
+.video-gallery figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 2.5em;
 }
 
-.research-videos-intro {
-  margin: 0 0 1.25em;
-  color: #555;
-}
-
-.research-video-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
-}
-
-.research-video-card {
-  overflow: hidden;
-  background: #fff;
-  border: 1px solid #d9e5ed;
-  border-radius: 10px;
-  box-shadow: 0 3px 12px rgba(31, 78, 121, 0.08);
-}
-
-.research-video-card video {
+.video-gallery video {
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 360px;
+  max-width: 100%;
 }
 
-.research-video-text {
-  padding: 13px 16px 15px;
-  border-top: 1px solid #e8eef2;
-}
-
-.research-video-text h3 {
-  margin: 0 0 0.25em;
-  color: #1f4e79;
-  font-size: 1em;
-}
-
-.research-video-text p {
-  margin: 0;
+.video-gallery figcaption {
+  max-width: 720px;
+  margin-top: 0.65em;
   color: #555;
-  font-size: 0.92em;
+  font-size: 0.94em;
   line-height: 1.45;
+  text-align: center;
 }
 
 @media (max-width: 700px) {
-  .research-video-grid {
-    grid-template-columns: 1fr;
+  .video-gallery video {
+    height: auto;
+    width: 100%;
   }
 }
 </style>
 
-<section class="research-videos" aria-labelledby="research-videos-heading">
-  <h2 id="research-videos-heading">Research Visualizations</h2>
-  <p class="research-videos-intro">
-    Computational demonstrations from my work in scientific machine learning,
-    dynamical systems, and inverse problems.
-  </p>
+<div class="video-gallery">
 
-  <div class="research-video-grid">
+  <figure>
+    <video controls preload="metadata" playsinline>
+      <source src="{{ '/files/ppmm_fish.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>
+      Projection-pursuit measure matching evolves a distribution toward a complex target geometry.
+    </figcaption>
+  </figure>
 
-   <article class="research-video-card">
-      <video controls preload="metadata" playsinline>
-        <source src="{{ '/files/ppmm_fish.mp4' | relative_url }}" type="video/mp4">
-      </video>
-      <div class="research-video-text">
-        <h3>Projection-Pursuit Measure Matching</h3>
-        <p>A generative evolution of a distribution toward a complex target geometry.</p>
-      </div>
-    </article>
+  <figure>
+    <video controls preload="metadata" playsinline>
+      <source src="{{ '/files/NOAA Reconstruction-2-2.mp4' | relative_url | replace: ' ', '%20' }}" type="video/mp4">
+    </video>
+    <figcaption>
+      A reconstruction of global climate-state structure from partial NOAA observations.
+    </figcaption>
+  </figure>
 
-   <article class="research-video-card">
-      <video controls preload="metadata" playsinline>
-        <source src="{{ '/files/NOAA Reconstruction-2-2.mp4' | relative_url | replace: ' ', '%20' }}" type="video/mp4">
-      </video>
-      <div class="research-video-text">
-        <h3>NOAA Climate-State Reconstruction</h3>
-        <p>Reconstructing global structure from partial observations of climate data.</p>
-      </div>
-    </article>
+  <figure>
+    <video controls preload="metadata" playsinline>
+      <source src="{{ '/files/helmholtz.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>
+      A computational reconstruction for a Helmholtz inverse problem.
+    </figcaption>
+  </figure>
 
-   <article class="research-video-card">
-      <video controls preload="metadata" playsinline>
-        <source src="{{ '/files/helmholtz.mp4' | relative_url }}" type="video/mp4">
-      </video>
-      <div class="research-video-text">
-        <h3>Helmholtz Inverse Problem</h3>
-        <p>A visualization of computational recovery in a wave-based inverse problem.</p>
-      </div>
-    </article>
+  <figure>
+    <video controls preload="metadata" playsinline>
+      <source src="{{ '/files/inversion.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>
+      Recovering dynamical structure from finite measure-valued observations.
+    </figcaption>
+  </figure>
 
-   <article class="research-video-card">
-      <video controls preload="metadata" playsinline>
-        <source src="{{ '/files/inversion.mp4' | relative_url }}" type="video/mp4">
-      </video>
-      <div class="research-video-text">
-        <h3>Measure-Based Inversion</h3>
-        <p>Recovering dynamical structure from finite measure-valued observations.</p>
-      </div>
-    </article>
-
-  </div>
-</section>
+</div>
