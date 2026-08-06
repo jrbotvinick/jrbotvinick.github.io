@@ -3,7 +3,11 @@ permalink: /
 title: "Introduction"
 excerpt: "Introduction"
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
+
 
 
 I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of dynamical systems, optimal transport, scientific machine learning, and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). 
