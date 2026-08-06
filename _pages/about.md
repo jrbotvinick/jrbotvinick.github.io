@@ -11,7 +11,7 @@ redirect_from:
 <style>
 .research-focus {
   float: right;
-  width: 285px;
+  width: 300px;
   max-width: 40%;
   margin: 0.15em 0 0.8em 1.35em;
   padding: 0.65em 0.8em;
