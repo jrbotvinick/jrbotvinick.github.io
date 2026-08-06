@@ -108,7 +108,7 @@ For more information, please navigate to any of the following pages: [Research](
         <h3>Projection-Pursuit Measure Matching</h3>
         <p>A generative evolution of a distribution toward a complex target geometry.</p>
       </div>
-    </article>
+  </article>
 
   <article class="research-video-card">
       <div class="research-video-frame">
@@ -121,7 +121,7 @@ For more information, please navigate to any of the following pages: [Research](
         <h3>NOAA Climate-State Reconstruction</h3>
         <p>Reconstructing global structure from partial observations of climate data.</p>
       </div>
-    </article>
+  </article>
 
   <article class="research-video-card">
       <div class="research-video-frame">
@@ -134,7 +134,7 @@ For more information, please navigate to any of the following pages: [Research](
         <h3>Helmholtz Inverse Problem</h3>
         <p>A visualization of computational recovery in a wave-based inverse problem.</p>
       </div>
-    </article>
+  </article>
 
   <article class="research-video-card">
       <div class="research-video-frame">
