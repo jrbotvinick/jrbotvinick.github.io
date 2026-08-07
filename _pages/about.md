@@ -191,7 +191,7 @@ Here are some video illustrations from my research:
     },
     {
       src: "/files/NOAA%20Reconstruction-2-2.mp4",
-      description: "Measure-based state reconstruction of the NOAA SST dataset is more robust to noise and data sparsity than standard point wise reconstruction."
+      description: "Measure-based state reconstruction of the NOAA SST dataset is more robust to noise and data sparsity than standard pointwise reconstruction."
     },
     {
       src: "/files/inversion.mp4",
