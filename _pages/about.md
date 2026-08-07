@@ -90,6 +90,8 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   </div>
 </div>
 
+Here are some video illustrations from my research:
+
 <style>
 .video-carousel {
   margin: 1.7em 0 1.9em;
@@ -180,7 +182,6 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   </div>
 </div>
 
-Here are some video illustrations from my research:
 
 <script>
 (function () {
