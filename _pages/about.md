@@ -94,7 +94,7 @@ Here are some video illustrations from my research:
 
 <style>
 .video-carousel {
-  margin: 1.7em 0 1.9em;
+  margin: 1em 0 1.9em;
 }
 
 .video-carousel-stage {
@@ -169,7 +169,7 @@ Here are some video illustrations from my research:
     <button class="video-carousel-arrow" id="video-previous" type="button"
       aria-label="Show previous video">←</button>
 
-  <div class="video-carousel-main">
+    <div class="video-carousel-main">
       <video id="research-video" controls playsinline preload="metadata">
         Your browser does not support embedded videos.
       </video>
@@ -177,11 +177,10 @@ Here are some video illustrations from my research:
       <div class="video-carousel-count" id="video-count"></div>
     </div>
 
-  <button class="video-carousel-arrow" id="video-next" type="button"
+    <button class="video-carousel-arrow" id="video-next" type="button"
       aria-label="Show next video">→</button>
   </div>
 </div>
-
 
 <script>
 (function () {
@@ -195,23 +194,21 @@ Here are some video illustrations from my research:
       description: "Measure-based state reconstruction of the NOAA SST dataset is more robust to noise and data sparsity than standard point wise reconstruction."
     },
     {
-    {
       src: "/files/inversion.mp4",
       description: "Learning the vector field of the van der Pol oscillator by aligning simulated and observed invariant measures in a PDE-constrained optimization framework."
-    }
+    },
     {
       src: "/files/helmholtz.mp4",
       description: "Borrowing ideas from classical mesh refinement, adaptive-basis PINNs (AB-PINNs) provide localized and adaptive approximation capabilities for learning the solution of multiscale differential equations."
-    },
+    }
   ];
 
   let current = 0;
-
   const mainVideo = document.getElementById("research-video");
   const caption = document.getElementById("video-caption");
   const count = document.getElementById("video-count");
 
-  function firstFrame(video) {
+  function showFirstFrame(video) {
     video.addEventListener("loadeddata", function () {
       video.currentTime = 0.01;
     }, { once: true });
@@ -222,7 +219,7 @@ Here are some video illustrations from my research:
 
     mainVideo.pause();
     mainVideo.src = videos[current].src;
-    firstFrame(mainVideo);
+    showFirstFrame(mainVideo);
     mainVideo.load();
 
     caption.textContent = videos[current].description;
