@@ -90,7 +90,7 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   </div>
 </div>
 
-Here are some video illustrations from my research:
+Here are some video illustrations from my computational work:
 
 <style>
 .video-carousel {
