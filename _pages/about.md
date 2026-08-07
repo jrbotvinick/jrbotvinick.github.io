@@ -90,32 +90,56 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   </div>
 </div>
 
+Here are some video illustrations of my research:
 <style>
 .video-carousel {
-  margin: 1.6em 0 1.8em;
+  margin: 1.7em 0 1.9em;
 }
 
 .video-carousel-stage {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(105px, 18%) minmax(0, 1fr) minmax(105px, 18%);
   align-items: center;
-  gap: 0.7em;
+  gap: 0.8em;
 }
 
-.video-carousel-frame {
+.video-carousel-main {
   min-width: 0;
   text-align: center;
 }
 
-.video-carousel video {
+.video-carousel-main video {
   display: block;
   width: auto;
   max-width: 100%;
-  height: 340px;
-  max-height: 58vw;
+  max-height: 410px;
   margin: 0 auto;
-  background: #111;
   border-radius: 6px;
+}
+
+.video-preview {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #c9dfea;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #edf7fd;
+  cursor: pointer;
+}
+
+.video-preview:hover,
+.video-preview:focus {
+  border-color: #1f4e79;
+  box-shadow: 0 0 0 2px rgba(31, 78, 121, 0.13);
+}
+
+.video-preview video {
+  display: block;
+  width: 100%;
+  max-height: 125px;
+  object-fit: cover;
+  pointer-events: none;
 }
 
 .video-carousel-caption {
@@ -126,27 +150,8 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   line-height: 1.45;
 }
 
-.video-carousel-arrow {
-  width: 2.15em;
-  height: 2.15em;
-  padding: 0;
-  border: 1px solid #c9dfea;
-  border-radius: 50%;
-  background: #edf7fd;
-  color: #1f4e79;
-  font-size: 1.3em;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.video-carousel-arrow:hover,
-.video-carousel-arrow:focus {
-  background: #dceef8;
-  border-color: #1f4e79;
-}
-
 .video-carousel-count {
-  margin-top: 0.7em;
+  margin-top: 0.65em;
   text-align: center;
   color: #707070;
   font-size: 0.82em;
@@ -154,34 +159,41 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
 
 @media (max-width: 600px) {
   .video-carousel-stage {
-    gap: 0.35em;
+    grid-template-columns: 1fr;
+    gap: 0.6em;
   }
 
-  .video-carousel video {
-    height: auto;
-    max-height: none;
+  .video-preview {
+    display: none;
+  }
+
+  .video-carousel-main video {
     width: 100%;
+    max-height: none;
   }
 }
 </style>
 
 <div class="video-carousel" aria-label="Research videos">
   <div class="video-carousel-stage">
-    <button class="video-carousel-arrow" id="video-prev" type="button"
-      aria-label="Previous video">←</button>
+    <button class="video-preview" id="video-previous" type="button"
+      aria-label="Show previous video">
+      <video id="previous-preview" muted playsinline preload="metadata"></video>
+    </button>
 
-    <div class="video-carousel-frame">
-      <video id="research-video" controls preload="metadata">
+    <div class="video-carousel-main">
+      <video id="research-video" controls playsinline preload="metadata">
         Your browser does not support embedded videos.
       </video>
       <div class="video-carousel-caption" id="video-caption"></div>
+      <div class="video-carousel-count" id="video-count"></div>
     </div>
 
-    <button class="video-carousel-arrow" id="video-next" type="button"
-      aria-label="Next video">→</button>
+    <button class="video-preview" id="video-next" type="button"
+      aria-label="Show next video">
+      <video id="next-preview" muted playsinline preload="metadata"></video>
+    </button>
   </div>
-
-  <div class="video-carousel-count" id="video-count"></div>
 </div>
 
 <script>
@@ -206,20 +218,44 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   ];
 
   let current = 0;
-  const video = document.getElementById("research-video");
+
+  const mainVideo = document.getElementById("research-video");
+  const previousPreview = document.getElementById("previous-preview");
+  const nextPreview = document.getElementById("next-preview");
   const caption = document.getElementById("video-caption");
   const count = document.getElementById("video-count");
 
+  function firstFrame(video) {
+    video.addEventListener("loadeddata", function seekToFirstFrame() {
+      video.currentTime = 0.01;
+    }, { once: true });
+  }
+
+  function loadPreview(video, index) {
+    video.pause();
+    video.src = videos[index].src;
+    firstFrame(video);
+    video.load();
+  }
+
   function showVideo(index) {
     current = (index + videos.length) % videos.length;
-    video.pause();
-    video.src = videos[current].src;
-    video.load();
+    const previous = (current - 1 + videos.length) % videos.length;
+    const next = (current + 1) % videos.length;
+
+    mainVideo.pause();
+    mainVideo.src = videos[current].src;
+    firstFrame(mainVideo);
+    mainVideo.load();
+
+    loadPreview(previousPreview, previous);
+    loadPreview(nextPreview, next);
+
     caption.textContent = videos[current].description;
     count.textContent = (current + 1) + " / " + videos.length;
   }
 
-  document.getElementById("video-prev").addEventListener("click", function () {
+  document.getElementById("video-previous").addEventListener("click", function () {
     showVideo(current - 1);
   });
 
