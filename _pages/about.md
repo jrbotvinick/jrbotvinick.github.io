@@ -199,7 +199,7 @@ Here are some video illustrations from my research:
     },
     {
       src: "/files/helmholtz.mp4",
-      description: "Borrowing ideas from classical mesh refinement, adaptive-basis PINNs (AB-PINNs) provide localized and adaptive approximation capabilities for learning the solution of multiscale differential equations."
+      description: "Borrowing ideas from classical mesh refinement, Adaptive-Basis PINNs (AB-PINNs) provide localized and adaptive approximation capabilities for learning the solution of multiscale differential equations."
     }
   ];
 
