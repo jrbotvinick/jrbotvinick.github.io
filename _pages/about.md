@@ -60,7 +60,7 @@ redirect_from:
 </style>
 
 <div class="research-focus">
-  My research explores connections between dynamical systems and measure transport to develop theoretical and computational frameworks for modeling complex processes from corrupt, partially observed, and distributional data.
+  My research explores connections between dynamical systems and measure transport to develop theoretical and computational frameworks for modeling complex physical and biological processes from corrupt, partially observed, and distributional data.
 </div>
 
 I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). My dissertation was titled *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications.* During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned my M.Sc. in Applied Mathematics at Cornell University in 2024 and B.A.s in Mathematics and Physics at Amherst College in 2021.
