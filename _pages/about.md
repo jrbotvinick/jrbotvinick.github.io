@@ -167,7 +167,7 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
     <button class="video-carousel-arrow" id="video-previous" type="button"
       aria-label="Show previous video">←</button>
 
-    <div class="video-carousel-main">
+  <div class="video-carousel-main">
       <video id="research-video" controls playsinline preload="metadata">
         Your browser does not support embedded videos.
       </video>
@@ -175,12 +175,13 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
       <div class="video-carousel-count" id="video-count"></div>
     </div>
 
-    <button class="video-carousel-arrow" id="video-next" type="button"
+  <button class="video-carousel-arrow" id="video-next" type="button"
       aria-label="Show next video">→</button>
   </div>
 </div>
 
 Here are some video illustrations from my research:
+
 <script>
 (function () {
   const videos = [
