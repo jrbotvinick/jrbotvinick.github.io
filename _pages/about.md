@@ -90,7 +90,6 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   </div>
 </div>
 
-Here are some video illustrations of my research:
 <style>
 .video-carousel {
   margin: 1.7em 0 1.9em;
@@ -98,9 +97,9 @@ Here are some video illustrations of my research:
 
 .video-carousel-stage {
   display: grid;
-  grid-template-columns: minmax(105px, 18%) minmax(0, 1fr) minmax(105px, 18%);
+  grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  gap: 0.8em;
+  gap: 0.7em;
 }
 
 .video-carousel-main {
@@ -112,34 +111,28 @@ Here are some video illustrations of my research:
   display: block;
   width: auto;
   max-width: 100%;
-  max-height: 410px;
+  max-height: 460px;
   margin: 0 auto;
   border-radius: 6px;
 }
 
-.video-preview {
-  display: block;
-  width: 100%;
+.video-carousel-arrow {
+  width: 2.15em;
+  height: 2.15em;
   padding: 0;
   border: 1px solid #c9dfea;
-  border-radius: 6px;
-  overflow: hidden;
+  border-radius: 50%;
   background: #edf7fd;
+  color: #1f4e79;
+  font-size: 1.3em;
+  line-height: 1;
   cursor: pointer;
 }
 
-.video-preview:hover,
-.video-preview:focus {
+.video-carousel-arrow:hover,
+.video-carousel-arrow:focus {
+  background: #dceef8;
   border-color: #1f4e79;
-  box-shadow: 0 0 0 2px rgba(31, 78, 121, 0.13);
-}
-
-.video-preview video {
-  display: block;
-  width: 100%;
-  max-height: 125px;
-  object-fit: cover;
-  pointer-events: none;
 }
 
 .video-carousel-caption {
@@ -159,12 +152,7 @@ Here are some video illustrations of my research:
 
 @media (max-width: 600px) {
   .video-carousel-stage {
-    grid-template-columns: 1fr;
-    gap: 0.6em;
-  }
-
-  .video-preview {
-    display: none;
+    gap: 0.35em;
   }
 
   .video-carousel-main video {
@@ -176,10 +164,8 @@ Here are some video illustrations of my research:
 
 <div class="video-carousel" aria-label="Research videos">
   <div class="video-carousel-stage">
-    <button class="video-preview" id="video-previous" type="button"
-      aria-label="Show previous video">
-      <video id="previous-preview" muted playsinline preload="metadata"></video>
-    </button>
+    <button class="video-carousel-arrow" id="video-previous" type="button"
+      aria-label="Show previous video">←</button>
 
     <div class="video-carousel-main">
       <video id="research-video" controls playsinline preload="metadata">
@@ -189,10 +175,8 @@ Here are some video illustrations of my research:
       <div class="video-carousel-count" id="video-count"></div>
     </div>
 
-    <button class="video-preview" id="video-next" type="button"
-      aria-label="Show next video">
-      <video id="next-preview" muted playsinline preload="metadata"></video>
-    </button>
+    <button class="video-carousel-arrow" id="video-next" type="button"
+      aria-label="Show next video">→</button>
   </div>
 </div>
 
@@ -220,36 +204,22 @@ Here are some video illustrations of my research:
   let current = 0;
 
   const mainVideo = document.getElementById("research-video");
-  const previousPreview = document.getElementById("previous-preview");
-  const nextPreview = document.getElementById("next-preview");
   const caption = document.getElementById("video-caption");
   const count = document.getElementById("video-count");
 
   function firstFrame(video) {
-    video.addEventListener("loadeddata", function seekToFirstFrame() {
+    video.addEventListener("loadeddata", function () {
       video.currentTime = 0.01;
     }, { once: true });
   }
 
-  function loadPreview(video, index) {
-    video.pause();
-    video.src = videos[index].src;
-    firstFrame(video);
-    video.load();
-  }
-
   function showVideo(index) {
     current = (index + videos.length) % videos.length;
-    const previous = (current - 1 + videos.length) % videos.length;
-    const next = (current + 1) % videos.length;
 
     mainVideo.pause();
     mainVideo.src = videos[current].src;
     firstFrame(mainVideo);
     mainVideo.load();
-
-    loadPreview(previousPreview, previous);
-    loadPreview(nextPreview, next);
 
     caption.textContent = videos[current].description;
     count.textContent = (current + 1) + " / " + videos.length;
