@@ -180,25 +180,27 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   </div>
 </div>
 
+Here are some video illustrations from my research:
 <script>
 (function () {
   const videos = [
     {
       src: "/files/ppmm_fish.mp4",
-      description: "Projection-pursuit measure matching evolves a distribution toward a complex target geometry."
+      description: "Modeling fish schooling dynamics using projection pursuit optimal transport."
     },
     {
       src: "/files/NOAA%20Reconstruction-2-2.mp4",
-      description: "A reconstruction of global climate-state structure from partial NOAA observations."
+      description: "Measure-based state reconstruction of the NOAA SST dataset is more robust to noise and data sparsity than standard point wise reconstruction."
     },
     {
-      src: "/files/helmholtz.mp4",
-      description: "A computational reconstruction for a Helmholtz inverse problem."
-    },
     {
       src: "/files/inversion.mp4",
-      description: "Recovering dynamical structure from finite measure-valued observations."
+      description: "Learning the vector field of the van der Pol oscillator by aligning simulated and observed invariant measures in a PDE-constrained optimization framework."
     }
+    {
+      src: "/files/helmholtz.mp4",
+      description: "Borrowing ideas from classical mesh refinement, adaptive-basis PINNs (AB-PINNs) provide localized and adaptive approximation capabilities for learning the solution of multiscale differential equations."
+    },
   ];
 
   let current = 0;
