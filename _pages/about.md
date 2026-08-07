@@ -90,4 +90,145 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   </div>
 </div>
 
+<style>
+.video-carousel {
+  margin: 1.6em 0 1.8em;
+}
+
+.video-carousel-stage {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.7em;
+}
+
+.video-carousel-frame {
+  min-width: 0;
+  text-align: center;
+}
+
+.video-carousel video {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 340px;
+  max-height: 58vw;
+  margin: 0 auto;
+  background: #111;
+  border-radius: 6px;
+}
+
+.video-carousel-caption {
+  margin: 0.7em auto 0;
+  max-width: 720px;
+  color: #4a4a4a;
+  font-size: 0.95em;
+  line-height: 1.45;
+}
+
+.video-carousel-arrow {
+  width: 2.15em;
+  height: 2.15em;
+  padding: 0;
+  border: 1px solid #c9dfea;
+  border-radius: 50%;
+  background: #edf7fd;
+  color: #1f4e79;
+  font-size: 1.3em;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.video-carousel-arrow:hover,
+.video-carousel-arrow:focus {
+  background: #dceef8;
+  border-color: #1f4e79;
+}
+
+.video-carousel-count {
+  margin-top: 0.7em;
+  text-align: center;
+  color: #707070;
+  font-size: 0.82em;
+}
+
+@media (max-width: 600px) {
+  .video-carousel-stage {
+    gap: 0.35em;
+  }
+
+  .video-carousel video {
+    height: auto;
+    max-height: none;
+    width: 100%;
+  }
+}
+</style>
+
+<div class="video-carousel" aria-label="Research videos">
+  <div class="video-carousel-stage">
+    <button class="video-carousel-arrow" id="video-prev" type="button"
+      aria-label="Previous video">←</button>
+
+    <div class="video-carousel-frame">
+      <video id="research-video" controls preload="metadata">
+        Your browser does not support embedded videos.
+      </video>
+      <div class="video-carousel-caption" id="video-caption"></div>
+    </div>
+
+    <button class="video-carousel-arrow" id="video-next" type="button"
+      aria-label="Next video">→</button>
+  </div>
+
+  <div class="video-carousel-count" id="video-count"></div>
+</div>
+
+<script>
+(function () {
+  const videos = [
+    {
+      src: "/files/ppmm_fish.mp4",
+      description: "Projection-pursuit measure matching evolves a distribution toward a complex target geometry."
+    },
+    {
+      src: "/files/NOAA%20Reconstruction-2-2.mp4",
+      description: "A reconstruction of global climate-state structure from partial NOAA observations."
+    },
+    {
+      src: "/files/helmholtz.mp4",
+      description: "A computational reconstruction for a Helmholtz inverse problem."
+    },
+    {
+      src: "/files/inversion.mp4",
+      description: "Recovering dynamical structure from finite measure-valued observations."
+    }
+  ];
+
+  let current = 0;
+  const video = document.getElementById("research-video");
+  const caption = document.getElementById("video-caption");
+  const count = document.getElementById("video-count");
+
+  function showVideo(index) {
+    current = (index + videos.length) % videos.length;
+    video.pause();
+    video.src = videos[current].src;
+    video.load();
+    caption.textContent = videos[current].description;
+    count.textContent = (current + 1) + " / " + videos.length;
+  }
+
+  document.getElementById("video-prev").addEventListener("click", function () {
+    showVideo(current - 1);
+  });
+
+  document.getElementById("video-next").addEventListener("click", function () {
+    showVideo(current + 1);
+  });
+
+  showVideo(0);
+})();
+</script>
+
 For more information, please navigate to any of the following pages: [Research](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/), [CV](https://jrbotvinick.github.io/CV/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), and [Outside of Research](https://jrbotvinick.github.io/Interests/). If you are interested in my work or have any questions, please feel free to reach out to me at [jonah.botvinick-greenhouse@yale.edu](mailto:jonah.botvinick-greenhouse@yale.edu).
