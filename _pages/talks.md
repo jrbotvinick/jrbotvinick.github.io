@@ -156,7 +156,7 @@ author_profile: true
 
 <section class="talks-column" markdown="1">
 
-* MSRNE Generative Modeling & Sampling Workshop, contributed talk. “Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data.” (Upcoming August 2026)
+* MSRNE Generative Modeling & Sampling Workshop, contributed talk. “Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data.” (August 2026)
   
 * SIAM UQ, minisymposium on measure flows for inverse problems and machine learning. “Invariant Measures for Data-Driven Dynamical System Identification.” (March 2026)
 
