@@ -1,5 +1,6 @@
 <ul class="news-list">
-  <li><strong> 08/2026 I gave a talk at the [MSRNE Generative Modeling & Sampling Workshop](https://www.microsoft.com/en-us/research/event/msrne-generative-modeling-sampling-workshop/) presenting our recent work [``On the Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data."](https://arxiv.org/abs/2604.07671)</li>
-  <li><strong>July 20, 2026:</strong> I joined Yale’s Institute for Foundations of Data Science as a Postdoctoral Fellow.</li>
-  <li><strong>July 2, 2026:</strong> Our preprint on learning dynamical systems by matching transition matrices and invariant measures is now available on <a href="https://arxiv.org/abs/2607.00391">arXiv</a>.</li>
+  <li><strong>08/26:</strong> I gave a talk at the <a href="https://www.microsoft.com/en-us/research/event/msrne-generative-modeling-sampling-workshop/">MSRNE Generative Modeling &amp; Sampling Workshop</a>, presenting our recent work, <a href="https://arxiv.org/abs/2604.07671">“On the Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data.”</a></li>
+  <li><strong>07/26:</strong> I joined Yale’s <a href="https://fds.yale.edu">Institute for Foundations of Data Science</a> as a Postdoctoral Fellow.</li>
+  <li><strong>07/26:</strong> Our new preprint on matching invariant measures and transition matrices for data-driven dynamical system learning is available on <a href="https://arxiv.org/abs/2607.00391">arXiv</a>.</li>
+    <li><strong>06/26:</strong> I completed my thesis defense and submitted my dissertation ``Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications"</li>
 </ul>
