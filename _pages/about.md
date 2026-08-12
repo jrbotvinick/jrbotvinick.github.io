@@ -58,16 +58,16 @@ redirect_from:
   border: 2px solid #111;
   border-radius: 7px;
   color: #111;
-  font-size: 0.96em;
-  font-weight: 600;
+  font-size: 0.9em;
+  font-weight: 300;
   line-height: 1.45;
 }
 
 .news-bubble-title {
   margin: 0 0 0.55em;
   color: #111;
-  font-size: 1.12em;
-  font-weight: 700;
+  font-size: 1.4em;
+  font-weight: 300;
 }
 
 .news-list {
