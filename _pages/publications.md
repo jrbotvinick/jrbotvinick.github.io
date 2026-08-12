@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+
 **Preprints**
 
 * Yinong Huang, **Jonah Botvinick-Greenhouse**, and Yunan Yang. “Data-Adaptive Learning of Dynamical Systems by Matching Transfer Operators and Invariant Measures”. arXiv preprint [arXiv:2607.00391](https://arxiv.org/abs/2607.00391) (2026).
