@@ -220,21 +220,21 @@ For more information, please navigate to any of the following pages: [Research](
       <p class="video-carousel-caption">Learning dynamical systems from evolving probability measures.</p>
     </div>
 
-    <div class="video-carousel-slide">
+   <div class="video-carousel-slide">
       <video controls playsinline preload="auto">
         <source src="{{ '/files/NOAA%20Reconstruction-2-2.mp4' | relative_url }}" type="video/mp4">
       </video>
       <p class="video-carousel-caption">Reconstructing dynamics from partially observed climate data.</p>
     </div>
 
-    <div class="video-carousel-slide">
+   <div class="video-carousel-slide">
       <video controls playsinline preload="auto">
         <source src="{{ '/files/inversion.mp4' | relative_url }}" type="video/mp4">
       </video>
       <p class="video-carousel-caption">Recovering transport maps and vector fields from measure-valued data.</p>
     </div>
 
-    <div class="video-carousel-slide">
+  <div class="video-carousel-slide">
       <video controls playsinline preload="auto">
         <source src="{{ '/files/helmholtz.mp4' | relative_url }}" type="video/mp4">
       </video>
