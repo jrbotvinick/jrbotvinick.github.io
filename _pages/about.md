@@ -65,8 +65,6 @@ Welcome! I am a Postdoctoral Fellow in the [Institute for Foundations of Data Sc
 
 <div style="clear: both;"></div>
 
-Here are some video illustrations from my computational work:
-
 <style>
 .video-carousel {
   margin: 1em 0 1.9em;
