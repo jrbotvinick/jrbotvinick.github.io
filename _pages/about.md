@@ -10,11 +10,10 @@ redirect_from:
 
 <style>
 .research-focus {
-  float: right;
-  width: 300px;
-  max-width: 40%;
-  margin: 0.15em 0 0.8em 1.35em;
-  padding: 0.65em 0.8em;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1.2em 0 1.6em;
+  padding: 0.8em 1.1em;
   background: #edf7fd;
   border: 2px solid #1f4e79;
   border-radius: 7px;
@@ -22,6 +21,7 @@ redirect_from:
   font-size: 1em;
   font-weight: 500;
   line-height: 1.45;
+  text-align: center;
 }
 
 .research-keywords {
@@ -61,7 +61,11 @@ redirect_from:
 
 
 
-I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems.  In particular, my work explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.
+I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems.  
+
+<div class="research-focus">
+  My work explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.
+</div>
 
 <div style="clear: both;"></div>
 
