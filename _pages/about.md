@@ -21,7 +21,7 @@ redirect_from:
   font-size: 1em;
   font-weight: 500;
   line-height: 1.45;
-  text-align: center;
+  text-align: left;
 }
 
 .research-keywords {
