@@ -64,11 +64,11 @@ redirect_from:
 }
 
 .news-bubble-title {
-  margin: 0 0 0.3em;
+  margin: 0 0 0.1em;
   color: #111;
   font-size: 1.15em;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.1;
 }
 
 .news-list {
@@ -97,18 +97,17 @@ redirect_from:
   text-decoration: none;
 }
 
-.news-archive-link:hover {
-  color: inherit;
+.news-archive-link {
+  display: inline-block;
+  margin-top: 0.55em;
+  color: #1f4e79 !important;
+  font-weight: 300;
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
-  .research-focus {
-    float: none;
-    width: auto;
-    max-width: none;
-    margin: 0 0 1em;
-  }
+.news-archive-link:hover {
+  color: #1f4e79 !important;
+  text-decoration: underline;
 }
 </style>
 
