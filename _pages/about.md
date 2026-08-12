@@ -59,36 +59,11 @@ redirect_from:
 }
 </style>
 
-<div class="research-focus">
-  My research explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.
-</div>
 
-Welcome! I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). My dissertation was titled *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications.* During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021.
+
+Welcome! I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). My dissertation was titled *Measure Transport for Data-Driven Dynamical Systems: Theory, Algorithms, and Applications.* During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems.  In particular, my research explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.
 
 <div style="clear: both;"></div>
-
-<div class="research-keywords">
-  <p>Here are some keywords that commonly arise in my work:</p>
-
-  <div class="keyword-list" aria-label="Research keywords">
-    <span>Data-driven dynamical systems</span>
-    <span>Optimal transport</span>
-    <span>Measure transport</span>
-    <span>Inverse problems</span>
-    <span>Ergodic theory</span>
-    <span>Invariant measures</span>
-    <span>Perron–Frobenius operators</span>
-    <span>Koopman operators</span>
-    <span>Time-delay embedding</span>
-    <span>Finite-data identifiability</span>
-    <span>PDE inverse problems</span>
-    <span>Generative models</span>
-    <span>System identification</span>
-    <span>State reconstruction</span>
-    <span>Fokker–Planck equations</span>
-    <span>Operator learning</span>
-  </div>
-</div>
 
 Here are some video illustrations from my computational work:
 
