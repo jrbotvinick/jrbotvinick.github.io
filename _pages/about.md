@@ -122,6 +122,6 @@ For more information, please navigate to any of the following pages: [Research](
   {% include news-list.md %}
 
   <a class="news-archive-link" href="{{ '/news/' | relative_url }}">
-    View all news
+    News archive
   </a>
 </div>
