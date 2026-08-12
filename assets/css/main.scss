@@ -48,3 +48,19 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
+
+body,
+.page__content,
+.archive,
+.sidebar,
+.author__bio {
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.author__name,
+.news-bubble-title {
+  font-weight: 500;
+}
