@@ -128,18 +128,12 @@ My research interests lie at the intersection of data-driven dynamical systems, 
 
 For more information, please navigate to any of the following pages: [Research](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/), [CV](https://jrbotvinick.github.io/CV/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), and [Outside of Research](https://jrbotvinick.github.io/Interests/). If you are interested in my work or have any questions, please feel free to reach out to me at [jonah.botvinick-greenhouse@yale.edu](mailto:jonah.botvinick-greenhouse@yale.edu).
 
-{% assign recent_news = site.news | sort: "date" | reverse %}
-{% if recent_news.size > 0 %}
-<div class="news-bubble">
+<div class="news-bubble home-news">
   <p class="news-bubble-title">News</p>
-  <ul class="news-list">
-    {% for item in recent_news limit: 7 %}
-      <li>
-        <span class="news-date">{{ item.date | date: "%B %-d, %Y" }}:</span>
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-  <a class="news-archive-link" href="{{ '/news/' | relative_url }}">View all news</a>
+
+  {% include news-list.md %}
+
+  <a class="news-archive-link" href="{{ '/news/' | relative_url }}">
+    View all news
+  </a>
 </div>
-{% endif %}
