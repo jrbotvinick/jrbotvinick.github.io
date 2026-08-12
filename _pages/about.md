@@ -64,11 +64,7 @@ redirect_from:
 }
 
 .news-bubble-title {
-  margin: 0 0 0.1em;
-  color: #111;
-  font-size: 1.15em;
-  font-weight: 700;
-  line-height: 1.1;
+  font-weight: 500;
 }
 
 .news-list {
