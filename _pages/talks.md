@@ -160,8 +160,6 @@ author_profile: true
   
 * SIAM UQ, minisymposium on measure flows for inverse problems and machine learning. “Invariant Measures for Data-Driven Dynamical System Identification.” (March 2026)
 
-* SIAM UQ, minisymposium on measure flows for inverse problems and machine learning. “Invariant Measures for Data-Driven Dynamical System Identification.” (March 2026)
-
 * Yale University, Lu Group. “Measure Transport for Modeling Dynamical Systems: Data-Driven System Identification and State Reconstruction.” (December 2025)
 
 * Yale University, Krishnaswamy Lab. “Measure Transport for Modeling Dynamical Systems: System Identification and State Reconstruction.” (December 2025)
