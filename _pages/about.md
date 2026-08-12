@@ -41,10 +41,10 @@ redirect_from:
 .keyword-list span {
   display: inline-block;
   padding: 0.3em 0.6em;
-  background: #edf7fd;
-  border: 1px solid #c9dfea;
+  background: #f2f2f2;
+  border: 1px solid #111;
   border-radius: 5px;
-  color: #254b67;
+  color: #111;
   font-size: 0.9em;
   line-height: 1.25;
 }
@@ -54,10 +54,10 @@ redirect_from:
   box-sizing: border-box;
   margin: 1.8em 0 1.6em;
   padding: 0.55em 1.1em 0.65em;
-  background: #edf7fd;
-  border: 1px solid #c9dfea;
+  background: #f2f2f2;
+  border: 1px solid #111;
   border-radius: 7px;
-  color: #254b67;
+  color: #111;
   font-size: 0.9em;
   font-weight: 300;
   line-height: 1.45;
@@ -98,6 +98,7 @@ redirect_from:
   text-decoration: underline;
 }
 
+/* Research-video carousel: no outer bubble. */
 .research-video-carousel {
   margin: 1.8em 0 1.6em;
 }
@@ -109,14 +110,6 @@ redirect_from:
   font-weight: 500;
 }
 
-.video-carousel-frame {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid #c9dfea;
-  border-radius: 7px;
-  background: #111;
-}
-
 .video-carousel-slide {
   display: none;
 }
@@ -125,17 +118,50 @@ redirect_from:
   display: block;
 }
 
-.video-carousel-slide video {
+.video-carousel-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #111;
+  box-shadow: 0 3px 12px rgba(31, 78, 121, 0.16);
+}
+
+.video-carousel-media video {
   display: block;
   width: 100%;
   max-height: 430px;
   background: #111;
 }
 
+.video-play-toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.58);
+  color: white;
+  font-size: 1.1em;
+  line-height: 1;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.18s ease;
+}
+
+.video-carousel-media:hover .video-play-toggle,
+.video-play-toggle:focus {
+  opacity: 1;
+}
+
 .video-carousel-caption {
-  margin: 0;
-  padding: 0.6em 0.8em;
-  background: #edf7fd;
+  margin: 0.55em 0 0;
   color: #254b67;
   font-size: 0.9em;
   line-height: 1.4;
@@ -213,32 +239,44 @@ For more information, please navigate to any of the following pages: [Research](
 <div class="research-video-carousel">
   <p class="research-video-carousel-title">Research Videos</p>
 
-  <div class="video-carousel-frame">
+  <div class="video-carousel">
     <div class="video-carousel-slide active">
-      <video controls playsinline preload="auto">
-        <source src="{{ '/files/ppmm_fish.mp4' | relative_url }}" type="video/mp4">
-      </video>
+      <div class="video-carousel-media">
+        <video controls playsinline preload="auto">
+          <source src="{{ '/files/ppmm_fish.mp4' | relative_url }}" type="video/mp4">
+        </video>
+        <button class="video-play-toggle" type="button" aria-label="Play or pause video">▶</button>
+      </div>
       <p class="video-carousel-caption">Learning dynamical systems from evolving probability measures.</p>
     </div>
 
     <div class="video-carousel-slide">
-      <video controls playsinline preload="auto">
-        <source src="{{ '/files/NOAA%20Reconstruction-2-2.mp4' | relative_url }}" type="video/mp4">
-      </video>
+      <div class="video-carousel-media">
+        <video controls playsinline preload="auto">
+          <source src="{{ '/files/NOAA%20Reconstruction-2-2.mp4' | relative_url }}" type="video/mp4">
+        </video>
+        <button class="video-play-toggle" type="button" aria-label="Play or pause video">▶</button>
+      </div>
       <p class="video-carousel-caption">Reconstructing dynamics from partially observed climate data.</p>
     </div>
 
     <div class="video-carousel-slide">
-      <video controls playsinline preload="auto">
-        <source src="{{ '/files/inversion.mp4' | relative_url }}" type="video/mp4">
-      </video>
+      <div class="video-carousel-media">
+        <video controls playsinline preload="auto">
+          <source src="{{ '/files/inversion.mp4' | relative_url }}" type="video/mp4">
+        </video>
+        <button class="video-play-toggle" type="button" aria-label="Play or pause video">▶</button>
+      </div>
       <p class="video-carousel-caption">Recovering transport maps and vector fields from measure-valued data.</p>
     </div>
 
     <div class="video-carousel-slide">
-      <video controls playsinline preload="auto">
-        <source src="{{ '/files/helmholtz.mp4' | relative_url }}" type="video/mp4">
-      </video>
+      <div class="video-carousel-media">
+        <video controls playsinline preload="auto">
+          <source src="{{ '/files/helmholtz.mp4' | relative_url }}" type="video/mp4">
+        </video>
+        <button class="video-play-toggle" type="button" aria-label="Play or pause video">▶</button>
+      </div>
       <p class="video-carousel-caption">Inverse problems and scientific machine learning for complex systems.</p>
     </div>
   </div>
@@ -258,23 +296,34 @@ document.addEventListener("DOMContentLoaded", function () {
   const count = document.querySelector(".video-carousel-count");
   let currentSlide = 0;
 
+  function setToggleIcon(video, button) {
+    button.textContent = video.paused ? "▶" : "❚❚";
+  }
+
   function showSlide(index, shouldPlay) {
     currentSlide = (index + slides.length) % slides.length;
 
     slides.forEach(function (slide, i) {
       const video = slide.querySelector("video");
+      const button = slide.querySelector(".video-play-toggle");
+
       slide.classList.toggle("active", i === currentSlide);
 
       if (i !== currentSlide) {
         video.pause();
-        video.currentTime = 0;
+        setToggleIcon(video, button);
       }
     });
 
     count.textContent = (currentSlide + 1) + " / " + slides.length;
 
     if (shouldPlay) {
-      slides[currentSlide].querySelector("video").play().catch(function () {});
+      const activeVideo = slides[currentSlide].querySelector("video");
+      const activeButton = slides[currentSlide].querySelector(".video-play-toggle");
+
+      activeVideo.currentTime = 0;
+      activeVideo.play().catch(function () {});
+      setToggleIcon(activeVideo, activeButton);
     }
   }
 
@@ -287,7 +336,26 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   slides.forEach(function (slide, index) {
-    slide.querySelector("video").addEventListener("ended", function () {
+    const video = slide.querySelector("video");
+    const button = slide.querySelector(".video-play-toggle");
+
+    button.addEventListener("click", function () {
+      if (video.paused) {
+        video.play().catch(function () {});
+      } else {
+        video.pause();
+      }
+    });
+
+    video.addEventListener("play", function () {
+      setToggleIcon(video, button);
+    });
+
+    video.addEventListener("pause", function () {
+      setToggleIcon(video, button);
+    });
+
+    video.addEventListener("ended", function () {
       if (index === currentSlide) {
         showSlide(currentSlide + 1, true);
       }
