@@ -53,9 +53,9 @@ redirect_from:
   width: 100%;
   box-sizing: border-box;
   margin: 1.8em 0 1.6em;
-  padding: 0.9em 1.1em 1em;
+  padding: 0.55em 1.1em 0.65em;
   background: #f2f2f2;
-  border: 2px solid #111;
+  border: 1px solid #111;
   border-radius: 7px;
   color: #111;
   font-size: 0.9em;
@@ -64,10 +64,11 @@ redirect_from:
 }
 
 .news-bubble-title {
-  margin: 0 0 0.55em;
+  margin: 0 0 0.3em;
   color: #111;
-  font-size: 1.4em;
-  font-weight: 300;
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .news-list {
@@ -87,17 +88,18 @@ redirect_from:
   display: none;
 }
 
+/* Matches the site's ordinary hyperlink styling. */
 .news-archive-link {
-  display: inline-block;
-  margin-top: 0.8em;
-  color: #111 !important;
-  font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
 }
 
 .news-archive-link:hover {
-  color: #555 !important;
+  color: inherit;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
@@ -110,9 +112,9 @@ redirect_from:
 }
 </style>
 
-I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in [Applied Mathematics](https://cam.cornell.edu) at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at [Mitsubishi Electric Research Laboratories](https://www.merl.com) and [Argonne National Laboratory](https://www.anl.gov). I previously earned B.A.s in Mathematics and Physics at [Amherst College](https://www.amherst.edu) in 2021. 
+I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in [Applied Mathematics](https://cam.cornell.edu) at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at [Mitsubishi Electric Research Laboratories](https://www.merl.com) and [Argonne National Laboratory](https://www.anl.gov). I previously earned B.A.s in Mathematics and Physics at [Amherst College](https://www.amherst.edu) in 2021.
 
-My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. In particular, my work explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.  
+My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems. In particular, my work explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.
 
 For more information, please navigate to any of the following pages: [Research](https://jrbotvinick.github.io/projects/), [Publications](https://jrbotvinick.github.io/publications/), [CV](https://jrbotvinick.github.io/CV/), [Talks](https://jrbotvinick.github.io/talks/), [Teaching](https://jrbotvinick.github.io/teaching/), [Awards](https://jrbotvinick.github.io/awards/), and [Outside of Research](https://jrbotvinick.github.io/Interests/). If you are interested in my work or have any questions, please feel free to reach out to me at [jonah.botvinick-greenhouse@yale.edu](mailto:jonah.botvinick-greenhouse@yale.edu).
 
@@ -121,7 +123,5 @@ For more information, please navigate to any of the following pages: [Research](
 
   {% include news-list.md %}
 
-  <a class="news-archive-link" href="{{ '/news/' | relative_url }}">
-    News archive
-  </a>
+  <a class="news-archive-link" href="{{ '/news/' | relative_url }}">News archive</a>
 </div>
