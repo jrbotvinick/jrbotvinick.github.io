@@ -61,11 +61,11 @@ redirect_from:
 
 
 
-*Background.* I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021. 
-
-*Research.* My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems.  In particular, my work explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.
+I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in Applied Mathematics at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at Mitsubishi Electric Research Laboratories and Argonne National Laboratory. I previously earned B.A.s in Mathematics and Physics at Amherst College in 2021. My research interests lie at the intersection of data-driven dynamical systems, measure transport, scientific machine learning, numerical analysis and inverse problems.  In particular, my work explores connections between dynamical systems and measure transport, spanning theory, algorithms, and applications for learning and reconstructing complex systems from noisy, partially observed, or distributional data.
 
 <div style="clear: both;"></div>
+
+Here are some video illustrations from my computational work:
 
 <style>
 .video-carousel {
@@ -84,13 +84,64 @@ redirect_from:
   text-align: center;
 }
 
+.video-carousel-player {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
 .video-carousel-main video {
   display: block;
   width: auto;
   max-width: 100%;
   max-height: 460px;
   margin: 0 auto;
+  background: white;
   border-radius: 6px;
+}
+
+.video-carousel-toggle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 6.8em;
+  padding: 0.65em 0.9em;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(31, 78, 121, 0.9);
+  color: white;
+  font-size: 0.95em;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.16s ease, background 0.16s ease;
+}
+
+.video-carousel-player:hover .video-carousel-toggle,
+.video-carousel-toggle:focus {
+  opacity: 1;
+}
+
+.video-carousel-toggle:hover,
+.video-carousel-toggle:focus {
+  background: rgba(15, 57, 96, 0.98);
+}
+
+.video-toggle-pause {
+  display: none;
+}
+
+.video-carousel-player.is-playing .video-toggle-play {
+  display: none;
+}
+
+.video-carousel-player.is-playing .video-toggle-pause {
+  display: inline;
 }
 
 .video-carousel-arrow {
@@ -145,9 +196,16 @@ redirect_from:
       aria-label="Show previous video">←</button>
 
     <div class="video-carousel-main">
-      <video id="research-video" controls playsinline preload="metadata">
-        Your browser does not support embedded videos.
-      </video>
+      <div class="video-carousel-player">
+        <video id="research-video" controls playsinline preload="auto">
+          Your browser does not support embedded videos.
+        </video>
+        <button class="video-carousel-toggle" id="video-toggle" type="button"
+          aria-label="Play video">
+          <span class="video-toggle-play">▶ Play</span>
+          <span class="video-toggle-pause">❚❚ Pause</span>
+        </button>
+      </div>
       <div class="video-carousel-caption" id="video-caption"></div>
       <div class="video-carousel-count" id="video-count"></div>
     </div>
@@ -180,36 +238,67 @@ redirect_from:
 
   let current = 0;
   const mainVideo = document.getElementById("research-video");
+  const player = document.querySelector(".video-carousel-player");
   const caption = document.getElementById("video-caption");
   const count = document.getElementById("video-count");
+  const toggle = document.getElementById("video-toggle");
 
-  function showFirstFrame(video) {
-    video.addEventListener("loadeddata", function () {
-      video.currentTime = 0.01;
+  function updatePlayState() {
+    const isPlaying = !mainVideo.paused && !mainVideo.ended;
+    player.classList.toggle("is-playing", isPlaying);
+    toggle.setAttribute("aria-label", isPlaying ? "Pause video" : "Play video");
+  }
+
+  function showFirstFrame() {
+    mainVideo.addEventListener("loadeddata", function () {
+      mainVideo.currentTime = 0.01;
     }, { once: true });
   }
 
-  function showVideo(index) {
+  function showVideo(index, autoplay) {
     current = (index + videos.length) % videos.length;
 
     mainVideo.pause();
     mainVideo.src = videos[current].src;
-    showFirstFrame(mainVideo);
+    showFirstFrame();
     mainVideo.load();
 
     caption.textContent = videos[current].description;
     count.textContent = (current + 1) + " / " + videos.length;
+    updatePlayState();
+
+    if (autoplay) {
+      mainVideo.addEventListener("canplay", function () {
+        mainVideo.play().catch(function () {
+          updatePlayState();
+        });
+      }, { once: true });
+    }
   }
 
+  toggle.addEventListener("click", function () {
+    if (mainVideo.paused || mainVideo.ended) {
+      mainVideo.play();
+    } else {
+      mainVideo.pause();
+    }
+  });
+
   document.getElementById("video-previous").addEventListener("click", function () {
-    showVideo(current - 1);
+    showVideo(current - 1, false);
   });
 
   document.getElementById("video-next").addEventListener("click", function () {
-    showVideo(current + 1);
+    showVideo(current + 1, false);
   });
 
-  showVideo(0);
+  mainVideo.addEventListener("play", updatePlayState);
+  mainVideo.addEventListener("pause", updatePlayState);
+  mainVideo.addEventListener("ended", function () {
+    showVideo(current + 1, true);
+  });
+
+  showVideo(0, false);
 })();
 </script>
 
