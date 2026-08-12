@@ -107,14 +107,14 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  min-width: 6.8em;
-  padding: 0.65em 0.9em;
+  width: 3em;
+  height: 3em;
+  padding: 0;
   border: 0;
-  border-radius: 999px;
+  border-radius: 50%;
   background: rgba(31, 78, 121, 0.9);
   color: white;
-  font-size: 0.95em;
-  font-weight: 600;
+  font-size: 1.1em;
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.16s ease, background 0.16s ease;
@@ -195,13 +195,13 @@ I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](ht
 
     <div class="video-carousel-main">
       <div class="video-carousel-player">
-        <video id="research-video" controls playsinline preload="auto">
+        <video id="research-video" playsinline preload="auto">
           Your browser does not support embedded videos.
         </video>
         <button class="video-carousel-toggle" id="video-toggle" type="button"
           aria-label="Play video">
-          <span class="video-toggle-play">▶ Play</span>
-          <span class="video-toggle-pause">❚❚ Pause</span>
+          <span class="video-toggle-play" aria-hidden="true">▶</span>
+          <span class="video-toggle-pause" aria-hidden="true">❚❚</span>
         </button>
       </div>
       <div class="video-carousel-caption" id="video-caption"></div>
