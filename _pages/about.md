@@ -210,7 +210,7 @@ redirect_from:
   flex: 0 0 auto;
   width: 2.4em;
   height: 2.4em;
-  background: url("{{ '/images/l63.png' | relative_url }}")
+  background: url("{{ '/files/l63.png' | relative_url }}")
     center / contain no-repeat;
 }
   
