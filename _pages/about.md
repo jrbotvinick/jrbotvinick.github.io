@@ -197,6 +197,23 @@ redirect_from:
   font-size: 0.9em;
   text-align: center;
 }
+
+.page__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8em;
+}
+
+.page__title::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 2.4em;
+  height: 2.4em;
+  background: url("{{ '/images/l63.png' | relative_url }}")
+    center / contain no-repeat;
+}
+  
 </style>
 
 I am a Postdoctoral Fellow in the [Institute for Foundations of Data Science](https://fds.yale.edu) at Yale University. I completed my Ph.D. in [Applied Mathematics](https://cam.cornell.edu) at Cornell University, where I was advised by [Professor Yunan Yang](https://as.cornell.edu/people/yunan-yang). During my Ph.D., I was an [NDSEG Fellow](https://ndseg.sysplus.com/) and completed research internships at [Mitsubishi Electric Research Laboratories](https://www.merl.com) and [Argonne National Laboratory](https://www.anl.gov). I previously earned B.A.s in Mathematics and Physics at [Amherst College](https://www.amherst.edu) in 2021.
