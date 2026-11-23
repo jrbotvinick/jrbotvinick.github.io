@@ -7,55 +7,93 @@ author_profile: true
 
 <style>
 .research-page {
-  max-width: 64rem;
-  margin-inline: auto;
+  --research-blue: #234f75;
+  --research-rule: rgba(97, 113, 129, 0.27);
+  max-width: 62rem;
 }
 
 .research-page .research-description {
-  max-width: 72ch;
-  margin: 0 0 0.75rem;
-  line-height: 1.55;
-}
-
-.research-page .research-index,
-.research-page .research-links {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 1rem;
-  row-gap: 0.25rem;
+  max-width: 70ch;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
 }
 
 .research-page .research-index {
-  margin: 0 0 1.75rem;
-  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 clamp(2rem, 4vw, 3rem);
+}
+
+.research-page .research-index a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: max(44px, 2.5rem);
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #c6d4e2;
+  border-radius: 0.35rem;
+  background: #f3f6fa;
+  color: var(--research-blue);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.research-page .research-index a:hover,
+.research-page .research-index a:focus-visible {
+  border-color: #8da7bf;
+  background: #e8eff6;
+  text-decoration: none;
+}
+
+.research-page a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
 }
 
 .research-page .research-section + .research-section {
-  margin-top: 2rem;
+  margin-top: clamp(2.25rem, 5vw, 3.25rem);
+}
+
+.research-page .research-section-title,
+.research-page .research-project-title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  font-weight: 600;
 }
 
 .research-page .research-section-title {
-  margin: 0 0 0.25rem;
-  padding: 0;
-  border: 0;
-  font-size: 1.35rem;
-  line-height: 1.25;
+  font-size: clamp(1.25rem, 1.13rem + 0.5vw, 1.5rem);
+  line-height: 1.3;
+  scroll-margin-top: 4rem;
+}
+
+.research-page .research-section > .research-description {
+  margin-top: 0.6rem;
 }
 
 .research-page .research-project {
   display: grid;
-  grid-template-columns: min(33%, 13rem) minmax(0, 1fr);
-  column-gap: clamp(0.75rem, 3vw, 1.5rem);
+  grid-template-columns: min(29%, 11rem) minmax(0, 1fr);
+  column-gap: clamp(0.85rem, 3vw, 1.75rem);
   align-items: start;
-  padding: 1rem 0;
+}
+
+.research-page .research-section-title + .research-project,
+.research-page .research-description + .research-project {
+  margin-top: 1.125rem;
 }
 
 .research-page .research-project + .research-project {
-  border-top: 1px solid rgba(128, 128, 128, 0.3);
-}
-
-.research-page .research-project:last-child {
-  padding-bottom: 0;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--research-rule);
 }
 
 .research-page .research-image,
@@ -66,38 +104,62 @@ author_profile: true
 .research-page .research-image img {
   width: 100%;
   height: auto;
+  max-height: 9rem;
   margin: 0;
+  object-fit: contain;
+  object-position: left top;
 }
 
 .research-page .research-project-title {
-  margin: 0 0 0.3rem;
-  font-size: 1.05rem;
-  line-height: 1.35;
+  font-size: 1rem;
+  line-height: 1.4;
   overflow-wrap: anywhere;
 }
 
 .research-page .research-authors {
-  margin: 0 0 0.45rem;
-  font-size: 0.93rem;
-  line-height: 1.45;
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
   overflow-wrap: anywhere;
 }
 
 .research-page .research-links {
-  margin: 0;
-  font-size: 0.875rem;
-  line-height: 1.4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.9rem;
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.3;
 }
 
-.research-page .research-index a,
 .research-page .research-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  color: var(--research-blue);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.research-page .research-links a:hover,
+.research-page .research-links a:focus-visible {
   text-decoration: underline;
   text-underline-offset: 0.15em;
+}
+
+@media (max-width: 36rem) {
+  .research-page .research-index {
+    display: grid;
+  }
+
+  .research-page .research-index a {
+    justify-content: flex-start;
+  }
 }
 </style>
 
 <div class="research-page">
-  <p class="research-description">This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these three fields, you can use the links below to explore projects organized by their primary focus.</p>
+  <p class="research-description">This page provides an overview of my research in the areas of data-driven dynamical systems, measure transport, and scientific machine learning. While most of my work lies at the intersection of these three fields, you can use the buttons below to explore projects organized by their primary focus.</p>
   <nav class="research-index" aria-label="Research sections">
     <a href="#data-driven-dynamical-systems">Data-Driven Dynamical Systems</a>
     <a href="#measure-transport">Measure Transport</a>
