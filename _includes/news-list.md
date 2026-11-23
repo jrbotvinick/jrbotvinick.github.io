@@ -1,6 +1,6 @@
 <ul class="news-list">
 
-   <li><strong>10/26:</strong> I spoke in the <a href="https://cse.umn.edu/ima/events/measure-transport-data-driven-dynamical-systems">Data Science Seminar at the University of Minnesota Twin Cities </a>.</li>
+   <li><strong>11/26:</strong> I spoke in the <a href="https://cse.umn.edu/ima/events/measure-transport-data-driven-dynamical-systems">Data Science Seminar at the University of Minnesota Twin Cities </a>.</li>
 
    <li><strong>10/26:</strong> I participated in the Amherst College Spectra Graduate School Panel as a panelist.</li>
 
