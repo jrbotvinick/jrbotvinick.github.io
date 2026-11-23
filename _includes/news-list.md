@@ -6,7 +6,7 @@
 
   <li><strong>10/26:</strong> I gave a seminar talk in the Wave Transport in Complex Systems Laboratory at Wesleyan University.</li>
 
-   <li><strong>09/26:</strong> I spoke in the <a href="https://fds.yale.edu/events/fds-colloquium-meet-the-postdocs/">Yale FDS Meet the Postdocs Colloquium</a>.</li>
+   <li><strong>09/26:</strong> I spoke in the <a href="https://fds.yale.edu/events/fds-colloquium-meet-the-postdocs/">Yale FDS Meet Our Postdocs Colloquium</a>.</li>
    
   <li><strong>08/26:</strong> I gave a contributed talk at the <a href="https://www.microsoft.com/en-us/research/event/msrne-generative-modeling-sampling-workshop/">MSRNE Generative Modeling &amp; Sampling Workshop</a>.</li>
 
