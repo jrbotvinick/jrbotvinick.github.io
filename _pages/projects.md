@@ -128,19 +128,13 @@ author_profile: true
   display: inline-flex;
   align-items: center;
   min-height: 24px;
-  font-weight: 500;
-}
-
-.research-page .research-links a,
-.research-page .research-publication a {
   color: var(--research-blue);
+  font-weight: 500;
   text-decoration: none;
 }
 
 .research-page .research-links a:hover,
-.research-page .research-links a:focus-visible,
-.research-page .research-publication a:hover,
-.research-page .research-publication a:focus-visible {
+.research-page .research-links a:focus-visible {
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
@@ -163,7 +157,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">Data-Adaptive Learning of Dynamical Systems by Matching Transfer Operators and Invariant Measures</h3>
         <p class="research-authors">Yinong Huang, Jonah Botvinick-Greenhouse, and Yunan Yang</p>
-        <p class="research-publication">arXiv preprint (2026) · <a href="https://doi.org/10.48550/arXiv.2607.00391">DOI 10.48550/arXiv.2607.00391</a></p>
+        <p class="research-publication">arXiv preprint (2026)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2607.00391">arXiv</a>
           <a href="https://github.com/Yinonghyn/Parameter-Identification-with-Data-Driven-Cells">Code</a>
@@ -177,7 +171,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">Measure-Theoretic Time-Delay Embedding</h3>
         <p class="research-authors">Jonah Botvinick-Greenhouse, Maria Oprea, Romit Maulik, and Yunan Yang</p>
-        <p class="research-publication"><cite>Journal of Statistical Physics</cite> (2025) · <a href="https://doi.org/10.1007/s10955-025-03555-1">DOI 10.1007/s10955-025-03555-1</a></p>
+        <p class="research-publication"><cite>Journal of Statistical Physics</cite> (2025)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2409.08768">arXiv</a>
           <a href="https://link.springer.com/article/10.1007/s10955-025-03555-1">Journal</a>
@@ -193,7 +187,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification</h3>
         <p class="research-authors">Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang</p>
-        <p class="research-publication"><cite>Physical Review Letters</cite> (2025) · <a href="https://doi.org/10.1103/ppys-lx68">DOI 10.1103/ppys-lx68</a></p>
+        <p class="research-publication"><cite>Physical Review Letters</cite> (2025)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2412.00589v2">arXiv</a>
           <a href="https://journals.aps.org/prl/abstract/10.1103/ppys-lx68">Journal</a>
@@ -210,7 +204,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">Learning Dynamics on Invariant Measures Using PDE-Constrained Optimization</h3>
         <p class="research-authors">Jonah Botvinick-Greenhouse, Robert Martin, and Yunan Yang</p>
-        <p class="research-publication"><cite>Chaos: An Interdisciplinary Journal of Nonlinear Science</cite> (2023) · <a href="https://doi.org/10.1063/5.0149673">DOI 10.1063/5.0149673</a></p>
+        <p class="research-publication"><cite>Chaos: An Interdisciplinary Journal of Nonlinear Science</cite> (2023)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2301.05193">arXiv</a>
           <a href="https://pubs.aip.org/aip/cha/article/33/6/063152/2900453/Learning-dynamics-on-invariant-measures-using-PDE">Journal</a>
@@ -227,7 +221,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">An Unstructured Mesh Approach to Nonlinear Noise Reduction for Coupled Systems</h3>
         <p class="research-authors">Aaron Kirtland, Jonah Botvinick-Greenhouse, Marianne DeBrito, Megan Osborne, Casey Johnson, Robert S. Martin, Samuel J. Araki, Daniel Q. Eckhardt</p>
-        <p class="research-publication"><cite>SIAM Journal on Applied Dynamical Systems</cite> (2023) · <a href="https://doi.org/10.1137/22M152092X">DOI 10.1137/22M152092X</a></p>
+        <p class="research-publication"><cite>SIAM Journal on Applied Dynamical Systems</cite> (2023)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2209.05944">arXiv</a>
           <a href="https://epubs.siam.org/doi/10.1137/22M152092X">Journal</a>
@@ -246,7 +240,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">On the Unique Recovery of Transport Maps and Vector Fields from Finite Measure-Valued Data</h3>
         <p class="research-authors">Jonah Botvinick-Greenhouse and Yunan Yang</p>
-        <p class="research-publication">arXiv preprint (2026) · <a href="https://doi.org/10.48550/arXiv.2604.07671">DOI 10.48550/arXiv.2604.07671</a></p>
+        <p class="research-publication">arXiv preprint (2026)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2604.07671">arXiv</a>
           <a href="https://github.com/jrbotvinick/Transport-Map-and-Vector-Field-Recovery">Code</a>
@@ -261,7 +255,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">Generative modeling of time-dependent densities via optimal transport and projection pursuit</h3>
         <p class="research-authors">Jonah Botvinick-Greenhouse, Yunan Yang, and Romit Maulik</p>
-        <p class="research-publication"><cite>Chaos: An Interdisciplinary Journal of Nonlinear Science</cite> (2023) · <a href="https://doi.org/10.1063/5.0155783">DOI 10.1063/5.0155783</a></p>
+        <p class="research-publication"><cite>Chaos: An Interdisciplinary Journal of Nonlinear Science</cite> (2023)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2304.09663">arXiv</a>
           <a href="https://pubs.aip.org/aip/cha/article/33/10/103108/2915710/Generative-modeling-of-time-dependent-densities">Journal</a>
@@ -281,7 +275,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">Operator Learning Surrogate Modeling of Hydraulically Fractured Geothermal Injection-Production Systems: A Cornell Case Study</h3>
         <p class="research-authors">Yulong Liu, Jonah Botvinick-Greenhouse, Yunan Yang, and Chloé Arson</p>
-        <p class="research-publication"><cite>60th U.S. Rock Mechanics/Geomechanics Symposium</cite> (2026) · <a href="https://doi.org/10.56952/ARMA-2026-0354">DOI 10.56952/ARMA-2026-0354</a></p>
+        <p class="research-publication"><cite>60th U.S. Rock Mechanics/Geomechanics Symposium</cite> (2026)</p>
         <p class="research-links">
           <a href="https://onepetro.org/ARMAUSRMS/proceedings/ARMA26/ARMA26/D022S043R004/801293">Conference</a>
         </p>
@@ -294,7 +288,7 @@ author_profile: true
       <div>
         <h3 class="research-project-title">AB-PINNs: Adaptive-Basis Physics-Informed Neural Networks for Residual-Driven Domain Decomposition</h3>
         <p class="research-authors">Jonah Botvinick-Greenhouse, Wael H. Ali, Mouhacine Benosman, Saviz Mowlavi</p>
-        <p class="research-publication"><cite>Machine Learning: Science and Technology</cite> (2026) · <a href="https://doi.org/10.1088/2632-2153/ae8638">DOI 10.1088/2632-2153/ae8638</a></p>
+        <p class="research-publication"><cite>Machine Learning: Science and Technology</cite> (2026)</p>
         <p class="research-links">
           <a href="https://arxiv.org/abs/2510.08924">arXiv</a>
           <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae8638">Journal</a>
